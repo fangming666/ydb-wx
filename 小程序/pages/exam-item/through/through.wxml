@@ -1,0 +1,149 @@
+<!--成绩穿越的页面  -->
+<view>
+  <view class="through text-center" wx:if="{{viewDelay&&reportStatus}}">
+    <view class="through-exam" wx:if="{{!wrongSwitch}}">{{examName}}</view>
+    <view class="through-my" wx:if="{{!wrongSwitch}}" style="{{myLevel.length>=10?'text-align:left':''}}">
+      <view>我的成绩
+        <text wx:if="{{permissionParentScore}}">{{myMark}}分</text>
+        <text wx:if="{{permissionParentScore&&permissionParentLevel}}"> / </text>
+        <text wx:if="{{permissionParentLevel}}">{{myLevel}}</text>
+      </view>
+      <view>班级战胜率
+        <text>{{myRate}}%</text>
+      </view>
+    </view>
+    <!--当是vip的时候才显示  -->
+    <view wx:if="{{vipSwitch&&!wrongSwitch}}">
+      <view class="through-select">
+        <view wx:for="{{throughSelectArr}}" catchtap='changeThrough' class="through-item {{throughIndex==index?'through-active':''}}" wx:key="key" data-index="{{index}}"></view>
+      </view>
+      <view class="through-content">
+        <!--成绩穿越  -->
+        <view class="through-now" wx:if="{{!throughIndex}}">
+          <view class="through-school clearfix" wx:if="{{permissionStudentRank&&schoolArr.length>1}}">
+            <text class="float-left">{{schoolArr[schoolIndex]}}</text>
+            <picker class="float-right" bindchange="bindPickerChangeThree" value="{{schoolIndex}}" range="{{schoolArr}}">
+              <view class="picker">
+                <view></view>
+              </view>
+            </picker>
+          </view>
+          <view class="through-class clearfix">
+            <text class="float-left">{{classArr[classIndex]}}</text>
+            <picker class="float-right" bindchange="bindPickerChange" value="{{classIndex}}" range="{{classArr}}">
+              <view class="picker">
+                <view></view>
+              </view>
+            </picker>
+          </view>
+          <view class="through-sub clearfix">
+            <text class="float-left">{{subArr[subIndex]}}</text>
+            <picker class="float-right" bindchange="bindPickerChangeTwo" value="{{subIndex}}" range="{{subArr}}">
+              <view class="picker">
+                <view></view>
+              </view>
+            </picker>
+          </view>
+        </view>
+        <!--成绩模拟 -->
+        <view class="simulation-now text-center" wx:if="{{throughIndex}}">
+          <view class="simulation-item">
+            <view class="simulation-title">
+              <image src="{{simulationIcon}}"></image>
+              <text>输入想要提高的分数</text>
+            </view>
+            <view class="simulation-content clearfix">
+              <input placeholder='' type="digit" class="float-left" bindinput='getScore' ></input>
+              <view class="simulation-btn float-right" catchtap='throughScore'>
+                <image src="https://home.yuandingbang.cn/static/wechat/images/jiSuan_text@2x.png"></image>
+              </view>
+
+            </view>
+            <view class="simulation-result" wx:if="{{scoreSwitch}}">
+              <view>计算结果</view>
+              <view>战胜率为
+                <text>{{markResult}}%</text>
+              </view>
+            </view>
+          </view>
+
+          <view class="simulation-item">
+            <view class="simulation-title">
+              <image src="{{simulationIcon}}">
+              </image>
+              <text>输入想要提高的班级战胜率</text>
+            </view>
+            <view class="simulation-content clearfix">
+              <input placeholder='' type="digit" class="float-left" bindinput='getRate' ></input>
+              <view class="simulation-btn float-right" catchtap='throughRate'>
+                <image src="https://home.yuandingbang.cn/static/wechat/images/jiSuan_text@2x.png"></image>
+              </view>
+            </view>
+            <view class="simulation-result" wx:if="{{rateSwitch}}">
+              <view>计算结果</view>
+              <view>分数需增
+                <text>{{rateResult}}分</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <!--底部图片  -->
+      <image class="through-foot-img" src="{{throughFootImage}}"></image>
+      <!--点击穿越的按钮  -->
+      <view class="through-btn" catchtap='goThrough' wx:if="{{!throughIndex}}"></view>
+
+      <!--成绩模拟的文字说明  -->
+      <view class="simulation-text" wx:if="{{throughIndex}}">
+        <view>
+          你可以计算本次考试自己不该失分的题目，加起来看如果细心一些战胜率可以提升到多少。
+        </view>
+        <view>
+          你也可以给自己制定个小目标，看达到什么目标战胜率，需要提高多少分。
+        </view>
+
+      </view>
+
+      <!--成绩穿越的模态框  -->
+      <view class="through-modal" wx:if="{{throughModalSwitch}}">
+        <view class="through-modal-body">
+          <image src="{{throughtModalImage}}"></image>
+          <view class="rate">{{rate}}%</view>
+          <view class="rate-text">{{rateText}}</view>
+        </view>
+        <view class="through-modal-btn" catchtap='closeThroughModal'>关闭</view>
+      </view>
+    </view>
+    <!--不是vip的时候  -->
+    <view wx:elif="{{!wrongSwitch}}" class="no-vip">
+      <view class="no-vip-title">本次考试，孩子在其他班学校的战胜率如何？在这，开启神奇的穿越之旅!</view>
+      <view class="no-vip-info">本功能需开通个性化服务方可使用</view>
+      <view class="no-vip-btn" catchtap='showOpenService'></view>
+    </view>
+    <!--立即开通的组件  -->
+    <view class="open-service-warp" hidden="{{!isVipShow||wrongSwitch}}">
+      <view class="open-service">
+        <view class="open-service-title">开通服务</view>
+        <button bindtap='openVip' data-examid="{{noExamInfo.examId}}" data-type="exam" bindtap='goMoneyExam'>{{noExamInfo.price}}元/仅开通本次考试</button>
+        <view class="open-service-info " wx:if="{{noExamTimeInfo.length}}">或者按时间付费</view>
+        <button class="btn-sm " wx:if="{{noExamTimeInfo.length}}" data-type="time" wx:for="{{noExamTimeInfo}}" catchtap='goMoneyExam' data-scheme="{{item.scheme_id}} " wx:key="key">{{item.name}}</button>
+        <view class="open-service-foot " bindtap='_cancelEvent'>
+          取消
+        </view>
+      </view>
+    </view>
+       <!--加载出错的时候  -->
+    <import src="./../../wrong/wrong.wxml" />
+    <template is="wrong" wx:if="{{wrongSwitch}}" />
+  </view>
+  <!--暂无考试成绩  -->
+  <view class="exam-no text-center" wx:elif="{{!reportStatus}}">
+    <image src="{{reportStatusImage}}"></image>
+    <view class="text-center">学校暂未公布本次考试成绩请耐心等待</view>
+  </view>
+  <!--暂无权限  -->
+  <view class="exam-no text-center" wx:else>
+    <image src="{{viewDelayImage}}"></image>
+    <view class="text-center">您当前无权限查看本页面</view>
+  </view>
+</view>

@@ -1,0 +1,92 @@
+<!--扫码进来的绑定孩子的页面  -->
+<view class="childCode"  wx:if="{{!wrongSwitch}}">
+  <!--孩子的信息 -->
+  <view class="my-child-item" wx:if="{{childSwitch}}">
+    <view class="child-item-head">
+      <text>{{childName}}</text>
+    </view>
+    <view class="child-item-content">
+      <view class="clearfix">
+        <text class="float-left">班级</text>
+        <text class="float-right">{{childClass}}</text>
+      </view>
+      <view class="clearfix">
+        <text class="float-left">学校</text>
+        <text class="float-right">{{childSchool}}</text>
+      </view>
+    </view>
+  </view>
+
+
+  <!--4.选择角色  -->
+  <view class="role " wx:if="{{roleSwitch}}">
+    <view class="role-info clearfix">
+      <view class="role-info-title">
+        我是
+        <text>{{childName}}</text>的
+      </view>
+      <block wx:for="{{roleArr}}" wx:key="key">
+        <text class="role-item float-left {{index==roleIndex?'role-item-active':''}}" catchtap='selectRole' data-index="{{index}}">{{item.label}}</text>
+      </block>
+    </view>
+    <button class="btn-primary" bindtap='bindRole' hover-class='btn-active' disabled='{{agreeSwitch?true:false}}'>同意协议并绑定</button>
+    <view class="protocol" bindtap='openPro'>《园丁邦用户使用协议》</view>
+
+    <view class="protocol-modal" wx:if="{{protocol}}">
+      <view class="protocal-modal-body">
+        <view class="protocal-modal-title">用户使用协议</view>
+        <view class="protocal-modal-content">
+          <text>{{protocalInfo}}</text>
+        </view>
+        <view class="protocal-modal-foot">
+          <image src="{{closeImg}}" catchtap='closePro'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!--5.绑定成功  -->
+  <view class="bind-success" wx:if="{{bindSuccessSwitch}}">
+    <view class="bind-success-image">
+      <image src="{{bindSuccessImage}}"></image>
+    </view>
+    <view class="bind-success-title">
+      绑定成功
+    </view>
+    <button class="btn-primary" bindtap='toExam' hover-class='btn-active'>点击查看成绩</button>
+    <view class="cascade-alert">
+      <view class="cascade-alert-head">
+        <image src="{{alertIcon}}"></image>重要提示！</view>
+      <view class="cascade-alert-content">
+        由于绑定孩子时使用的姓名和号码，有被其他同学知道的情况，为避免孩子成绩被其他人查看，您可以在“个人中心”的“
+        <text>家庭成员</text>”中了解到所有绑定自己孩子的人员信息。 </view>
+    </view>
+  </view>
+
+  <!--6.需要审核 -->
+  <view class="feedback" wx:if="{{feedbackSwitch}}">
+    <view class="feedback-image">
+      <image src="{{bindWorngImg}}"></image>
+    </view>
+    <view class='feedback-title'>已提交审核</view>
+    <view class="feedback-info">{{feedbackFamilyText}}</view>
+    <button type="default" bindtap='report' wx:if="{{reportBtnSwitch}}">我要举报：家庭管理员不是孩子家长</button>
+  </view>
+
+  <!--7.绑定错误  -->
+  <view class="bind-err" wx:if="{{bindErrSwitch}}">
+    <view class="bind-err-image">
+      <image src="{{bindErrImage}}"></image>
+    </view>
+    <view class="bind-err-title" wx:if="{{internalError||newly}}">绑定失败</view>
+    <view class="bind-err-title" wx:if="{{norm}}">到达绑定限额</view>
+    <view class="bind-err-info" wx:if="{{newly}}">抱歉，验证错误，绑定失败！</view>
+    <view class="bind-err-info" wx:if="{{internalError}}">服务器内部错误，点击
+      <text bindtap='toBind'>刷新</text>重新绑定，或稍后再试。</view>
+    <view class="bind-err-info" wx:if="{{norm}}">您已绑定了3名孩子，如果需要再绑定其他孩子，请再用一个新的微信号进行绑定。</view>
+    <view class="bind-err-foot" wx:if="{{newly}}">重新绑定</view>
+  </view>
+</view>
+<!--加载出错的时候  -->
+<import src="./../../wrong/wrong.wxml" />
+<template is="wrong" wx:if="{{wrongSwitch}}" />

@@ -1,0 +1,33 @@
+/* pages/my-item/directoryContent/directoryContent.wxss */
+
+.help-content-title {
+  border-bottom: 1px solid #edf1f3;
+  padding: 30rpx;
+  text-align: center;
+  margin-bottom: 30rpx;
+  display: flex;
+  align-items: center;
+  font-size: 32rpx;
+  color: #3a3a3a;
+}
+
+.help-content-title>image {
+  width: 38rpx;
+  height: 38rpx;
+  margin-right: 18rpx;
+}
+
+.rich-warp {
+  width: 670rpx;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 30rpx;
+}
+
+img {
+  max-width: 100%;
+}
+
+

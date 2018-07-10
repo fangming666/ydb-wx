@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "历史订单",
+    "usingComponents": {
+      "wrong": "/pages/my-item/myOrder/myOrder"
+    }
+}

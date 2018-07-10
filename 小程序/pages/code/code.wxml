@@ -1,0 +1,8 @@
+<!--二维码图片  -->
+<view class="code" wx:if="{{!wrongSwitch}}">
+   <image src="{{codeImg}}"></image>  
+</view>
+<view class="code-item" wx:if="{{!wrongSwitch}}"></view>
+<!--加载出错的时候  -->
+  <import src="./../wrong/wrong.wxml" />
+  <template is="wrong" wx:if="{{wrongSwitch}}" />

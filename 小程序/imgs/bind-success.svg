@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="94px" height="93px" viewBox="0 0 94 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>成功</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="15.9525951%" y1="15.685214%" x2="80.7988778%" y2="90.7973438%" id="linearGradient-1">
+            <stop stop-color="#3FD1F6" offset="0%"></stop>
+            <stop stop-color="#28BCFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="反馈1" transform="translate(-140.000000, -115.000000)">
+            <g id="反馈区域" transform="translate(96.000000, 115.000000)">
+                <g id="成功" transform="translate(44.000000, 0.000000)">
+                    <path d="M93.5,47.0740741 C93.5,20.8182222 72.6817778,0 46.4259259,0 C21.3182222,0 0.5,20.8182222 0.5,47.0740741 C0.5,72.1817778 21.3182222,93 46.4259259,93 C72.6817778,93 93.5,72.1817778 93.5,47.0740741 Z" id="Fill-" fill="url(#linearGradient-1)"></path>
+                    <path d="M23.9227184,49.5654826 C23.7306788,49.3667312 23.7047543,49.0290572 23.8731781,48.7998862 L25.9670301,45.950822 C26.1317093,45.7267461 26.4424836,45.6809682 26.6617293,45.8490074 L39.117849,55.3959089 C39.3368416,55.5637541 39.6816116,55.5604939 39.8961748,55.3817454 L70.2167657,30.1222408 C70.4276306,29.9465733 70.7587986,29.9624076 70.9502681,30.1515022 L72.9370808,32.1136718 C73.131318,32.3054999 73.1229803,32.6241775 72.9323179,32.8118178 L39.8698406,65.3502341 C39.6729728,65.5439814 39.3556323,65.5377834 39.1656617,65.3411733 L23.9227184,49.5654826 Z" id="Fill-" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

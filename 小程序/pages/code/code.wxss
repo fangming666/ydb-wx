@@ -1,0 +1,23 @@
+.code {
+  background-color: #e4ea9c;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.code-item {
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #a0e1ff;
+}

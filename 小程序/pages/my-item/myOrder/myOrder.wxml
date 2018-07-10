@@ -1,0 +1,32 @@
+<!--历史订单的页面  -->
+<!--加载出错的时候  -->
+<import src="./../../wrong/wrong.wxml" />
+<template is="wrong" wx:if="{{wrongSwitch}}" />
+<view class="order" wx:else>
+  <view class="order-item" wx:for="{{orderArr}}" wx:if="{{orderArr.length}}" wx:key="{{key}}">
+    <view class="order-head">
+      <text>订单时间：</text>
+      <text>{{item.order_date}}</text>
+       <view class="order-money">
+      <text>￥{{item.price}}</text>
+    </view>
+    </view>
+   
+    <view class="order-content">
+      <view class="order-type">{{item.type=='exam'?'按考试付费':'按时间付费'}}</view>
+      <view class="order-name" wx:if="{{item.type=='exam'}}">
+        <text>考试名称:</text>{{item.exam_name}}</view>
+      <view class="order-name" wx:if="{{item.type=='exam'}}">
+        <text>考试时间:</text>{{item.exam_date}}</view>
+      <view class="order-name" wx:if="{{item.type=='time'}}">
+        <text>服务时间：</text>{{item.vip_start_date}}-{{item.vip_end_date}}</view>
+      <view class="order-name">
+        <text>孩子：</text>{{item.student_name}}</view>
+
+    </view>
+  </view>
+  <view class="order-none" wx:if="{{!orderArr.length}}">
+    <image src="{{orderNoImg}}"></image>
+    <view>您还没有已支付的订单</view>
+  </view>
+</view>

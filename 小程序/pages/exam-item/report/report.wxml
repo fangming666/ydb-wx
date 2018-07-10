@@ -1,0 +1,429 @@
+<!--报告的页面  -->
+<view class="report">
+  <!--可以查看报告的时候  -->
+  <view wx:if="{{viewDelay&&reportStatus}}">
+    <!--报告的头部  -->
+    <scroll-view scroll-with-animation="true" wx:if="{{!wrongSwitch}}" class="report-head" bindscroll="centerScroll" scroll-x="true" scroll-left="{{scrollLeft}}">
+      <view catchtap='changeReport' class="report-item {{reportIndex==index?'report-item-active':''}} {{index==reportArr.length-1?'report-item-end':''}}" data-index="{{index}}" wx:for="{{reportArr}}" data-coursename="{{item.course_name}}" wx:key="key" data-id="{{item.coruse_id}}">{{item.course_name}}</view>
+      <view class="report-left" wx:if="{{leftSwitch}}">
+        <image src="{{reportLeftIcon}}"></image>
+      </view>
+      <view class="report-right" hidden="{{rightSwitch}}">
+        <image src="{{reportRightIcon}}"></image>
+      </view>
+    </scroll-view>
+    <!--加载的时候的遮挡盒子  -->
+    <view class="shelter-box" wx:if="{{shelterSwitch}}"></view>
+    <scroll-view class="report-content " wx:if="{{!shelterSwitch&&!wrongSwitch}}" scroll-y="true">
+      <!--考试分数的综合区域  -->
+      <view class="exam-info text-center">
+        <view class="exam-info-title">{{examName}}</view>
+        <view class="exam-info-my" wx:if="{{permissionParentScore}}">
+          <text>{{score}}</text>
+          <image src="{{goalIcon}}"></image>
+        </view>
+        <view class="exam-info-full" style="margin-top:{{windowHeight>600?'-15rpx':'-35rpx'}}" wx:if="{{permissionParentScore}}">满分:{{fullScore}}</view>
+        <view class="exam-info-my {{permissionParentScore&&permissionParentLevel?'exam-info-my-sm':''}}" wx:if="{{permissionParentLevel&&permissionParentScore}}">
+          <text>{{level}}</text>
+        </view>
+      </view>
+      <!--考试分数的单科(等级)  -->
+      <view class="exam-info-rank">
+        <view class="exam-rank-title" wx:if="{{!permissionParentScore&&permissionParentLevel}}">{{level}}</view>
+        <view class="exam-rank-content" wx:if="{{permissionParentLevel&&courseId}}">
+          <view class="exam-rank-list">
+            <text>A</text>
+            <text>B</text>
+            <text>C</text>
+            <text>D</text>
+            <text>E</text>
+          </view>
+          <view class="exam-rank-position" style="left:{{levelProp}}%">
+            <text></text>
+            <view>孩子的位置</view>
+          </view>
+        </view>
+      </view>
+      <!--各个战胜率  -->
+      <view wx:if="{{winningRate||permissionJointData}}" class="rate  {{permissionJointData?'rate-three-warp':'rate-two'}}">
+        <view class="rate-item text-center">
+          <view wx:if="{{permissionOriginRank}}" class="{{permissionOriginRank?'rate-item-active':''}}">
+            <text>班级排名:</text>
+            <text>{{rate.classRanking}}名</text>
+          </view>
+          <view wx:if="{{winningRate}}" class="{{permissionOriginRank?'rate-item-active':''}}">
+            <text>班级战胜率:</text>
+            <text>{{rate.class}}%</text>
+          </view>
+        </view>
+        <view class="rate-item text-center">
+          <view wx:if="{{permissionOriginRank}}" class="{{permissionOriginRank?'rate-item-active':''}}">
+            <text>学校排名:</text>
+            <text>{{rate.schoolRanking}}名</text>
+          </view>
+          <view wx:if="{{winningRate}}" class="{{permissionOriginRank?'rate-item-active':''}}">
+            <text>学校战胜率:</text>
+            <text>{{rate.school}}%</text>
+          </view>
+
+        </view>
+        <view class="rate-item text-center" wx:if="{{permissionJointData}}">
+          <view wx:if="{{permissionOriginRank}}" class="{{permissionOriginRank?'rate-item-active':''}}">
+            <text>区排名:</text>
+            <text>{{rate.classRanking}}名</text>
+          </view>
+          <view wx:if="{{winningRate}}" class="{{permissionOriginRank?'rate-item-active':''}}">
+            <text>区战胜率:</text>
+            <text>{{rate.classify}}%</text>
+          </view>
+
+        </view>
+      </view>
+
+      <!--校胜率的列表  -->
+      <view class="rate-table" hidden="{{courseId}}">
+        <view class="rate-table-title">
+          <view>科目</view>
+          <view wx:if="{{winningRate}}">校战胜率</view>
+          <view wx:if="{{permissionJointData}}">校排名</view>
+          <view wx:if="{{permissionParentScore}}">原始分</view>
+          <view wx:if="{{permissionParentLevel}}">等级</view>
+        </view>
+        <view class="rate-table-info" wx:for="{{subjectData}}" wx:key="key">
+          <view wx:if="{{item.name}}">{{item.name}}</view>
+          <view wx:if="{{winningRate}}">{{item.percent}}%</view>
+          <view wx:if="{{permissionJointData}}">{{item.rank}}</view>
+          <view wx:if="{{permissionParentScore}}">{{item.exam_score}}</view>
+          <view wx:if="{{permissionParentLevel}}">{{item.level}}</view>
+        </view>
+      </view>
+      <!--vip的时候才能看的内容  -->
+      <view wx:if="{{vipSwitch || (schoolType&&reportFree)}}">
+        <!--层次排名（柱状图，没有原始分的时候看不了)(单科综合都有)  -->
+        <view class="rank-histogram" wx-if="{{permissionParentScore&&winningRate}}">
+          <view class="rate-line-title text-center">层次排名</view>
+          <view class="rate-line-info">
+            <view class="text-center">
+              <text class="my-score-block"></text>我的成绩：{{score}}分</view>
+            <view class="rate-line-content">
+              <ec-canvas id="rankHistogram" canvas-id="rankHistogram" ec="{{ rankHistogramEc }}"></ec-canvas>
+            </view>
+          </view>
+          <view class="rank-histogram-table clearfix">
+            <view class="float-left text-center">
+              <text>学校最高分：</text>
+              <text>{{school_highScore}}分</text>
+            </view>
+            <view class="float-left text-center">
+              <text>班级最高分：</text>
+              <text>{{class_highScore}}分</text>
+            </view>
+            <view class="float-left text-center">
+              <text>学校平均分：</text>
+              <text>{{school_average}}分</text>
+            </view>
+            <view class="float-left text-center">
+              <text>班级平均分：</text>
+              <text>{{class_average}}分</text>
+            </view>
+          </view>
+          <view class="rate-line-foot clearfix">
+            <image class="float-left" src="{{explainIcon}}"></image>
+            <view class="float-left">
+              <view>{{rankaHistogramInfo}}</view>
+            </view>
+          </view>
+        </view>
+
+        <!--校战胜率的折线图(只有一个的时候看不了)  -->
+        <view class="rate-line" wx:if="{{winningRate&&retaLineArr.length>1}}">
+          <view class="rate-line-title text-center">校战胜率变化</view>
+          <view class="rate-line-info">
+            <view class="rate-line-content">
+              <ec-canvas id="rateLine" canvas-id="rateLine" ec="{{ rankHistogramEc }}"></ec-canvas>
+            </view>
+          </view>
+          <!--折线图上所表现出来的列表  -->
+
+          <view class="rate-line-table">
+            <view class="rete-line-table-thead">
+              <view>考试时间</view>
+              <view>考试名称</view>
+              <view>战胜率</view>
+            </view>
+            <view class="rate-line-table-tr" wx:for="{{retaLineArr}}" wx:key="key">
+              <view class="rete-line-table-time">{{item.exam_date}}</view>
+              <view class="rete-line-table-name">{{item.exam_name}}</view>
+              <view class="rete-line-table-num">{{item.school_percent}}%</view>
+            </view>
+          </view>
+          <view class="rate-line-foot clearfix">
+            <image class="float-left" src="{{explainIcon}}"></image>
+            <view class="float-left">
+              <view>{{explainIconOne}}</view>
+              <view>建议孩子使用
+                <text>错题本</text>{{explainIconTwo}}</view>
+            </view>
+          </view>
+        </view>
+
+
+
+        <!--优劣学科(雷达图,三个以下的时候看不了)  -->
+        <view class="dis-subject" wx:if="{{!courseId&&radarLength>=3}}">
+          <view class="dis-subject-title text-center">优劣学科
+            <button class="btn-position" bindtap='showChartInfo' data-title="优劣学科" data-content="图中多边形越大说明孩子成绩越优秀。多边形的角代表每一个科目，角越冒尖，代表这科越优秀。\r\n注：本部分为根据原始成绩进行线性转化，得出的各科目优劣状态。以50为平均水平，大于50表示高于平均水平，小于50表示低于平均水平。">图表解读</button>
+          </view>
+          <view class="rate-line-content">
+            <ec-canvas id="disSubjectRadar" canvas-id="disSubjectRadar" ec="{{ rankHistogramEc }}"></ec-canvas>
+          </view>
+          <view class="dis-subject-list clearfix">
+            <image class="float-left" src="{{explainIcon}}"></image>
+            <view class="float-left">
+              <view class="dis-subject-list-item">优势学科：
+                <text wx:for="{{superiorityArr}}" wx:key="key">{{item}}</text>
+              </view>
+              <view class="dis-subject-list-item">短板学科：
+                <text wx:for="{{inferiorArr}}" wx:key="key">{{item}}</text>
+              </view>
+            </view>
+          </view>
+        </view>
+
+
+
+
+        <!-------学生单科的列表  ------->
+        <!--难易题目(双折线图)  -->
+        <view class="difficult-topic" wx:if="{{courseId}}">
+          <view class="dis-subject-title">难易题目得分率
+            <button class="btn-position text-left" bindtap='showChartInfo' data-title="难易题目得分率" data-content="横轴代表不同难易程度，纵轴代表得分率。">图表解读</button>
+          </view>
+          <view class="difficult-topic-content">
+            <view class="rate-line-content">
+              <ec-canvas id="difficultTopicLine" canvas-id="difficultTopicLine" ec="{{ rankHistogramEc }}"></ec-canvas>
+            </view>
+          </view>
+        </view>
+
+        <!--失分较多知识点(环形图)  -->
+        <view class="points-against" wx:if="{{pointsArr.length&&courseId}}">
+          <view class="dis-subject-title">失分较多知识点
+            <button class="btn-position" bindtap='showChartInfo' data-title="失分较多知识点" data-content="1个题目同时考察两个知识点，若该题失3分，则两个知识点均记为失3分。\r\n丢失分占比：该知识点丢失分数占全卷丢失分数的百分比。">图表解读</button>
+          </view>
+          <view class="points-against-content">
+            <view class="rate-line-content">
+              <ec-canvas id="pointsAgainstrING" canvas-id="pointsAgainstrING" ec="{{ rankHistogramEc }}"></ec-canvas>
+            </view>
+          </view>
+          <view class="points-against-info">
+            <view class="points-against-table">
+              <view class="points-table-head">
+                <view>知识点</view>
+                <view>失分值</view>
+                <view>丢分占比</view>
+              </view>
+              <view class="points-table-content" wx:for="{{pointsArr}}" wx:key="key" wx:if="{{pointsSwitch?index<pointsArr.length:index<6}}">
+                <view>
+                  <text style="background:{{item.color}}"></text><text>{{item.name}}</text></view>
+                <view>{{item.num}}{{index==5?'':'分'}}</view>
+                <view>{{item.score}}{{index==5?'':'%'}}</view>
+              </view>
+            </view>
+            <!--多于五个的时候回隐藏剩下的，按钮会出现  -->
+            <button hover-class="exam-btn-active" catchtap='changePoints' wx:if="{{pointsArr.length>5&&!pointsBtnSwitch}}" class="unfold-all">展开其他失分知识点</button>
+          </view>
+
+        </view>
+
+        <!--待提高能力  -->
+        <view class="points-against " wx:if="{{courseId&&improvedArr.length}}">
+          <view class="dis-subject-title">待提高能力
+            <button class="btn-position text-left" bindtap='showChartInfo' data-title="待提高能力" data-content="1个题目同时考察两个能力，若该题失3分，则两个能力均记为失3分。\r\n丢失分占比：该能力丢失分数占全卷丢失分数的百分比。">图表解读</button>
+          </view>
+          <view class="points-against-content">
+            <view class="rate-line-content">
+              <ec-canvas id="improvedAgainstrING" canvas-id="improvedAgainstrING" ec="{{ rankHistogramEc }}"></ec-canvas>
+            </view>
+          </view>
+          <view class="points-against-info">
+            <view class="points-against-table">
+              <view class="points-table-head">
+                <view>能力</view>
+                <view>失分值</view>
+                <view>丢分占比</view>
+              </view>
+              <view class="points-table-content" wx:for="{{improvedArr}}" wx:key="key" wx:if="{{improvedSwitch?index<improvedArr.length:index<6}}">
+                <view>
+                  <text style="background:{{item.color}}"></text><text>{{item.name}}</text></view>
+                <view>{{item.num}}{{index==5?'':'分'}}</view>
+                <view>{{item.score}}{{index==5?'':'%'}}</view>
+              </view>
+            </view>
+            <!--多于五个的时候回隐藏剩下的，按钮会出现  -->
+            <button hover-class="exam-btn-active" catchtap='changeImproved' wx:if="{{improvedArr.length>5&&!improvedBtnSwitch}}" class="unfold-all">展开其他待提高能力</button>
+          </view>
+        </view>
+
+
+        <!--小题得分  -->
+        <view class="subtitle" wx:if="{{courseId&&(objectiveArr.length||subjectiveArr.length)}}">
+          <view class="text-center subtitle-title">小题得分</view>
+          <view class="subtitle-center">
+            <view class="subtitle-center-title" wx:if="{{objectiveArr.length}}">客观题</view>
+            <view class="subtitle-center-note" wx:if="{{objectiveArr.length}}">注：
+              <view>"
+                <image src="{{wrongIcon}}"></image>"</view>代表有失分的题目</view>
+            <view class="subtitle-table subtitle-table-score" wx:if="{{objectiveArr.length}}">
+              <view class="subtitle-table-title">
+                <view>题号</view>
+                <view>得分/满分</view>
+                <view>班级平均分</view>
+              </view>
+              <view class="subtitle-table-info subtitle-table-info-other" wx:for="{{objectiveArr}}" wx:key="key">
+                <view>
+                  <view class="worng-icon-warp">
+                    <image wx:if="{{item.fullScore-item.score}}" src="{{wrongIcon}}"></image>
+                  </view>
+                  <text>{{item.num}}</text>
+                </view>
+                <view>{{item.score}}
+                  <text> / {{item.fullScore}}</text>
+                </view>
+                <view>{{item.average}}</view>
+              </view>
+            </view>
+
+            <view class="subtitle--title-subject" wx:if="{{subjectiveArr.length}}">主观题</view>
+            <view class="subtitle-table subtitle-table-score" wx:if="{{subjectiveArr.length}}">
+              <view class="subtitle-table-title">
+                <view>题号</view>
+                <view>得分/满分</view>
+                <view>班级平均分</view>
+              </view>
+              <view class="subtitle-table-info subtitle-table-info-other" wx:for="{{subjectiveArr}}" wx:key="key">
+                <view>
+                  <view class="worng-icon-warp">
+                    <image wx:if="{{item.fullScore-item.score}}" src="{{wrongIcon}}"></image>
+                  </view>
+                  <text>{{item.num}}</text>
+                </view>
+                <view>{{item.score}}
+                  <text> / {{item.fullScore}}</text>
+                </view>
+                <view>{{item.average}}</view>
+              </view>
+            </view>
+          </view>
+        </view>
+
+        <!--提分建议  -->
+        <view class="raise-score" wx:if="{{courseId&&winningRate}}">
+          <view class="raise-score-head">提分建议</view>
+          <view class="raise-score-content bg-white">
+            <view class="raise-score-text" wx:if="{{raiseObj.length||raiseSub.length}}">帮助孩子精准定位不该出错的题目和知识点，稳固掌握知识点。得到这部分分数，年级战胜率提高
+              <text>{{improvePercent}}</text>%。</view>
+            <view class=" raise-score-text " wx:if="{{!raiseObj.length&&!raiseSub.length}}">对比孩子整卷得分表现，各题无异常低分情况，发挥正常。</view>
+            <view class="raise-score-title" wx:if="{{raiseObj.length&&raiseSub.length}}">不该失分的题目</view>
+            <view class="raise-score-rubric" wx:if="{{raiseSub.length}}">客观题</view>
+            <view class="raise-score-obj" wx:if="{{raiseSub.length}}" wx:for="{{raiseSub}}" wx:key="key">
+              <view class="raise-sub-title">{{item.name}}（共{{item.num}}小题，满分{{item.total}}分）</view>
+              <view class="raise-sub-content">
+                <text wx:for="{{item.structs}}" wx:key="key" wx:for-item="subItem">{{subItem.index}}</text>
+              </view>
+            </view>
+            <view class="raise-score-rubric" wx:if="{{raiseObj.length}}">主观题</view>
+            <view class="raise-score-sub" wx:if="{{raiseObj.length}}" wx:for="{{raiseObj}}" wx:key="key">
+              <view class="raise-sub-title">{{item.name}}（共{{item.num}}小题，满分{{item.total}}分）</view>
+              <view class="raise-sub-content">
+                <text wx:for="{{item.structs}}" wx:key="key" wx:for-item="subItem">{{subItem.index}}</text>
+              </view>
+            </view>
+
+
+            <view class="dis-subject-foot ">
+              <image src="{{proIcon}}"></image>
+              <text>建议</text>
+              <view class="dis-subject-foot-info">
+                <view>结合不该失分的知识点和薄弱知识点，对照web端错题本，
+                </view>
+                <view>查看答案和解析，并针对题目强化复习，快速提高成绩。</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <!--不是vip的遮挡页面  -->
+      <view wx:if="{{!vipSwitch && (schoolType&&!reportFree)}}" class="no-vip">
+        <scroll-view>
+          <image src="{{noVipImg}}" mode="widthFix"></image>
+        </scroll-view>
+        <button class="btn-primary" catchtap='showOpenService' hover-class='btn-active'>立即开通个性化服务</button>
+      </view>
+      <!--学生账号的解释说明   -->
+      <view class="account-info">
+        <view class="account-info-item">
+          <view class="account-info-title">什么是学生帐号？</view>
+          <view class="account-info-content">
+            <view>除了家长可以查看孩子成绩，学生也能自己登录账号查看成绩分析！ 学生账号内容比家长端多了两项：使用考试错题本、筛选出错题在线考试。</view>
+            <view>学生账号如何登录？</view>
+          </view>
+        </view>
+        <view class="account-info-item">
+          <view class="account-info-title">学生账号如何登录？</view>
+          <view class="account-info-content">
+            <view class="clearfix">
+              <view class="float-left">1、</view>
+              <view class="float-left">电脑打开www.yuandingbang.cn。</view>
+            </view>
+            <view class="clearfix">
+              <view class="float-left">2、</view>
+              <view class="float-left">
+                <text>首次登陆使用临时账号和密码；</text>
+                <text>学生临时账号和密码已通过系统推送到了孩子家庭管理员的公众号首页。</text>
+              </view>
+            </view>
+            <view class="clearfix">
+              <view class="float-left">3、</view>
+              <view class="float-left">首次登陆成功后，根据系统提示创建固定账号和密码。 以后再登录就使用固定账号密码登录。</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <!-- 回到顶部的canvas  
+      <cover-view class="goTop">
+        <cover-image src="{{goTopImg}}" bindtap='goTop'></cover-image>
+      </cover-view> -->
+
+
+      <view wx:if="{{!vipSwitch&& (schoolType&&!reportFree)}}" class="stepping-stone"></view>
+    </scroll-view>
+    <!--加载出错的时候  -->
+    <import src="./../../wrong/wrong.wxml" />
+    <template is="wrong" wx:if="{{wrongSwitch}}" />
+  </view>
+  <!--暂无考试成绩  -->
+  <view class="exam-no text-center" wx:elif="{{!reportStatus}}">
+    <image src="{{reportStatusImage}}"></image>
+    <view class="text-center">学校暂未公布本次考试成绩请耐心等待</view>
+  </view>
+  <!--暂无权限  -->
+  <view class="exam-no text-center" wx:else>
+    <image src="{{viewDelayImage}}"></image>
+    <view class="text-center">您当前无权限查看本页面</view>
+  </view>
+
+  <!--立即开通的组件  -->
+  <view class="open-service-warp" hidden="{{!isVipShow||wrongSwitch}}">
+    <view class="open-service">
+      <view class="open-service-title">开通服务</view>
+      <button bindtap='openVip' data-examid="{{noExamInfo.examId}}" data-type="exam" bindtap='goMoneyExam'>{{noExamInfo.price}}元/仅开通本次考试</button>
+      <view class="open-service-info " wx:if="{{noExamTimeInfo.length}}">或者按时间付费</view>
+      <button class="btn-sm " wx:if="{{noExamTimeInfo.length}}" data-type="time" wx:for="{{noExamTimeInfo}}" catchtap='goMoneyExam' data-scheme="{{item.scheme_id}} " wx:key="key ">{{item.name}}</button>
+      <view class="open-service-foot " bindtap='_cancelEvent'>
+        取消
+      </view>
+    </view>
+  </view>
+</view>

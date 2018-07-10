@@ -1,0 +1,11 @@
+<!--使用指南页面  -->
+<!--加载出错的时候  -->
+<import src="./../../wrong/wrong.wxml" />
+<template is="wrong" wx:if="{{wrongSwitch}}" />
+<view class="directory-warp" wx:else>
+  <view class="directory" wx:for="{{directoryArr}}" wx:key="{{key}}">
+    <view class="directory-name">{{item.category_name}}</view>
+    <view class="directory-nav" data-id="{{navItem.help_id}}" catchtap='toContent' wx:for="{{item.help_list}}" wx:for-item="navItem" wx:key="{{key}}">{{navItem.title}}</view>
+  </view>
+
+</view>

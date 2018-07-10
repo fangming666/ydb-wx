@@ -1,0 +1,7 @@
+{
+  "scrollenabled": true,
+  "usingComponents": {
+    "ec-canvas": "../../../ec-canvas/ec-canvas",
+    "wrong": "/pages/exam-item/report/report"
+  }
+}

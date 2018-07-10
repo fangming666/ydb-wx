@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "开通个性化的服务",
+  "usingComponents": {
+    "wrong": "/pages/my-item/myServer/myServer"
+  }
+}

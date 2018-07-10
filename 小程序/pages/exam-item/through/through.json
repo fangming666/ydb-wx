@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "成绩穿越",
+  "navigationBarBackgroundColor": "#3E3F90",
+    "usingComponents": {
+      "wrong": "/pages/exam-item/through/through"
+    }
+}

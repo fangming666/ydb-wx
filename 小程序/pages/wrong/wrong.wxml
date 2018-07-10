@@ -1,0 +1,8 @@
+<!--pages/wrong/wrong.wxml-->
+<!--页面出错的时候 -->
+<template name="wrong">
+  <view class="exam-no text-center">
+    <image src="/imgs/wrong.svg"></image>
+    <view class="text-center">页面出错，请稍后再试～</view>
+  </view>
+</template>

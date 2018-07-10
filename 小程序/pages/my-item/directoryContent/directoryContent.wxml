@@ -1,0 +1,12 @@
+<!--pages/my-item/directoryContent/directoryContent.wxml-->
+<!--加载出错的时候  -->
+<import src="./../../wrong/wrong.wxml" />
+<template is="wrong" wx:if="{{wrongSwitch}}" />
+<view class="help-content" wx:else>
+  <view class="help-content-title">
+    <image src="{{helpIcon}}"></image>{{title}}</view>
+
+  <view class="rich-warp">
+    <rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+  </view>
+</view>

@@ -1,0 +1,277 @@
+.family {
+  background: #eef2f4;
+  min-height: 100vh;
+  padding-top: 86rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.family-content-two {
+  min-height: 100vh !important;
+}
+
+.family-content {
+  min-height: calc(100vh - 96rpx);
+  box-sizing: border-box;
+  margin-top: 10rpx;
+  background-color: white;
+}
+
+.family-item {
+  margin-left: 34rpx;
+  padding: 30rpx 0 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.auditing-warp>.family-item:last-child {
+  border: none;
+}
+
+.family-item image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+}
+
+.family-item-name {
+  height: 50rpx;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 6rpx;
+}
+
+.family-role {
+  font-size: 36rpx;
+  color: #222;
+}
+
+.manage-text {
+  background: #ffc530;
+  border-radius: 58px;
+  width: 154rpx;
+  height: 32rpx;
+  font-size: 24rpx;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rpx;
+}
+
+.is-me {
+  position: absolute;
+  right: 40rpx;
+  top: 6rpx;
+  font-size: 30rpx;
+  color: #999;
+}
+
+.family-username, .family-phone {
+  font-size: 28rpx;
+  color: #999;
+  position: relative;
+}
+
+.family-phone image {
+  width: 22rpx;
+  height: 32rpx;
+  position: absolute;
+  top: 0;
+  right: 44rpx;
+}
+
+.family-branch {
+  background: #fafafa;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 154rpx;
+  position: relative;
+}
+
+.family-branch .btn-warning {
+  width: 200rpx;
+  background: #ffc530;
+  margin: 0;
+  position: absolute;
+  right: 30rpx;
+  top: 19rpx;
+}
+
+.family-branch button {
+  height: 66rpx;
+  line-height: 66rpx;
+  border-radius: 4px;
+  font-size: 30rpx;
+  color: #fff;
+}
+
+.family-branch .btn-primary {
+  background: #28bcff;
+  margin-right: 30rpx;
+  width: 210rpx;
+  margin-left: 0;
+}
+
+.family-branch .btn-danger {
+  background: #f13939;
+  margin-right: 30rpx;
+  width: 200rpx;
+  margin-left: 0;
+}
+
+.family-branch .btn-danger + button {
+  width: 200rpx !important;
+}
+
+.family-branch button:after {
+  border: none;
+}
+
+.family-item-info {
+  margin-bottom: 30rpx;
+}
+
+.family-branch-two {
+  padding-left: 30rpx !important;
+}
+
+.family-item-manager {
+  margin-left: 0;
+  position: relative;
+}
+
+.family-item-manager>image {
+  margin-left: 34rpx;
+}
+
+.family-br {
+  width: 100vw;
+  height: 20rpx;
+  background: #eef2f4;
+  box-shadow: inset 0 0 2px 0 rgba(221, 229, 233, 0.67);
+}
+
+.family-voluntarily {
+  background: #fafafa;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  font-size: 34rpx;
+  color: #222;
+  padding-left: 34rpx;
+  position: relative;
+}
+
+.family-voluntarily>switch {
+  position: absolute;
+  top: 18rpx;
+  right: 18rpx;
+}
+
+.invite-btn-warp {
+  padding-top: 60rpx;
+}
+
+.invite-modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 11;
+}
+
+.invite-modal-dialog {
+  width: 620rpx;
+  height: 840rpx;
+  box-sizing: border-box;
+  padding: 34rpx 28rpx 48rpx 30rpx;
+  background-color: white;
+  margin: 80rpx auto;
+  overflow: hidden;
+}
+
+.invite-modal-title image {
+  width: 26rpx;
+  height: 34rpx;
+  margin-right: 18rpx;
+  position: relative;
+  top: 4rpx;
+  text-align: left;
+}
+
+.invite-modal-title {
+  padding-left: 46rpx;
+  text-align: left !important;
+}
+
+.invite-modal-title text {
+  font-size: 30rpx;
+  color: #1aae18;
+}
+
+.invite-code {
+  width: 520rpx;
+  height: 520rpx;
+  margin: 0 auto;
+}
+
+.invite-text {
+  text-align: center;
+  font-size: 24rpx;
+  color: #888;
+}
+
+.invite-modal-foot {
+  margin-top: 28rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #04be02;
+}
+
+.invite-modal-close image {
+  width: 82rpx;
+  height: 82rpx;
+}
+
+.auditing-warp {
+  background-color: white;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+  border-bottom: 1px solid #fecc31;
+}
+
+.auditing-woring {
+  background: #fecc31;
+  height: 74rpx;
+  line-height: 74rpx;
+  color: white;
+  font-size: 30rpx;
+  padding-left: 30rpx;
+}
+
+.auditing-btn-group {
+  margin-top: 18rpx;
+  padding-left: 150rpx;
+}
+
+.auditing-btn-group>button {
+  width: 240rpx;
+  height: 66rpx;
+  line-height: 66rpx;
+  color: white;
+}
+
+.auditing-btn-group>.btn-danger {
+  background: #f13939;
+  margin-left: 40rpx;
+}
+
+.btn-danger:active {
+  background: #e02525 !important;
+  color: rgba(255, 255, 255, 0.5);
+}

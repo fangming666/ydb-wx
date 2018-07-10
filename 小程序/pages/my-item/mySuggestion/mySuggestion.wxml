@@ -1,0 +1,13 @@
+<!--意见反馈 -->
+<!--加载出错的时候  -->
+<import src="./../../wrong/wrong.wxml" />
+<template is="wrong" wx:if="{{wrongSwitch}}" />
+<view class="suggestion" wx:else>
+  <view class="suggestion-info">
+    <view class="suggestion-image"><image src="{{suggestionImg}}"></image></view>
+    <view class="suggestion-info-text">意见和建议</view>
+    <textarea placeholder='把您更好的建议写在这里（200字以内）' maxlength="200" bindinput='inputInfo' value="{{textInfo}}"></textarea>
+  </view>
+  <button class="btn-primary" hover-class='btn-active' catchtap='submitInfo'>提交</button>
+</view>
+

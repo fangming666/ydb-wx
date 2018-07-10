@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "常见问题",
+  "usingComponents": {
+    "wrong": "/pages/my-item/childCode/childCode"
+  }
+}

@@ -1,0 +1,46 @@
+<!--个性化服务的详情页面-->
+<view class="my-server {{childArr.length >1?'':'child-list-none'}}" wx:if="{{!wrongSwitch}}">
+  <!--孩子列表  -->
+  <view class="child-list {{childArr.length >1?'':'child-list-none'}}" wx:if="{{childArr.length >1}}">
+    <view catchtap='childChange' class="child-list-item {{childIndex==index?'childActive':''}} {{childArr.length>2?'child-item-two':''}}" wx:for="{{childArr}}" data-index="{{index}}" data-id="{{item.student_id}}" wx:key="key">{{item.real_name}}</view>
+  </view>
+  <view>
+     <view class="no-vip-bg">
+      <image class="server-head " src="{{vipTime?serverHaveHeadImg:serverHeadImg}}" style="top:{{vipTime?'-28rpx':'-2rpx'}}"></image>
+      <view wx:if="{{vipTime}}" class="text-center"><image src="{{imperialCrownImage}}"></image>会员有效期:{{vipTime}}</view>
+    </view>
+    <!--进行交互的头部  -->
+    <view class="server-select">
+      <view class="{{serevrSekectIndex==index?'select-active':''}}" wx:for="{{selectArr}}" wx:key="{{key}}" catchtap='changeSelect' data-index="{{index}}">{{item}}</view>
+    </view>
+    <!--按考试付费  -->
+    <view class="server-exam {{childArr.length >1?'server-exam-two':''}}" wx:if="{{!serevrSekectIndex}}">
+      <view class="server-exam-no text-center" wx:if="{{!examArr.length||noExamSwitch}}">
+        <image wx:if="{{noExamSwitch}}" src="{{examNoImage}}"></image>
+        <view class="{{noExamSwitch?'':'noExamServer'}}">当前暂无{{noExamSwitch?'':'可独立付费'}}考试</view>
+      </view>
+
+      <view wx:if="{{examArr.length}}" class="server-exam-item" wx:for="{{examArr}}" wx:key="{{key}}">
+        <view class="exam-name">{{item.exam_name}}</view>
+        <view class="exam-time">{{item.exam_date}}</view>
+        <view class="exam-money">￥{{item.price}}</view>
+        <text  wx:if="{{item.switchS}}">已购买</text>
+        <button wx:else class="btn-warning" bindtap='goMoney' data-scheme="" data-examid="{{item.exam_id}}" data-type="exam">立即购买</button>
+      </view>
+    </view>
+
+    <!--按时间付费  -->
+    <scroll-view scroll-y class="server-time" wx:else>
+      <view class="server-time-item" wx:for="{{timeArr}}" wx:key="{{key}}">
+        <text>{{item.name}}</text>
+      
+        <button class="btn-warning" bindtap='goMoney' data-scheme="{{item.scheme_id}}" data-examid="" data-type="time">立即购买</button>
+      </view>
+      <view class="seiver-time-info">注：按时间付费后，拥有服务时间内举办考试的全部功能。</view>
+    </scroll-view>
+  </view>
+
+</view>
+<!--加载出错的时候  -->
+<import src="./../../wrong/wrong.wxml" />
+<template is="wrong" wx:if="{{wrongSwitch}}" />

@@ -1,0 +1,14 @@
+<!--pages/openService/openService.wxml-->
+<!--立即开通的组件  -->
+<view class="open-service-warp" hidden="{{!isVipShow}}">
+  <view class="open-service">
+    <view class="open-service-title">开通服务</view>
+    <button bindtap='openVip'>15元／仅开通本次考试</button>
+    <view class="open-service-info">或者按时间付费</view>
+    <button class="btn-sm">120元／半年</button>
+    <button class="btn-sm">30元／月</button>
+    <view class="open-service-foot" bindtap='_cancelEvent'>
+      取消
+    </view>
+  </view>
+</view>

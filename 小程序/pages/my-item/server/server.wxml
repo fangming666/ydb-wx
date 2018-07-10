@@ -1,0 +1,190 @@
+<!--pages/my-item/server/server.wxml-->
+<!--个性化服务首页  -->
+<view class="server {{childArr.length >1?'':'child-list-none'}}" wx:if="{{!wrongSwitch}}">
+  <!--孩子列表  -->
+  <view class="child-list {{childArr.length >1?'':'child-list-none'}}" wx:if="{{childArr.length >1}}">
+    <view catchtap='childChange' class="child-list-item {{childIndex==index?'childActive':''}} {{childArr.length>2?'child-item-two':''}}" wx:for="{{childArr}}" data-index="{{index}}" data-id="{{item.student_id}}" wx:key="key">{{item.real_name}}</view>
+  </view>
+
+  <!--可以进行支付的时候  -->
+  <view class="pay" wx:if="{{schoolType=='customer'||schoolType=='pay'}}">
+    <view class="no-vip-bg">
+      <image class="server-head " src="{{vipTime?serverHaveHeadImg:serverHeadImg}}" style="top:{{vipTime?'-28rpx':'-2rpx'}}"></image>
+      <view wx:if="{{vipTime}}" class="text-center">
+        <image src="{{imperialCrownImage}}" mode="widthFix"></image>会员有效期:{{vipTime}}</view>
+    </view>
+    <view class="pay-info">
+      <view class="pay-info-item" wx:for="{{payInfoArr}}" wx:key="{{key}}">
+        <view>{{item.title}}</view>
+        <view>{{item.content}}</view>
+      </view>
+    </view>
+    <!--支付的表格  -->
+    <view class="pay-table {{platform?'pay-table-two':''}}">
+      <view class="pay-table-thead pay-table-tr">
+        <view class="pay-table-td">
+          <text>功能</text>
+        </view>
+        <view class="pay-table-td">
+          <text>用户</text>
+        </view>
+        <view class="pay-table-td">
+          <text>免费</text>
+        </view>
+        <view class="pay-table-td">
+          <text>付费</text>
+        </view>
+      </view>
+      <view class="pay-table-tbody">
+        <view class="pay-collspan-warp">
+          <view class="pay-table-collspan">成绩报告</view>
+          <view>
+            <view wx:for="{{wayOneArr}}" class="pay-item-tr" wx:key="{{key}}">
+              <text>{{item}}</text>
+            </view>
+          </view>
+        </view>
+        <view class="pay-td-warp">
+          <view wx:for="{{wayOneArr}}" wx:key="{{key}}">
+            <text>{{index==7?'学生':'学生、家长'}}</text>
+          </view>
+        </view>
+        <view class="pay-td-warp">
+          <view wx:for="{{wayOneArr}}" wx:key="{{key}}">
+            <image class="{{index==0||index==7?'':'opacity'}}" src="{{yesIcon}}"></image>
+          </view>
+        </view>
+        <view class="pay-td-warp">
+          <view wx:for="{{wayOneArr}}" wx:key="{{key}}">
+            <image src="{{yesIcon}}"></image>
+          </view>
+        </view>
+      </view>
+      <view class="pay-table-tbody pay-table-tbody-other">
+        <view class="pay-collspan-warp">
+          <view class="pay-table-collspan">错题相关</view>
+          <view>
+            <view wx:for="{{wayTwoArr}}" class="pay-item-tr" wx:key="{{key}}">
+              <text>{{item}}</text>
+            </view>
+          </view>
+
+        </view>
+        <view class="pay-td-warp">
+          <view wx:for="{{wayTwoArr}}" wx:key="{{key}}">
+            <text>学生</text>
+          </view>
+        </view>
+        <view class="pay-td-warp">
+          <view wx:for="{{wayTwoArr}}" wx:key="{{key}}">
+            <image class="opacity" src="{{yesIcon}}"></image>
+          </view>
+        </view>
+        <view class="pay-td-warp">
+          <view wx:for="{{wayTwoArr}}" wx:key="{{key}}">
+            <image src="{{yesIcon}}"></image>
+          </view>
+        </view>
+      </view>
+      <view class="pay-table-tbody">
+        <view class="pay-collspan-warp">
+          <view class="pay-table-collspan">错题练习</view>
+          <view>
+            <view wx:for="{{wayThreeArr}}" class="pay-item-tr" wx:key="{{key}}">
+              <text>{{item}}</text>
+            </view>
+          </view>
+        </view>
+        <view class="pay-td-warp">
+          <view wx:for="{{wayThreeArr}}" wx:key="{{key}}">
+            <text>学生</text>
+          </view>
+        </view>
+        <view class="pay-td-warp">
+          <view wx:for="{{wayThreeArr}}" wx:key="{{key}}">
+            <image class="opacity" src="{{yesIcon}}"></image>
+          </view>
+        </view>
+        <view class="pay-td-warp">
+          <view wx:for="{{wayThreeArr}}" wx:key="{{key}}">
+            <image src="{{yesIcon}}"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view style="height:{{platform?'30rpx':'84rpx'}}" class="bg-white"></view>
+    <button class="btn-warning" bindtap='goServer'>立即开通</button>
+  </view>
+  <!--不可以进行支付的时候  -->
+  <view class="no-pay" wx:else>
+    <view class="no-pay-title text-center">个性化服务介绍</view>
+    <!--不能支付的表格  -->
+    <view class="pay-table {{platform?'pay-table-two':''}}">
+      <view class="pay-table-thead pay-table-tr">
+        <view class="pay-table-td">
+          <text>功能</text>
+        </view>
+        <view class="pay-table-td">
+          <text>用户</text>
+        </view>
+
+      </view>
+      <view class="pay-table-tbody">
+        <view class="pay-collspan-warp">
+          <view class="pay-table-collspan">成绩报告</view>
+          <view>
+            <view wx:for="{{wayOneArr}}" class="pay-item-tr" wx:key="{{key}}">
+              <text>{{item}}</text>
+            </view>
+          </view>
+        </view>
+        <view class="pay-td-warp">
+          <view wx:for="{{wayOneArr}}" wx:key="{{key}}">
+            <text>{{index==7?'学生':'学生、家长'}}</text>
+          </view>
+        </view>
+
+      </view>
+      <view class="pay-table-tbody pay-table-tbody-other">
+        <view class="pay-collspan-warp">
+          <view class="pay-table-collspan">错题相关</view>
+          <view>
+            <view wx:for="{{wayTwoArr}}" class="pay-item-tr" wx:key="{{key}}">
+              <text>{{item}}</text>
+            </view>
+          </view>
+
+        </view>
+        <view class="pay-td-warp">
+          <view wx:for="{{wayTwoArr}}" wx:key="{{key}}">
+           <text>学生</text>
+          </view>
+        </view>
+     
+      </view>
+      <view class="pay-table-tbody">
+        <view class="pay-collspan-warp">
+          <view class="pay-table-collspan">错题练习</view>
+          <view>
+            <view wx:for="{{wayThreeArr}}" class="pay-item-tr" wx:key="{{key}}">
+              <text>{{item}}</text>
+            </view>
+          </view>
+        </view>
+        <view class="pay-td-warp">
+          <view wx:for="{{wayThreeArr}}" wx:key="{{key}}">
+            <text>学生</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view style="height:{{platform?'30rpx':'84rpx'}}" class="bg-white"></view>
+
+  </view>
+
+
+
+</view>
+<!--加载出错的时候  -->
+<import src="./../../wrong/wrong.wxml" />
+<template is="wrong" wx:if="{{wrongSwitch}}" />

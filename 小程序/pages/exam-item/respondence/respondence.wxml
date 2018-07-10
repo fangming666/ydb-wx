@@ -1,0 +1,50 @@
+<!--错题解析的页面  -->
+<view class="respondence">
+  <!--错题解析的头部  -->
+  <scroll-view scroll-with-animation="true" class="report-head" bindscroll="centerScroll" scroll-x="true" scroll-left="{{scrollLeft}}">
+    <view catchtap='changeReport' class="report-item {{reportIndex==index?'report-item-active':''}}" data-index="{{index}}" wx:for="{{reportArr}}" wx:key="key">{{item}}</view>
+
+    <view class="report-left" wx:if="{{leftSwitch}}">
+      <image src="{{reportLeftIcon}}"></image>
+    </view>
+
+    <view class="report-right" wx:if="{{rightSwitch||reportArr.length<=5}}">
+      <image src="{{reportRightIcon}}"></image>
+    </view>
+  </scroll-view>
+  <!--错题解析的内容部分  -->
+  <scroll-view class="respondence-content" scroll-y="true">
+    <view class="no-data-alert" wx:if="{{dataSwitch}}">
+      <view>因为学校相关老师未提交本次考试的原试卷，因此错题解析和错题本等模块没有原题可查看，请您谅解。</view>
+      <view>本版块只展示主观题的失分题目。</view>
+    </view>
+    <navigator class="respondence-item" wx:if="{{respondenceArr.length}}" wx:for="{{respondenceArr}}" hover-class="respondence-active" url="/pages/exam-item/wrongContent/wrongContent?index={{index}}" wx:key="{{key}}">
+      <view class="respondence-item-head">
+        <text class="respondence-index">{{index+1}}</text>
+        <view>
+          <text>我的得分<text class="text-warning">{{item.myNum}}</text>分</text>
+          <text>{{item.allNum}}分</text>
+          <text wx:if="{{item.allPerson}}">班内{{item.allPerson}}人答对</text>
+          <text wx:if="{{item.average}}">班级平均{{item.average}}分</text>
+        </view>
+      </view>
+      <view class="respondence-item-content">
+        <!--WxParse富文本插件的模板的使用(有原题的时候)  -->
+        <block wx:if="{{dataSwitch}}" wx:for="{{replyTemArray}}" wx:key="" wx:for-item="infoItem" wx:for-index="infoIndex">
+          <template wx-if="{{index==infoIndex}}" is="wxParse" data="{{wxParseData:infoItem}}" />
+        </block>
+        <!--没有原题的时候  -->
+        <view class="no-data-info text-center" wx:if="{{!dataSwitch}}">
+          无原题
+        </view>
+      </view>
+    </navigator>
+    <!--满分无错题  -->
+    <view class="full-marks" wx:if="{{!respondenceArr.length}}">    
+      <image src="{{fullMarksImg}}"></image>
+      <view>恭喜您，满分！无错题！</view>
+    </view> 
+  </scroll-view>
+
+
+</view>

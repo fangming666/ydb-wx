@@ -1,0 +1,6 @@
+{
+"navigationBarTitleText": "绑定孩子",
+"usingComponents": {
+  "wrong": "/pages/bind/bind"
+}
+}

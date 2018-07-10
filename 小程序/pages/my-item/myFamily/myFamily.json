@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "家庭成员",
+    "usingComponents": {
+      "wrong": "/pages/my-item/myFamily/myFamily"
+    }
+}

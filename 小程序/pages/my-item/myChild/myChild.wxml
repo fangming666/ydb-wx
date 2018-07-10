@@ -1,0 +1,71 @@
+<!--孩子信息页面  -->
+<!--加载出错的时候  -->
+<import src="./../../wrong/wrong.wxml" />
+<template is="wrong" wx:if="{{wrongSwitch}}" />
+<view class="my-child" wx:else>
+  <view class="my-child-item" wx:for="{{myChildArr}}" wx:key="{{key}}">
+    <view class="child-item-head">
+      <view class="child-item-header-title">{{item.real_name}}
+        <text>{{item.status?'':'（等待审核）'}}</text>
+      </view>
+
+    </view>
+    <view class="child-item-content">
+      <view class="clild-item-border" wx:if="{{item.status}}">
+        <view class="clearfix" wx:if="{{item.is_create}}">
+          <text class="float-left">账号</text>
+          <text class="float-right">{{item.username}}</text>
+        </view>
+        <view class="clearfix" wx:if="{{!item.is_create}}">
+          <text class="float-left">临时登录账号</text>
+          <text class="float-right">{{item.card_id}}</text>
+        </view>
+        <view class="clearfix" wx:if="{{!item.is_create&&item.primary_contact==userId}}">
+          <text class="float-left">临时登录密码</text>
+          <text class="float-right">{{item.temp_password}}</text>
+        </view>
+      </view>
+
+      <view class="clearfix" wx:if="{{item.status}}">
+        <text class="float-left">孩子唯一号</text>
+        <text class="float-right">{{item.card_id}}</text>
+      </view>
+      <view class="clearfix">
+        <text class="float-left">班级</text>
+        <text class="float-right">{{item.class_name}}</text>
+      </view>
+      <view class="clearfix">
+        <text class="float-left">学校</text>
+        <text class="float-right">{{item.school_name}}</text>
+      </view>
+    </view>
+    <view class="child-item-foot">
+      <text wx:if="{{item.status}}"></text>
+      <view bindtap='toPassword' wx:if="{{item.status}}" data-index="{{index}}">修改密码</view>
+      <view data-studentid="{{item.student_id}}" data-realname="{{item.real_name}}" bindtap='contactBinding'>解除绑定</view>
+
+    </view>
+  </view>
+  <!--学生账号的解释说明   -->
+  <view class="account-info">
+    <view class="account-info-item">
+      <view class="account-info-title">学生账号请在电脑端登陆</view>
+      <view class="account-info-content">
+        <view class="clearfix">
+          <view class="float-left">电脑打开www.yuandingbang.cn。</view>
+        </view>
+        <view class="clearfix">
+          <view class="float-left">1.</view>
+          <view class="float-left">
+            <text>首次登陆学生账号，使用临时账号和密码。临时账号在本页面即可查看，临时密码请询问孩子家庭管理员。</text>
+          </view>
+        </view>
+        <view class="clearfix">
+          <view class="float-left">2.</view>
+          <view class="float-left">创建固定账号和密码后，可以在本页面修改学生账号的密码</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <button bindtap='toBind' class="btn-primary" hover-class='btn-active'>添加孩子</button>
+</view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "使用指南",
+  "usingComponents": {
+    "wrong": "/pages/my-item/myDirectory/myDirectory"
+  }
+}

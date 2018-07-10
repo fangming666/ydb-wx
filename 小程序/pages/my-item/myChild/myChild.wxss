@@ -1,0 +1,88 @@
+.my-child {
+  min-height: 100vh;
+  background: #eef2f4;
+  box-sizing: border-box;
+  padding-bottom: 100rpx;
+}
+
+.my-child>button {
+  width: 100%;
+  border-radius: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.my-child-head {
+  background: #28bcff;
+  height: 100rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+}
+
+.my-child-head image {
+  width: 24rpx;
+  height: 30rpx;
+  margin-right: 12rpx;
+}
+
+.my-child-head text {
+  font-size: 32rpx;
+  color: #fff;
+}
+
+.my-child-head>view {
+  width: 196rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.my-child-head>view:active {
+  background: #1caff2;
+}
+
+.child-item-foot {
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 100rpx;
+}
+
+.child-item-foot>text {
+  display: block;
+  width: 2rpx;
+  height: 40rpx;
+  background: #e5e5e5;
+  position: absolute;
+  left: calc(50% - 1rpx);
+  top: 27rpx;
+}
+
+.child-item-foot>view {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  color: #28bcff;
+  height: 100%;
+}
+
+.child-item-foot>view:active {
+  background: #eef3f5;
+}
+
+.child-item-foot>view:last-child {
+  color: #f13939;
+}
+
+.child-item-header-title {
+  position: relative;
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+.go-bind {
+  min-height: 100vh;
+  background-color: white;
+}
+
+.go-bind image {
+  width: 544rpx;
+  height: 442rpx;
+  margin: 138rpx auto 38rpx;
+}
+
+.go-bind>view {
+  font-size: 28rpx;
+  color: #acacac;
+  margin-bottom: 54rpx;
+}
+
+.btn-primary {
+  width: 670rpx;
+  background: #28bcff;
+  /* border: 1px solid rgba(5, 5, 5, 0.08); */
+  margin: 0 auto;
+  color: white;
+}

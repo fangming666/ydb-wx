@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "考试列表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "wrong": "/pages/exam/exam"
+  }
+}

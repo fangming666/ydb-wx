@@ -1,0 +1,73 @@
+<!--错题本详情页面  -->
+<view class="wrong-coontent">
+  <view class="wrong-content-item">
+    <view class="respondence-item-head">
+      <text class="respondence-index">{{titleNum}}</text>
+      <view>
+        <text>我的得分<text class="text-warning">{{wrongObj.myNum}}</text>分</text>
+        <text>{{wrongObj.allNum}}分</text>
+        <text wx:if="{{wrongObj.allPerson}}">班内{{wrongObj.allPerson}}人答对</text>
+        <text wx:if="{{wrongObj.average}}">班级平均{{wrongObj.average}}分</text>
+      </view>
+    </view>
+    <view class="respondence-item-content">
+      <!--WxParse富文本插件的模板的使用  -->
+      <template is="wxParse" data="{{wxParseData:reply.nodes}}" />
+    </view>
+  </view>
+
+  <!--客观题答案  -->
+  <view class="objective-answer" wx:if="{{wrongObj.fit}}">
+    <view>正确答案：{{wrongObj.fit}}</view>
+    <view>我的作答：{{wrongObj.my}}</view>
+  </view>
+
+  <!--主观题答案  -->
+  <view class="subject-answer" wx:else>
+    <view class="sub-head">
+      <view catchtap='openMySub' class="{{mySubSwitch?'subHeadActive':''}}">
+        我的作答
+      </view>
+      <view catchtap='openSuperSub' class="{{mySubSwitch?'':'subHeadActive'}}">学霸答案</view>
+    </view>
+    <view class="my-sub-answer " wx:if="{{mySubSwitch}}">
+      <template is="wxParse" wx:if="{{dataSwitch}}" data="{{wxParseData:myAnswer.nodes}}" />
+      <view wx:else class="no-data">因本次考试未使用园丁邦阅卷系统扫描考生答题卡，因此无法查看我的作答和学霸答案，请您谅解。</view>
+    </view>
+    <view wx:if="{{!mySubSwitch}}" class="super-sub-answer"  wx:for="{{wrongObj.super}}" wx:key="this" >
+      <view class="super-answer-head">
+        学霸答案{{index+1}}:
+        <text>{{item.mark}}分</text>
+      </view>
+      <view class="super-answer-content">
+        <block wx:for="{{replyTemArray}}" wx:key="" wx:for-item="infoItem" wx:for-index="infoIndex">
+          <template wx-if="{{index==infoIndex}}" is="wxParse" data="{{wxParseData:infoItem}}" />
+        </block>
+      </view>
+
+    </view>
+  </view>
+
+
+
+  <!--题目的翻页  -->
+  <view class="nav-warp ">
+    <view class="nav-pro" hover-class="navActive" hover-stay-time="100" bindtap='navPro'>{{titleNum == 1||rubricSwitch?" ":"上一题 "}}</view>
+    <view class="nav " catchtap='openRubric' hover-stay-time="100" hover-class="navInfoActive">
+      <view class="nav-info" wx:if="{{!rubricSwitch}}">
+        {{titleNum}}/{{allNum}}
+      </view>
+      <view  class="nav-info" wx:if="{{rubricSwitch}}">
+        收起
+      </view>
+    </view>
+    <view class="nav-next " hover-class="navActive" hover-stay-time="100" bindtap="navNext">{{titleNum == allNum||rubricSwitch?" ":"下一题 "}}</view>
+  </view>
+
+  <!--把题目都列出来  -->
+  <view class="rubric-all" catchtap='openRubric' hidden="{{!rubricSwitch}}">
+    <view class="rubric-content clearfix ">
+      <text wx:for="{{respondenceArr}}" wx:key="key" catchtap='toNav' data-index="{{index}} " class="rubric-item float-left {{index==titleNum-1? 'rubricActive': ''}}">{{index+1}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,1802 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="375px" height="4545px" viewBox="0 0 375 4545" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.5%" y="-3.0%" width="109.1%" height="107.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.883476828   0 0 0 0 0.630970763   0 0 0 0 0.0966825672  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="319.452055" height="416.438356" rx="12"></rect>
+        <rect id="path-4" x="0" y="0" width="166.575342" height="35.0684932" rx="17.5342466"></rect>
+        <filter x="-3.9%" y="-10.0%" width="107.8%" height="139.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.457978795   0 0 0 0 0.623758188   0 0 0 0 0.699112457  0 0 0 0.248754529 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-11.7%" y="-11.7%" width="123.4%" height="123.4%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="2.01981847" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="8.74645623%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#AFE405" offset="0%"></stop>
+            <stop stop-color="#8ACF16" offset="36.894909%"></stop>
+            <stop stop-color="#79C51E" offset="55.0459343%"></stop>
+            <stop stop-color="#8BCF20" offset="75.3822565%"></stop>
+            <stop stop-color="#CEFF32" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0.191419293,2.01069697 C2.4660762,0.274785309 10.9726448,0.5 21.2,0.5 C30.882993,0.5 39.0847016,2.03438681 41.8777828,4.15299674 C41.1149544,5.04595138 40.2850732,5.90439644 39.3920719,6.7315929 C35.0715556,9.89330293 27.734882,10.3 22.5578548,10.3 C17.3808277,10.3 8.65656436,9.58395396 4.73536966,7.18828231 C2.98464816,5.64100827 1.45776482,3.90912381 0.191419293,2.01069697 Z" id="path-8"></path>
+        <path d="M25.9,39.7819625 C35.4500185,39.7819625 35.2906647,45.5200328 41.7451213,45.5200328 C42.6503345,45.5200328 43.7825055,44.6474853 44.2519793,44.1760738 C48.9166722,39.4921284 51.8,33.0327828 51.8,25.9 C51.8,11.595825 40.204175,0 25.9,0 C11.595825,0 0,11.595825 0,25.9 C0,33.2934988 3.09796167,39.96343 8.06661541,44.6825238 C8.70085205,45.1653858 10.5336532,46.0992434 12.3557159,45.3298323 C17.6342889,42.9771311 18.9399842,39.7819625 25.9,39.7819625 Z" id="path-10"></path>
+        <filter x="-12.5%" y="-14.2%" width="125.1%" height="128.5%" filterUnits="objectBoundingBox" id="filter-11">
+            <feGaussianBlur stdDeviation="6" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.671283074   0 0 0 0 0.876302083   0 0 0 0 0.0136749319  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="19.1871786%" x2="50%" y2="100%" id="linearGradient-12">
+            <stop stop-color="#AFE405" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#9ECA0E" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-13">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="41.7770863%" y1="27.914831%" x2="50%" y2="100%" id="linearGradient-14">
+            <stop stop-color="#AFE405" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#9ECA0E" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-15">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <text id="text-16" font-family="FZLTZHK--GBK1-0, FZLanTingHei-DB-GBK" font-size="18" font-weight="normal" letter-spacing="2.79999995" fill="#FFFFFF">
+            <tspan x="6" y="31">示</tspan>
+            <tspan x="26.8" y="31">例</tspan>
+        </text>
+        <filter x="-3.8%" y="-7.1%" width="107.7%" height="114.3%" filterUnits="objectBoundingBox" id="filter-17">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.584051189   0 0 0 0 0.756058673   0 0 0 0 0.0355744937  0 0 0 0.787986866 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-4.5%" y="-1.7%" width="109.1%" height="103.9%" filterUnits="objectBoundingBox" id="filter-18">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.883476828   0 0 0 0 0.630970763   0 0 0 0 0.0966825672  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-19" x="0" y="0" width="320" height="745.205479" rx="12"></rect>
+        <rect id="path-21" x="14.2465753" y="486.210046" width="15.3424658" height="15.3424658" rx="7.67123288"></rect>
+        <rect id="path-22" x="0" y="4.38356164" width="15.3424658" height="15.3424658" rx="7.67123288"></rect>
+        <rect id="path-23" x="0" y="4.38356164" width="15.3424658" height="15.3424658" rx="7.67123288"></rect>
+        <rect id="path-24" x="0" y="4.38356164" width="15.3424658" height="15.3424658" rx="7.67123288"></rect>
+        <rect id="path-25" x="0" y="4.38356164" width="15.3424658" height="15.3424658" rx="7.67123288"></rect>
+        <rect id="path-26" x="0" y="4.38356164" width="15.3424658" height="15.3424658" rx="7.67123288"></rect>
+        <path d="M88.6580795,0 C117.976692,0 145.35536,14.6147945 161.64738,38.9610959 L136.103319,56.0131507 C125.517018,40.1884932 107.715178,30.6849315 88.6580795,30.6849315 L88.6580795,0 Z" id="path-27"></path>
+        <path d="M161.64738,38.9610959 C176.807033,61.6241096 180.546473,90.0383562 171.777223,115.848767 L142.68684,105.985753 C148.392558,89.2054795 145.961044,70.7419178 136.103319,56.0131507 L161.64738,38.9610959 Z" id="path-28"></path>
+        <path d="M171.777223,115.848767 C163.007974,141.659178 142.713174,161.928767 116.87066,170.687123 L106.995379,141.632877 C123.796524,135.934247 136.981122,122.766027 142.68684,105.985753 L171.777223,115.848767 Z" id="path-29"></path>
+        <path d="M116.87066,170.687123 C98.5684727,176.894247 78.7476862,176.894247 60.4454985,170.687123 L70.3207797,141.632877 C82.2150072,145.665753 95.1011518,145.665753 106.995379,141.632877 L116.87066,170.687123 Z" id="path-30"></path>
+        <path d="M60.4454985,170.687123 C42.1433108,164.48 26.4043072,152.425205 15.6687794,136.38137 L41.2128399,119.329315 C48.1913719,129.762192 58.4265522,137.6 70.3207797,141.632877 L60.4454985,170.687123 Z" id="path-31"></path>
+        <path d="M15.6687794,136.38137 C-1.75560553,110.334247 -3.94133442,76.9841096 9.92794929,48.8942466 C23.797233,20.8043836 51.6235807,2.23561644 82.9172494,0.184109589 C84.8308594,0.061369863 86.7444694,0 88.6580795,0 L88.6580795,30.6849315 C68.2754992,30.6849315 49.4378518,41.5473973 39.2465617,59.1780822 C29.0552716,76.8087671 29.0552716,98.5336986 39.2465617,116.164384 C39.8698017,117.24274 40.5193757,118.294795 41.2128399,119.329315 L15.6687794,136.38137 Z" id="path-32"></path>
+        <rect id="path-33" x="0" y="0" width="191.780822" height="35.0684932" rx="17.5342466"></rect>
+        <filter x="-3.4%" y="-10.0%" width="106.8%" height="139.9%" filterUnits="objectBoundingBox" id="filter-34">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.457978795   0 0 0 0 0.623758188   0 0 0 0 0.699112457  0 0 0 0.248754529 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-11.7%" y="-11.7%" width="123.4%" height="123.4%" filterUnits="objectBoundingBox" id="filter-35">
+            <feGaussianBlur stdDeviation="2.01981847" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M0.191419293,2.01069697 C2.4660762,0.274785309 10.9726448,0.5 21.2,0.5 C30.882993,0.5 39.0847016,2.03438681 41.8777828,4.15299674 C41.1149544,5.04595138 40.2850732,5.90439644 39.3920719,6.7315929 C35.0715556,9.89330293 27.734882,10.3 22.5578548,10.3 C17.3808277,10.3 8.65656436,9.58395396 4.73536966,7.18828231 C2.98464816,5.64100827 1.45776482,3.90912381 0.191419293,2.01069697 Z" id="path-36"></path>
+        <path d="M25.9,39.7819625 C35.4500185,39.7819625 35.2906647,45.5200328 41.7451213,45.5200328 C42.6503345,45.5200328 43.7825055,44.6474853 44.2519793,44.1760738 C48.9166722,39.4921284 51.8,33.0327828 51.8,25.9 C51.8,11.595825 40.204175,0 25.9,0 C11.595825,0 0,11.595825 0,25.9 C0,33.2934988 3.09796167,39.96343 8.06661541,44.6825238 C8.70085205,45.1653858 10.5336532,46.0992434 12.3557159,45.3298323 C17.6342889,42.9771311 18.9399842,39.7819625 25.9,39.7819625 Z" id="path-38"></path>
+        <filter x="-12.5%" y="-14.2%" width="125.1%" height="128.5%" filterUnits="objectBoundingBox" id="filter-39">
+            <feGaussianBlur stdDeviation="6" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.671283074   0 0 0 0 0.876302083   0 0 0 0 0.0136749319  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-40">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-41">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <text id="text-42" font-family="FZLTZHK--GBK1-0, FZLanTingHei-DB-GBK" font-size="18" font-weight="normal" letter-spacing="2.79999995" fill="#FFFFFF">
+            <tspan x="6" y="31">示</tspan>
+            <tspan x="26.8" y="31">例</tspan>
+        </text>
+        <filter x="-3.8%" y="-7.1%" width="107.7%" height="114.3%" filterUnits="objectBoundingBox" id="filter-43">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.584051189   0 0 0 0 0.756058673   0 0 0 0 0.0355744937  0 0 0 0.787986866 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-4.5%" y="-2.6%" width="109.1%" height="106.0%" filterUnits="objectBoundingBox" id="filter-44">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.883476828   0 0 0 0 0.630970763   0 0 0 0 0.0966825672  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-45" x="0" y="0" width="320" height="485.479452" rx="12"></rect>
+        <rect id="path-47" x="0" y="4.38356164" width="15.3424658" height="15.3424658" rx="7.67123288"></rect>
+        <rect id="path-48" x="0" y="4.38356164" width="15.3424658" height="15.3424658" rx="7.67123288"></rect>
+        <rect id="path-49" x="0" y="4.38356164" width="15.3424658" height="15.3424658" rx="7.67123288"></rect>
+        <rect id="path-50" x="0" y="4.38356164" width="15.3424658" height="15.3424658" rx="7.67123288"></rect>
+        <path d="M87.6712329,0 C107.044691,0 125.86089,6.54393489 141.150685,18.5999443 L122.430265,42.9589041 C112.495381,35.1273486 100.261804,30.8676174 87.6712329,30.8676174 L87.6712329,0 Z" id="path-51"></path>
+        <path d="M141.446171,18.4109589 C166.213627,37.6559894 178.821395,68.6375061 174.507518,99.6804245 C170.19364,130.723343 149.625845,157.108508 120.544512,168.897624 C91.4631787,180.68674 58.2876154,176.090388 33.5201597,156.845358 C24.5761122,149.8982 17.0641666,141.284426 11.3972603,131.486478 L38.0273271,116.136066 C48.2277585,133.775882 67.0823026,144.643973 87.4831654,144.643973 C107.884028,144.643973 126.738572,133.775882 136.939004,116.136066 C147.139435,98.4962499 147.139435,76.7600669 136.939004,59.1202509 C133.257711,52.7520229 128.37275,47.1557014 122.556483,42.6382945 L141.446171,18.4109589 Z" id="path-52"></path>
+        <path d="M11.8530737,131.506849 C-3.95102458,104.301048 -3.95102458,70.7818124 11.8530737,43.5760111 C12.6671706,42.1779108 13.516663,40.8061897 14.401551,39.4520548 L40.3287671,56.2820172 C29.0906905,73.3757722 27.878394,95.1298615 37.1608684,113.349131 C37.6387078,114.289991 38.143094,115.213265 38.6740267,116.118953 L11.8530737,131.506849 Z" id="path-53"></path>
+        <path d="M14.0273973,39.4464776 C30.2744308,14.8348704 57.9744353,0 87.6712329,0 L87.6712329,30.4706845 C68.3630366,30.4706845 50.3567142,40.1168326 39.8009804,56.109589 L14.0273973,39.4464776 Z" id="path-54"></path>
+        <rect id="path-55" x="0" y="0" width="162.191781" height="35.0684932" rx="17.5342466"></rect>
+        <filter x="-4.0%" y="-10.0%" width="108.0%" height="139.9%" filterUnits="objectBoundingBox" id="filter-56">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.457978795   0 0 0 0 0.623758188   0 0 0 0 0.699112457  0 0 0 0.248754529 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-11.7%" y="-11.7%" width="123.4%" height="123.4%" filterUnits="objectBoundingBox" id="filter-57">
+            <feGaussianBlur stdDeviation="2.01981847" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M0.191419293,2.01069697 C2.4660762,0.274785309 10.9726448,0.5 21.2,0.5 C30.882993,0.5 39.0847016,2.03438681 41.8777828,4.15299674 C41.1149544,5.04595138 40.2850732,5.90439644 39.3920719,6.7315929 C35.0715556,9.89330293 27.734882,10.3 22.5578548,10.3 C17.3808277,10.3 8.65656436,9.58395396 4.73536966,7.18828231 C2.98464816,5.64100827 1.45776482,3.90912381 0.191419293,2.01069697 Z" id="path-58"></path>
+        <path d="M25.9,39.7819625 C35.4500185,39.7819625 35.2906647,45.5200328 41.7451213,45.5200328 C42.6503345,45.5200328 43.7825055,44.6474853 44.2519793,44.1760738 C48.9166722,39.4921284 51.8,33.0327828 51.8,25.9 C51.8,11.595825 40.204175,0 25.9,0 C11.595825,0 0,11.595825 0,25.9 C0,33.2934988 3.09796167,39.96343 8.06661541,44.6825238 C8.70085205,45.1653858 10.5336532,46.0992434 12.3557159,45.3298323 C17.6342889,42.9771311 18.9399842,39.7819625 25.9,39.7819625 Z" id="path-60"></path>
+        <filter x="-12.5%" y="-14.2%" width="125.1%" height="128.5%" filterUnits="objectBoundingBox" id="filter-61">
+            <feGaussianBlur stdDeviation="6" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.671283074   0 0 0 0 0.876302083   0 0 0 0 0.0136749319  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-62">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-63">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <text id="text-64" font-family="FZLTZHK--GBK1-0, FZLanTingHei-DB-GBK" font-size="18" font-weight="normal" letter-spacing="2.79999995" fill="#FFFFFF">
+            <tspan x="6" y="31">示</tspan>
+            <tspan x="26.8" y="31">例</tspan>
+        </text>
+        <filter x="-3.8%" y="-7.1%" width="107.7%" height="114.3%" filterUnits="objectBoundingBox" id="filter-65">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.584051189   0 0 0 0 0.756058673   0 0 0 0 0.0355744937  0 0 0 0.787986866 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-4.5%" y="-2.9%" width="109.1%" height="106.7%" filterUnits="objectBoundingBox" id="filter-66">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.883476828   0 0 0 0 0.630970763   0 0 0 0 0.0966825672  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-67" x="0" y="0" width="320" height="430.684932" rx="12"></rect>
+        <filter x="-11.7%" y="-11.7%" width="123.4%" height="123.4%" filterUnits="objectBoundingBox" id="filter-69">
+            <feGaussianBlur stdDeviation="2.01981847" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M0.191419293,2.01069697 C2.4660762,0.274785309 10.9726448,0.5 21.2,0.5 C30.882993,0.5 39.0847016,2.03438681 41.8777828,4.15299674 C41.1149544,5.04595138 40.2850732,5.90439644 39.3920719,6.7315929 C35.0715556,9.89330293 27.734882,10.3 22.5578548,10.3 C17.3808277,10.3 8.65656436,9.58395396 4.73536966,7.18828231 C2.98464816,5.64100827 1.45776482,3.90912381 0.191419293,2.01069697 Z" id="path-70"></path>
+        <path d="M25.9,39.7819625 C35.4500185,39.7819625 35.2906647,45.5200328 41.7451213,45.5200328 C42.6503345,45.5200328 43.7825055,44.6474853 44.2519793,44.1760738 C48.9166722,39.4921284 51.8,33.0327828 51.8,25.9 C51.8,11.595825 40.204175,0 25.9,0 C11.595825,0 0,11.595825 0,25.9 C0,33.2934988 3.09796167,39.96343 8.06661541,44.6825238 C8.70085205,45.1653858 10.5336532,46.0992434 12.3557159,45.3298323 C17.6342889,42.9771311 18.9399842,39.7819625 25.9,39.7819625 Z" id="path-72"></path>
+        <filter x="-12.5%" y="-14.2%" width="125.1%" height="128.5%" filterUnits="objectBoundingBox" id="filter-73">
+            <feGaussianBlur stdDeviation="6" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.671283074   0 0 0 0 0.876302083   0 0 0 0 0.0136749319  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-74">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-75">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <text id="text-76" font-family="FZLTZHK--GBK1-0, FZLanTingHei-DB-GBK" font-size="18" font-weight="normal" letter-spacing="2.79999995" fill="#FFFFFF">
+            <tspan x="6" y="31">示</tspan>
+            <tspan x="26.8" y="31">例</tspan>
+        </text>
+        <filter x="-3.8%" y="-7.1%" width="107.7%" height="114.3%" filterUnits="objectBoundingBox" id="filter-77">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.584051189   0 0 0 0 0.756058673   0 0 0 0 0.0355744937  0 0 0 0.787986866 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-78" x="0" y="0" width="162.191781" height="35.0684932" rx="17.5342466"></rect>
+        <filter x="-4.0%" y="-10.0%" width="108.0%" height="139.9%" filterUnits="objectBoundingBox" id="filter-79">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.457978795   0 0 0 0 0.623758188   0 0 0 0 0.699112457  0 0 0 0.248754529 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-5.0%" y="-6.1%" width="110.0%" height="113.9%" filterUnits="objectBoundingBox" id="filter-80">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.883476828   0 0 0 0 0.630970763   0 0 0 0 0.0966825672  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-81" x="0" y="0" width="320" height="230.136986" rx="12"></rect>
+        <rect id="path-83" x="0" y="0" width="162.191781" height="35.0684932" rx="17.5342466"></rect>
+        <filter x="-4.0%" y="-10.0%" width="108.0%" height="139.9%" filterUnits="objectBoundingBox" id="filter-84">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.457978795   0 0 0 0 0.623758188   0 0 0 0 0.699112457  0 0 0 0.248754529 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-11.7%" y="-11.7%" width="123.4%" height="123.4%" filterUnits="objectBoundingBox" id="filter-85">
+            <feGaussianBlur stdDeviation="2.01981847" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M0.191419293,2.01069697 C2.4660762,0.274785309 10.9726448,0.5 21.2,0.5 C30.882993,0.5 39.0847016,2.03438681 41.8777828,4.15299674 C41.1149544,5.04595138 40.2850732,5.90439644 39.3920719,6.7315929 C35.0715556,9.89330293 27.734882,10.3 22.5578548,10.3 C17.3808277,10.3 8.65656436,9.58395396 4.73536966,7.18828231 C2.98464816,5.64100827 1.45776482,3.90912381 0.191419293,2.01069697 Z" id="path-86"></path>
+        <path d="M25.9,39.7819625 C35.4500185,39.7819625 35.2906647,45.5200328 41.7451213,45.5200328 C42.6503345,45.5200328 43.7825055,44.6474853 44.2519793,44.1760738 C48.9166722,39.4921284 51.8,33.0327828 51.8,25.9 C51.8,11.595825 40.204175,0 25.9,0 C11.595825,0 0,11.595825 0,25.9 C0,33.2934988 3.09796167,39.96343 8.06661541,44.6825238 C8.70085205,45.1653858 10.5336532,46.0992434 12.3557159,45.3298323 C17.6342889,42.9771311 18.9399842,39.7819625 25.9,39.7819625 Z" id="path-88"></path>
+        <filter x="-12.5%" y="-14.2%" width="125.1%" height="128.5%" filterUnits="objectBoundingBox" id="filter-89">
+            <feGaussianBlur stdDeviation="6" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.671283074   0 0 0 0 0.876302083   0 0 0 0 0.0136749319  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-90">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-91">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <text id="text-92" font-family="FZLTZHK--GBK1-0, FZLanTingHei-DB-GBK" font-size="18" font-weight="normal" letter-spacing="2.79999995" fill="#FFFFFF">
+            <tspan x="6" y="31">示</tspan>
+            <tspan x="26.8" y="31">例</tspan>
+        </text>
+        <filter x="-3.8%" y="-7.1%" width="107.7%" height="114.3%" filterUnits="objectBoundingBox" id="filter-93">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.584051189   0 0 0 0 0.756058673   0 0 0 0 0.0355744937  0 0 0 0.787986866 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-4.5%" y="-2.5%" width="109.1%" height="105.8%" filterUnits="objectBoundingBox" id="filter-94">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.883476828   0 0 0 0 0.630970763   0 0 0 0 0.0966825672  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-95" x="0" y="0" width="318.361775" height="496.819113" rx="12"></rect>
+        <rect id="path-97" x="0" y="0" width="166" height="34" rx="17"></rect>
+        <filter x="-3.9%" y="-10.3%" width="107.8%" height="141.2%" filterUnits="objectBoundingBox" id="filter-98">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.457978795   0 0 0 0 0.623758188   0 0 0 0 0.699112457  0 0 0 0.248754529 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-4.5%" y="-4.5%" width="109.1%" height="110.4%" filterUnits="objectBoundingBox" id="filter-99">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.883476828   0 0 0 0 0.630970763   0 0 0 0 0.0966825672  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-100" x="6.25277607e-13" y="0" width="319.452055" height="277.260274" rx="12"></rect>
+        <path d="M0.422617313,2.95832119 L21.9802432,2.95832119" id="path-102"></path>
+        <filter x="-34.4%" y="-191.1%" width="168.8%" height="797.7%" filterUnits="objectBoundingBox" id="filter-103">
+            <feMorphology radius="0.845234625" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.285095941   0 0 0 0 0.630860354   0 0 0 0 0.752418155  0 0 0 0.266021286 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M0.422617313,2.95832119 L21.9802432,2.95832119" id="path-104"></path>
+        <filter x="-34.4%" y="-191.1%" width="168.8%" height="797.7%" filterUnits="objectBoundingBox" id="filter-105">
+            <feMorphology radius="0.845234625" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.854756702   0 0 0 0 0.850282552   0 0 0 0 0.948713861  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-106" x="0" y="0" width="166.575342" height="34" rx="17"></rect>
+        <filter x="-3.9%" y="-10.3%" width="107.8%" height="141.2%" filterUnits="objectBoundingBox" id="filter-107">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.457978795   0 0 0 0 0.623758188   0 0 0 0 0.699112457  0 0 0 0.248754529 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-11.7%" y="-11.7%" width="123.4%" height="123.4%" filterUnits="objectBoundingBox" id="filter-108">
+            <feGaussianBlur stdDeviation="2.01981847" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M0.191419293,2.01069697 C2.4660762,0.274785309 10.9726448,0.5 21.2,0.5 C30.882993,0.5 39.0847016,2.03438681 41.8777828,4.15299674 C41.1149544,5.04595138 40.2850732,5.90439644 39.3920719,6.7315929 C35.0715556,9.89330293 27.734882,10.3 22.5578548,10.3 C17.3808277,10.3 8.65656436,9.58395396 4.73536966,7.18828231 C2.98464816,5.64100827 1.45776482,3.90912381 0.191419293,2.01069697 Z" id="path-109"></path>
+        <path d="M25.9,39.7819625 C35.4500185,39.7819625 35.2906647,45.5200328 41.7451213,45.5200328 C42.6503345,45.5200328 43.7825055,44.6474853 44.2519793,44.1760738 C48.9166722,39.4921284 51.8,33.0327828 51.8,25.9 C51.8,11.595825 40.204175,0 25.9,0 C11.595825,0 0,11.595825 0,25.9 C0,33.2934988 3.09796167,39.96343 8.06661541,44.6825238 C8.70085205,45.1653858 10.5336532,46.0992434 12.3557159,45.3298323 C17.6342889,42.9771311 18.9399842,39.7819625 25.9,39.7819625 Z" id="path-111"></path>
+        <filter x="-12.5%" y="-14.2%" width="125.1%" height="128.5%" filterUnits="objectBoundingBox" id="filter-112">
+            <feGaussianBlur stdDeviation="6" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.671283074   0 0 0 0 0.876302083   0 0 0 0 0.0136749319  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-113">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-114">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <text id="text-115" font-family="FZLTZHK--GBK1-0, FZLanTingHei-DB-GBK" font-size="18" font-weight="normal" letter-spacing="2.79999995" fill="#FFFFFF">
+            <tspan x="6" y="31">示</tspan>
+            <tspan x="26.8" y="31">例</tspan>
+        </text>
+        <filter x="-3.8%" y="-7.1%" width="107.7%" height="114.3%" filterUnits="objectBoundingBox" id="filter-116">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.584051189   0 0 0 0 0.756058673   0 0 0 0 0.0355744937  0 0 0 0.787986866 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-117" points="0 0 375 0 375 52.9120044 201.572862 52.0182632 187.515289 63 173.457716 52.0182632 0 52.9120044"></polygon>
+        <filter x="-0.5%" y="-3.2%" width="101.1%" height="106.3%" filterUnits="objectBoundingBox" id="filter-118">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.600708663   0 0 0 0 0.0669191919  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-4.5%" y="-2.4%" width="109.1%" height="105.5%" filterUnits="objectBoundingBox" id="filter-119">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.883476828   0 0 0 0 0.630970763   0 0 0 0 0.0966825672  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-120" x="-4.54747351e-13" y="0" width="318.361775" height="527.508532" rx="12"></rect>
+        <rect id="path-122" x="0" y="0" width="166.006826" height="34.9488055" rx="17.4744027"></rect>
+        <filter x="-3.9%" y="-10.0%" width="107.8%" height="140.1%" filterUnits="objectBoundingBox" id="filter-123">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.457978795   0 0 0 0 0.623758188   0 0 0 0 0.699112457  0 0 0 0.248754529 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-11.7%" y="-11.7%" width="123.4%" height="123.4%" filterUnits="objectBoundingBox" id="filter-124">
+            <feGaussianBlur stdDeviation="2.01981847" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M0.191419293,2.01069697 C2.4660762,0.274785309 10.9726448,0.5 21.2,0.5 C30.882993,0.5 39.0847016,2.03438681 41.8777828,4.15299674 C41.1149544,5.04595138 40.2850732,5.90439644 39.3920719,6.7315929 C35.0715556,9.89330293 27.734882,10.3 22.5578548,10.3 C17.3808277,10.3 8.65656436,9.58395396 4.73536966,7.18828231 C2.98464816,5.64100827 1.45776482,3.90912381 0.191419293,2.01069697 Z" id="path-125"></path>
+        <path d="M25.9,39.7819625 C35.4500185,39.7819625 35.2906647,45.5200328 41.7451213,45.5200328 C42.6503345,45.5200328 43.7825055,44.6474853 44.2519793,44.1760738 C48.9166722,39.4921284 51.8,33.0327828 51.8,25.9 C51.8,11.595825 40.204175,0 25.9,0 C11.595825,0 0,11.595825 0,25.9 C0,33.2934988 3.09796167,39.96343 8.06661541,44.6825238 C8.70085205,45.1653858 10.5336532,46.0992434 12.3557159,45.3298323 C17.6342889,42.9771311 18.9399842,39.7819625 25.9,39.7819625 Z" id="path-127"></path>
+        <filter x="-12.5%" y="-14.2%" width="125.1%" height="128.5%" filterUnits="objectBoundingBox" id="filter-128">
+            <feGaussianBlur stdDeviation="6" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.671283074   0 0 0 0 0.876302083   0 0 0 0 0.0136749319  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-129">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-130">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <text id="text-131" font-family="FZLTZHK--GBK1-0, FZLanTingHei-DB-GBK" font-size="18" font-weight="normal" letter-spacing="2.79999995" fill="#FFFFFF">
+            <tspan x="6" y="31">示</tspan>
+            <tspan x="26.8" y="31">例</tspan>
+        </text>
+        <filter x="-3.8%" y="-7.1%" width="107.7%" height="114.3%" filterUnits="objectBoundingBox" id="filter-132">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.584051189   0 0 0 0 0.756058673   0 0 0 0 0.0355744937  0 0 0 0.787986866 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-11.7%" y="-11.7%" width="123.4%" height="123.4%" filterUnits="objectBoundingBox" id="filter-133">
+            <feGaussianBlur stdDeviation="2.01981847" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M0.191419293,2.01069697 C2.4660762,0.274785309 10.9726448,0.5 21.2,0.5 C30.882993,0.5 39.0847016,2.03438681 41.8777828,4.15299674 C41.1149544,5.04595138 40.2850732,5.90439644 39.3920719,6.7315929 C35.0715556,9.89330293 27.734882,10.3 22.5578548,10.3 C17.3808277,10.3 8.65656436,9.58395396 4.73536966,7.18828231 C2.98464816,5.64100827 1.45776482,3.90912381 0.191419293,2.01069697 Z" id="path-134"></path>
+        <path d="M25.9,39.7819625 C35.4500185,39.7819625 35.2906647,45.5200328 41.7451213,45.5200328 C42.6503345,45.5200328 43.7825055,44.6474853 44.2519793,44.1760738 C48.9166722,39.4921284 51.8,33.0327828 51.8,25.9 C51.8,11.595825 40.204175,0 25.9,0 C11.595825,0 0,11.595825 0,25.9 C0,33.2934988 3.09796167,39.96343 8.06661541,44.6825238 C8.70085205,45.1653858 10.5336532,46.0992434 12.3557159,45.3298323 C17.6342889,42.9771311 18.9399842,39.7819625 25.9,39.7819625 Z" id="path-136"></path>
+        <filter x="-12.5%" y="-14.2%" width="125.1%" height="128.5%" filterUnits="objectBoundingBox" id="filter-137">
+            <feGaussianBlur stdDeviation="6" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.671283074   0 0 0 0 0.876302083   0 0 0 0 0.0136749319  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-138">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-139">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <text id="text-140" font-family="FZLTZHK--GBK1-0, FZLanTingHei-DB-GBK" font-size="18" font-weight="normal" letter-spacing="2.79999995" fill="#FFFFFF">
+            <tspan x="6" y="31">示</tspan>
+            <tspan x="26.8" y="31">例</tspan>
+        </text>
+        <filter x="-3.8%" y="-7.1%" width="107.7%" height="114.3%" filterUnits="objectBoundingBox" id="filter-141">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.584051189   0 0 0 0 0.756058673   0 0 0 0 0.0355744937  0 0 0 0.787986866 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6" transform="translate(0.000000, -695.000000)">
+            <rect id="Rectangle-8" fill="#EEF2F4" x="0" y="176" width="375" height="2047"></rect>
+            <rect id="Rectangle-8" fill="#FDB826" transform="translate(187.500000, 2967.500000) scale(1, -1) translate(-187.500000, -2967.500000) " x="0" y="695" width="375" height="4545"></rect>
+            <g id="Group-8" transform="translate(28.000000, 1768.000000)">
+                <g id="Group-Copy" transform="translate(7.671233, 442.853881)" fill="#FFFFFF" font-family="PingFangSC-Medium, PingFang SC" font-size="15" font-weight="400" line-spacing="22">
+                    <g id="Group-12" transform="translate(0.000000, 0.000000)">
+                        <text id="客观展示“你的单科成绩好过了年级中多少同">
+                            <tspan x="0" y="16">客观展示“你的单科成绩好过了年级中多少同</tspan>
+                            <tspan x="0" y="38">学”，图形面积越大代表总成绩越优秀。</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="1@3x" transform="translate(-0.000000, 0.000000)">
+                    <g id="Screenshot_2017-11-14-16-47-47" filter="url(#filter-1)" transform="translate(0.000000, 20.091324)">
+                        <g id="Group-17">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" xlink:href="#path-2"></use>
+                            <rect id="Rectangle-8-Copy" fill="#F7FCFF" mask="url(#mask-3)" x="0" y="0" width="320" height="316.712329"></rect>
+                            <g id="Group-16" mask="url(#mask-3)">
+                                <g transform="translate(20.821918, 338.630137)">
+                                    <circle id="Oval-5" fill="#76CA37" fill-rule="evenodd" cx="12.0547945" cy="12.0547945" r="12.0547945"></circle>
+                                    <text id="" fill="none" font-family="FontAwesome5FreeRegular, Font Awesome 5 Free" font-size="15.3424658" font-weight="normal">
+                                        <tspan x="6.31635274" y="17.3835616" fill="#FFFFFF"></tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <text id="优势学科：" mask="url(#mask-3)" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="60.2739726" y="354.630137">优势学科：</tspan>
+                            </text>
+                            <text id="劣势学科：" mask="url(#mask-3)" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="60.2739726" y="378.739726">劣势学科：</tspan>
+                            </text>
+                            <text id="物理-数学" mask="url(#mask-3)" font-family="PingFangSC-Regular, PingFang SC" font-size="14.2465753" font-weight="normal" fill="#BDA01C">
+                                <tspan x="130.410959" y="378.835616">物理    数学</tspan>
+                            </text>
+                            <text id="思想品德-英语" mask="url(#mask-3)" font-family="PingFangSC-Regular, PingFang SC" font-size="14.2465753" font-weight="normal" fill="#BDA01C">
+                                <tspan x="130.410959" y="354.726027">思想品德   英语</tspan>
+                            </text>
+                            <g id="Group-39" mask="url(#mask-3)">
+                                <g transform="translate(8.767123, 32.876712)">
+                                    <g id="Group-38" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(28.192689, 19.193948)">
+                                        <ellipse id="Oval" stroke="#A0C0D1" stroke-width="0.793933151" fill-opacity="0.202983469" fill="#FFFFFF" cx="118.957598" cy="119.030504" rx="114.992345" ry="115.021598"></ellipse>
+                                        <path d="M0,119.030504 L237.915197,119.030504" id="Line" stroke="#A0C0D1" stroke-width="0.793933151" stroke-linecap="square"></path>
+                                        <path d="M-4.54747351e-13,119.030504 L237.915197,119.030504" id="Line" stroke="#A0C0D1" stroke-width="0.793933151" stroke-linecap="square" transform="translate(118.957598, 119.030504) rotate(-315.000000) translate(-118.957598, -119.030504) "></path>
+                                        <path d="M1.36424205e-12,119.030504 L237.915197,119.030504" id="Line" stroke="#A0C0D1" stroke-width="0.793933151" stroke-linecap="square" transform="translate(118.957598, 119.030504) rotate(-270.000000) translate(-118.957598, -119.030504) "></path>
+                                        <path d="M203.073323,34.8933808 L34.8418739,203.167626" id="Line" stroke="#A0C0D1" stroke-width="0.793933151" stroke-linecap="square"></path>
+                                        <ellipse id="Oval" stroke="#A0C0D1" stroke-width="0.793933151" stroke-linecap="square" cx="118.957598" cy="119.030504" rx="83.2703189" ry="83.2915022"></ellipse>
+                                        <ellipse id="Oval" stroke="#B9D1DD" stroke-width="0.793933151" stroke-linecap="square" cx="118.957598" cy="119.030504" rx="51.5482927" ry="51.5614061"></ellipse>
+                                    </g>
+                                    <polygon id="Path-2" stroke="#118DE0" stroke-width="0.793933151" fill="#32BEF2" fill-rule="evenodd" opacity="0.800000012" transform="translate(139.934722, 143.867112) rotate(27.000000) translate(-139.934722, -143.867112) " points="56.5473447 107.496923 105.983769 61.7432833 158.273511 94.0699405 223.322099 94.5052821 186.576959 149.618584 189.67213 225.99094 130.962003 177.955819 62.6915173 176.350651"></polygon>
+                                    <text id="66%" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="12.3090411" font-weight="normal">
+                                        <tspan x="135.890411" y="68.890411" fill="#1D7AAA">66%</tspan>
+                                    </text>
+                                    <text id="80%" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="12.3090411" font-weight="normal">
+                                        <tspan x="135.890411" y="36.0136986" fill="#1D7AAA">80%</tspan>
+                                    </text>
+                                    <text id="60%" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="12.3090411" font-weight="normal">
+                                        <tspan x="135.890411" y="100.671233" fill="#1D7AAA">60%</tspan>
+                                    </text>
+                                    <text id="19%" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="12.3090411" font-weight="normal">
+                                        <tspan x="134.794521" y="131.356164" fill="#1D7AAA"> 19%</tspan>
+                                    </text>
+                                    <text id="语文" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="13.1506849" font-weight="normal">
+                                        <tspan x="134.969038" y="14" fill="#4C4C4C">语文</tspan>
+                                    </text>
+                                    <text id="数学" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="13.1506849" font-weight="normal">
+                                        <tspan x="237.177831" y="52.0761153" fill="#4C4C4C">数学</tspan>
+                                    </text>
+                                    <text id="英语" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="13.1506849" font-weight="normal">
+                                        <tspan x="274.98968" y="140.920384" fill="#4C4C4C">英语</tspan>
+                                    </text>
+                                    <text id="历史" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="13.1506849" font-weight="normal">
+                                        <tspan x="240.247421" y="230.557906" fill="#4C4C4C">历史</tspan>
+                                    </text>
+                                    <text id="思想品德" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="13.1506849" font-weight="normal">
+                                        <tspan x="121.818353" y="273.017583" fill="#4C4C4C">思想品德</tspan>
+                                    </text>
+                                    <text id="物理" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="13.1506849" font-weight="normal">
+                                        <tspan x="27.8077248" y="230.181953" fill="#4C4C4C">物理</tspan>
+                                    </text>
+                                    <text id="化学" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="13.1506849" font-weight="normal">
+                                        <tspan x="6.25277607e-13" y="140.127132" fill="#4C4C4C">化学</tspan>
+                                    </text>
+                                    <text id="生物" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="12.3090411" font-weight="normal">
+                                        <tspan x="33.7910631" y="53.1949741" fill="#4C4C4C">生物</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-10" transform="translate(76.712329, 0.000000)">
+                        <g id="Rectangle-4">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use fill="#3FC3FF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                        <text id="优劣学科" font-family="PingFangSC-Medium, PingFang SC" font-size="18" font-weight="400" fill="#FFFFFF">
+                            <tspan x="47" y="24">优劣学科</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-35-Copy-2" transform="translate(268.000000, 5.000000)">
+                    <g id="Group-34">
+                        <path d="M25.9,53.2 C32.3535196,53.2 38.255759,50.8396887 42.7905496,46.9352345 C48.3070864,42.1854971 51.8,35.1506554 51.8,27.3 C51.8,12.995825 40.204175,1.4 25.9,1.4 C11.595825,1.4 0,12.995825 0,27.3 C0,35.1567901 3.49837469,42.196491 9.02238641,46.9463651 C13.5554628,50.844174 19.4526151,53.2 25.9,53.2 Z" id="Oval-6-Copy-8" fill-opacity="0.446925951" fill="#52892E" opacity="0.684176772" filter="url(#filter-6)"></path>
+                        <g id="Group-33">
+                            <g id="Oval-7" transform="translate(4.000000, 38.000000)">
+                                <mask id="mask-9" fill="white">
+                                    <use xlink:href="#path-8"></use>
+                                </mask>
+                                <use id="Combined-Shape" fill="url(#linearGradient-7)" xlink:href="#path-8"></use>
+                            </g>
+                            <g id="Oval-6-Copy-5">
+                                <use fill="#AFE405" fill-rule="evenodd" xlink:href="#path-10"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                                <path stroke="#E1FF80" stroke-width="0.5" d="M25.9,39.5319625 C30.0010838,39.5319625 32.3548245,40.4180959 35.1310134,42.4492324 C35.3285574,42.593761 36.052322,43.1336814 36.2188324,43.2556899 C38.1908978,44.700698 39.5558204,45.2700328 41.7451213,45.2700328 C42.4160153,45.2700328 43.4166844,44.6605324 44.0748389,43.9996615 C48.8314933,39.2233751 51.55,32.7770941 51.55,25.9 C51.55,11.7338962 40.0661038,0.25 25.9,0.25 C11.7338962,0.25 0.25,11.7338962 0.25,25.9 C0.25,33.0279187 3.1717067,39.6886822 8.21805359,44.4836105 C9.24562245,45.2659273 10.8705365,45.6856104 12.2539405,45.1014866 C13.2381288,44.6628262 14.1309493,44.1757704 15.0958201,43.5718631 C15.6328872,43.2357158 17.3350302,42.1038525 17.4014831,42.0607489 C20.1821241,40.2571342 22.3026381,39.5319625 25.9,39.5319625 Z"></path>
+                            </g>
+                            <path d="M5.35402609,40.8121934 C6.11876713,41.7897055 6.65598907,42.4574674 6.96569191,42.8154791 C7.89475314,43.8894595 8.13327704,44.118387 8.53382674,44.3765608 C9.26110619,44.8218018 9.7376935,45.0651617 11.0064691,45.1389215 C12.093972,45.0840561 14.1226269,44.0165584 17.0924338,41.9364285 L5.35402609,40.8121934 Z" id="Path-7" fill="url(#linearGradient-12)" opacity="0.632576918" filter="url(#filter-13)"></path>
+                            <path d="M46.8077343,40.3408859 C44.9087033,42.9832739 43.3551203,44.5051413 42.1469854,44.906488 C40.9388505,45.3078348 39.2310105,44.8434732 37.0234653,43.5134033 L46.8077343,40.3408859 Z" id="Path-8" fill="url(#linearGradient-14)" opacity="0.632576918" filter="url(#filter-15)"></path>
+                        </g>
+                    </g>
+                    <g id="示例" fill="#FFFFFF" fill-opacity="1">
+                        <use filter="url(#filter-17)" xlink:href="#text-16"></use>
+                        <use xlink:href="#text-16"></use>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-8-Copy-3" transform="translate(28.000000, 2295.000000)">
+                <g id="Group-Copy" transform="translate(7.671233, 776.004566)" fill="#FFFFFF" font-family="PingFangSC-Medium, PingFang SC" font-size="15" font-weight="400" line-spacing="22">
+                    <g id="Group-12" transform="translate(0.000000, 0.000000)">
+                        <text id="聚焦本次考试数学失分的知识点，查缺补漏。">
+                            <tspan x="0" y="16">聚焦本次考试数学失分的知识点，查缺补漏。</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="1@3x" transform="translate(-0.000000, 0.000000)">
+                    <g id="Screenshot_2017-11-14-16-47-47" filter="url(#filter-18)" transform="translate(0.000000, 20.091324)">
+                        <g id="Group-17">
+                            <mask id="mask-20" fill="white">
+                                <use xlink:href="#path-19"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" xlink:href="#path-19"></use>
+                            <g id="Rectangle-9-Copy" mask="url(#mask-20)">
+                                <use fill="#AFCDE0" fill-rule="evenodd" xlink:href="#path-21"></use>
+                                <rect stroke="#FFFFFF" stroke-width="0.547945205" x="14.5205479" y="486.484018" width="14.7945205" height="14.7945205" rx="7.39726027"></rect>
+                            </g>
+                            <text id="其他" mask="url(#mask-20)" font-family="PingFangSC-Medium, PingFang SC" font-size="15.3424658" font-weight="400" fill="#3A3A3A">
+                                <tspan x="37.260274" y="499.287671">其他</tspan>
+                            </text>
+                            <g id="Group-24" mask="url(#mask-20)" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal">
+                                <g transform="translate(37.260274, 513.607306)">
+                                    <text id="尺规作图" line-spacing="20.8219178">
+                                        <tspan x="0" y="16" fill="#3A3A3A">尺规作图</tspan>
+                                    </text>
+                                    <text id="4-copy">
+                                        <tspan x="130.739726" y="16" fill="#3A3A3A">4</tspan>
+                                    </text>
+                                    <text id="10%">
+                                        <tspan x="210.633425" y="16" fill="#3A3A3A">10%</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <g id="Group-26" mask="url(#mask-20)" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal">
+                                <g transform="translate(37.260274, 553.059361)">
+                                    <text id="一次函数" line-spacing="20.8219178">
+                                        <tspan x="0" y="16" fill="#3A3A3A">一次函数</tspan>
+                                    </text>
+                                    <text id="3">
+                                        <tspan x="130.739726" y="16" fill="#3A3A3A">3</tspan>
+                                    </text>
+                                    <text id="7%">
+                                        <tspan x="214.116164" y="16" fill="#3A3A3A">7%</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <g id="Group-26-Copy" mask="url(#mask-20)" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal">
+                                <g transform="translate(37.260274, 631.232877)">
+                                    <text id="有理数" line-spacing="20.8219178">
+                                        <tspan x="0" y="16" fill="#3A3A3A">有理数</tspan>
+                                    </text>
+                                    <text id="3">
+                                        <tspan x="130.739726" y="16" fill="#3A3A3A">3</tspan>
+                                    </text>
+                                    <text id="7%">
+                                        <tspan x="214.116164" y="16" fill="#3A3A3A">7%</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <g id="Group-26-Copy-2" mask="url(#mask-20)" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal">
+                                <g transform="translate(37.260274, 702.465753)">
+                                    <text id="四边形" line-spacing="20.8219178">
+                                        <tspan x="0" y="16" fill="#3A3A3A">四边形</tspan>
+                                    </text>
+                                    <text id="2">
+                                        <tspan x="130.739726" y="16" fill="#3A3A3A">2</tspan>
+                                    </text>
+                                    <text id="4%">
+                                        <tspan x="213.709589" y="16" fill="#3A3A3A">4%</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <g id="Group-25" mask="url(#mask-20)" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal">
+                                <g transform="translate(37.260274, 592.876712)">
+                                    <text id="无理数与实数">
+                                        <tspan x="0" y="16" fill="#3A3A3A">无理数与实数</tspan>
+                                    </text>
+                                    <text id="3">
+                                        <tspan x="130.739726" y="16" fill="#3A3A3A">3</tspan>
+                                    </text>
+                                    <text id="7%">
+                                        <tspan x="214.116164" y="16" fill="#3A3A3A">7%</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <g id="Group-25-Copy" mask="url(#mask-20)" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal">
+                                <g transform="translate(37.260274, 664.109589)">
+                                    <text id="数据收集与处理">
+                                        <tspan x="0" y="16" fill="#3A3A3A">数据收集与处理</tspan>
+                                    </text>
+                                    <text id="2">
+                                        <tspan x="130.739726" y="16" fill="#3A3A3A">2</tspan>
+                                    </text>
+                                    <text id="4%">
+                                        <tspan x="213.709589" y="16" fill="#3A3A3A">4%</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <rect id="Rectangle-2" fill="#FAFAFA" mask="url(#mask-20)" x="-1.09589041" y="238.538813" width="327.671233" height="40.5479452"></rect>
+                            <g id="Group-18" mask="url(#mask-20)">
+                                <g transform="translate(14.246575, 246.210046)">
+                                    <g id="Group-14" transform="translate(17.630137, 0.000000)" font-family="PingFangSC-Medium, PingFang SC" font-size="15.3424658" font-weight="400">
+                                        <text id="知识点" fill="#3A3A3A">
+                                            <tspan x="1" y="16">知识点</tspan>
+                                        </text>
+                                        <text id="失分值" fill="#3A3A3A">
+                                            <tspan x="117.260274" y="16">失分值</tspan>
+                                        </text>
+                                        <text id="丢分占比" fill="#3A3A3A">
+                                            <tspan x="201.643836" y="16">丢分占比</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="Group-14-Copy" transform="translate(0.000000, 36.164384)">
+                                        <text id="一元二次方程" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="23.0136986" y="16">一元二次方程</tspan>
+                                        </text>
+                                        <g id="Rectangle-9">
+                                            <use fill="#F768A3" fill-rule="evenodd" xlink:href="#path-22"></use>
+                                            <rect stroke="#FFFFFF" stroke-width="0.547945205" x="0.273972603" y="4.65753425" width="14.7945205" height="14.7945205" rx="7.39726027"></rect>
+                                        </g>
+                                        <text id="7" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="153.612055" y="16">7</tspan>
+                                        </text>
+                                        <text id="15%" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="235.290959" y="16">15%</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="Group-14-Copy-3" transform="translate(0.000000, 112.876712)">
+                                        <text id="反比例函数" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="23.0136986" y="16">反比例函数</tspan>
+                                        </text>
+                                        <g id="Rectangle-9">
+                                            <use fill="#9BCB0A" fill-rule="evenodd" xlink:href="#path-23"></use>
+                                            <rect stroke="#FFFFFF" stroke-width="0.547945205" x="0.273972603" y="4.65753425" width="14.7945205" height="14.7945205" rx="7.39726027"></rect>
+                                        </g>
+                                        <text id="6" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="153.205479" y="16">6</tspan>
+                                        </text>
+                                        <text id="14%" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="235.290959" y="16">14%</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="Group-14-Copy-2" transform="translate(0.000000, 75.616438)">
+                                        <text id="二次函数" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="23.0136986" y="16">二次函数</tspan>
+                                        </text>
+                                        <g id="Rectangle-9">
+                                            <use fill="#EBC44F" fill-rule="evenodd" xlink:href="#path-24"></use>
+                                            <rect stroke="#FFFFFF" stroke-width="0.547945205" x="0.273972603" y="4.65753425" width="14.7945205" height="14.7945205" rx="7.39726027"></rect>
+                                        </g>
+                                        <text id="6" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="153.753425" y="16">6</tspan>
+                                        </text>
+                                        <text id="14%" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="234.743014" y="16">14%</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="Group-14-Copy-4" transform="translate(0.000000, 152.328767)">
+                                        <text id="图形的对称" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="23.0136986" y="16">图形的对称</tspan>
+                                        </text>
+                                        <g id="Rectangle-9">
+                                            <use fill="#06C4EC" fill-rule="evenodd" xlink:href="#path-25"></use>
+                                            <rect stroke="#FFFFFF" stroke-width="0.547945205" x="0.273972603" y="4.65753425" width="14.7945205" height="14.7945205" rx="7.39726027"></rect>
+                                        </g>
+                                        <text id="4" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="153.753425" y="16">4</tspan>
+                                        </text>
+                                        <text id="10%" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="234.743014" y="16">10%</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="Group-14-Copy-5" transform="translate(0.000000, 188.493151)">
+                                        <text id="分式方程" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" line-spacing="20.8219178" fill="#3A3A3A">
+                                            <tspan x="23.0136986" y="16">分式方程</tspan>
+                                        </text>
+                                        <g id="Rectangle-9">
+                                            <use fill="#673AB7" fill-rule="evenodd" xlink:href="#path-26"></use>
+                                            <rect stroke="#FFFFFF" stroke-width="0.547945205" x="0.273972603" y="4.65753425" width="14.7945205" height="14.7945205" rx="7.39726027"></rect>
+                                        </g>
+                                        <text id="4" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="153.753425" y="16">4</tspan>
+                                        </text>
+                                        <text id="10%" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="233.647123" y="16">10%</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                            <rect id="Rectangle-8-Copy" fill="#F7FCFF" mask="url(#mask-20)" x="0" y="0" width="320" height="236.712329"></rect>
+                            <g id="Variable-segments-circle" mask="url(#mask-20)">
+                                <g transform="translate(74.520548, 32.876712)">
+                                    <g id="Segment-15">
+                                        <use fill="#F768A3" fill-rule="evenodd" xlink:href="#path-27"></use>
+                                        <path stroke="#FFFFFF" stroke-width="0.547945205" d="M88.9320521,0.274396393 L88.9320521,30.4116061 C107.885679,30.5017824 125.574179,39.9446896 136.178306,55.6336838 L161.266791,38.8857503 C145.058447,14.8275747 117.964095,0.364847603 88.9320521,0.274399364 Z"></path>
+                                    </g>
+                                    <g id="Segment-14">
+                                        <use fill="#EBC44F" fill-rule="evenodd" xlink:href="#path-28"></use>
+                                        <path stroke="#FFFFFF" stroke-width="0.547945205" d="M161.571485,39.3411685 L136.483025,56.0890856 C146.210187,70.7741501 148.625341,89.1085121 143.033883,105.814126 L171.605491,115.50125 C180.206454,89.9240132 176.504463,61.8169756 161.571485,39.3411685 Z"></path>
+                                    </g>
+                                    <g id="Segment-14">
+                                        <use fill="#9BCB0A" fill-rule="evenodd" xlink:href="#path-29"></use>
+                                        <path stroke="#FFFFFF" stroke-width="0.547945205" d="M171.429218,116.020068 L142.857492,106.332904 C137.106995,122.984024 124.01448,136.060307 107.342791,141.803655 L117.041832,170.339383 C142.593671,161.590606 162.66941,141.539949 171.429216,116.020067 Z"></path>
+                                    </g>
+                                    <g id="Segment-10">
+                                        <use fill="#06C4EC" fill-rule="evenodd" xlink:href="#path-30"></use>
+                                        <path stroke="#FFFFFF" stroke-width="0.547945205" d="M116.522898,170.515314 L106.823873,141.979633 C95.0313677,145.915465 82.2847913,145.915465 70.4922863,141.979632 L60.7932607,170.515314 C78.8794306,176.58622 98.4367283,176.58622 116.522898,170.515313 Z"></path>
+                                    </g>
+                                    <g id="Segment-10">
+                                        <use fill="#673AB7" fill-rule="evenodd" xlink:href="#path-31"></use>
+                                        <path stroke="#FFFFFF" stroke-width="0.547945205" d="M60.2743459,170.339327 L69.9733586,141.803682 C58.2150005,137.754235 48.0926192,129.999283 41.1378431,119.708789 L16.0493647,136.456718 C26.6948672,152.258474 42.2232673,164.154535 60.2743459,170.339327 Z"></path>
+                                    </g>
+                                    <g id="Segment-33">
+                                        <use fill="#AFCDE0" fill-rule="evenodd" xlink:href="#path-32"></use>
+                                        <path stroke="#FFFFFF" stroke-width="0.547945205" d="M15.7446631,136.001304 L40.8330409,119.253443 C40.2105385,118.313886 39.6075781,117.336546 39.0093656,116.301493 C28.7690401,98.5859781 28.7690401,76.7564876 39.0093656,59.0409727 C49.203869,41.4047289 68.0088448,30.5084666 88.3841069,30.41161 L88.3841069,0.274393203 C86.5676745,0.279970334 84.7512544,0.341011332 82.9351716,0.457495361 C51.7382341,2.50266085 23.9991852,21.0142 10.1736092,49.0155404 C-3.61275843,76.9374711 -1.48494,110.070759 15.7446665,136.001302 Z"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-10" transform="translate(63.561644, 0.000000)">
+                        <g id="Rectangle-4">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-34)" xlink:href="#path-33"></use>
+                            <use fill="#3FC3FF" fill-rule="evenodd" xlink:href="#path-33"></use>
+                        </g>
+                        <text id="失分较多知识点" font-family="PingFangSC-Medium, PingFang SC" font-size="18" font-weight="400" fill="#FFFFFF">
+                            <tspan x="33" y="24">失分较多知识点</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-35-Copy-2" transform="translate(296.000000, 2300.000000)">
+                <g id="Group-34">
+                    <path d="M25.9,53.2 C32.3535196,53.2 38.255759,50.8396887 42.7905496,46.9352345 C48.3070864,42.1854971 51.8,35.1506554 51.8,27.3 C51.8,12.995825 40.204175,1.4 25.9,1.4 C11.595825,1.4 0,12.995825 0,27.3 C0,35.1567901 3.49837469,42.196491 9.02238641,46.9463651 C13.5554628,50.844174 19.4526151,53.2 25.9,53.2 Z" id="Oval-6-Copy-8" fill-opacity="0.446925951" fill="#52892E" opacity="0.684176772" filter="url(#filter-35)"></path>
+                    <g id="Group-33">
+                        <g id="Oval-7" transform="translate(4.000000, 38.000000)">
+                            <mask id="mask-37" fill="white">
+                                <use xlink:href="#path-36"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="url(#linearGradient-7)" xlink:href="#path-36"></use>
+                        </g>
+                        <g id="Oval-6-Copy-5">
+                            <use fill="#AFE405" fill-rule="evenodd" xlink:href="#path-38"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-39)" xlink:href="#path-38"></use>
+                            <path stroke="#E1FF80" stroke-width="0.5" d="M25.9,39.5319625 C30.0010838,39.5319625 32.3548245,40.4180959 35.1310134,42.4492324 C35.3285574,42.593761 36.052322,43.1336814 36.2188324,43.2556899 C38.1908978,44.700698 39.5558204,45.2700328 41.7451213,45.2700328 C42.4160153,45.2700328 43.4166844,44.6605324 44.0748389,43.9996615 C48.8314933,39.2233751 51.55,32.7770941 51.55,25.9 C51.55,11.7338962 40.0661038,0.25 25.9,0.25 C11.7338962,0.25 0.25,11.7338962 0.25,25.9 C0.25,33.0279187 3.1717067,39.6886822 8.21805359,44.4836105 C9.24562245,45.2659273 10.8705365,45.6856104 12.2539405,45.1014866 C13.2381288,44.6628262 14.1309493,44.1757704 15.0958201,43.5718631 C15.6328872,43.2357158 17.3350302,42.1038525 17.4014831,42.0607489 C20.1821241,40.2571342 22.3026381,39.5319625 25.9,39.5319625 Z"></path>
+                        </g>
+                        <path d="M5.35402609,40.8121934 C6.11876713,41.7897055 6.65598907,42.4574674 6.96569191,42.8154791 C7.89475314,43.8894595 8.13327704,44.118387 8.53382674,44.3765608 C9.26110619,44.8218018 9.7376935,45.0651617 11.0064691,45.1389215 C12.093972,45.0840561 14.1226269,44.0165584 17.0924338,41.9364285 L5.35402609,40.8121934 Z" id="Path-7" fill="url(#linearGradient-12)" opacity="0.632576918" filter="url(#filter-40)"></path>
+                        <path d="M46.8077343,40.3408859 C44.9087033,42.9832739 43.3551203,44.5051413 42.1469854,44.906488 C40.9388505,45.3078348 39.2310105,44.8434732 37.0234653,43.5134033 L46.8077343,40.3408859 Z" id="Path-8" fill="url(#linearGradient-14)" opacity="0.632576918" filter="url(#filter-41)"></path>
+                    </g>
+                </g>
+                <g id="示例" fill="#FFFFFF" fill-opacity="1">
+                    <use filter="url(#filter-43)" xlink:href="#text-42"></use>
+                    <use xlink:href="#text-42"></use>
+                </g>
+            </g>
+            <g id="Group-8-Copy-4" transform="translate(28.000000, 3134.000000)">
+                <g id="Group-Copy" transform="translate(7.671233, 512.990868)" fill="#FFFFFF" font-family="PingFangSC-Medium, PingFang SC" font-size="15" font-weight="400" line-spacing="22">
+                    <g id="Group-12" transform="translate(0.000000, 0.000000)">
+                        <text id="聚焦本次考试数学失分的能力，查缺补漏。">
+                            <tspan x="0" y="16">聚焦本次考试数学失分的能力，查缺补漏。</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="1@3x" transform="translate(-0.000000, 0.000000)">
+                    <g id="Screenshot_2017-11-14-16-47-47" filter="url(#filter-44)" transform="translate(0.000000, 20.091324)">
+                        <g id="Group-17">
+                            <mask id="mask-46" fill="white">
+                                <use xlink:href="#path-45"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" xlink:href="#path-45"></use>
+                            <rect id="Rectangle-2" fill="#FAFAFA" mask="url(#mask-46)" x="-1.09589041" y="271.415525" width="327.671233" height="40.5479452"></rect>
+                            <g id="Group-18" mask="url(#mask-46)">
+                                <g transform="translate(14.246575, 279.452055)">
+                                    <g id="Group-14" transform="translate(17.630137, 0.000000)" font-family="PingFangSC-Medium, PingFang SC" font-size="15.3424658" font-weight="400">
+                                        <text id="知识点" fill="#3A3A3A">
+                                            <tspan x="1" y="16">知识点</tspan>
+                                        </text>
+                                        <text id="失分值" fill="#3A3A3A">
+                                            <tspan x="117.260274" y="16">失分值</tspan>
+                                        </text>
+                                        <text id="丢分占比" fill="#3A3A3A">
+                                            <tspan x="201.643836" y="16">丢分占比</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="Group-14-Copy" transform="translate(0.000000, 36.164384)">
+                                        <text id="问题解决" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="23.0136986" y="16">问题解决</tspan>
+                                        </text>
+                                        <g id="Rectangle-9">
+                                            <use fill="#F768A3" fill-rule="evenodd" xlink:href="#path-47"></use>
+                                            <rect stroke="#FFFFFF" stroke-width="0.547945205" x="0.273972603" y="4.65753425" width="14.7945205" height="14.7945205" rx="7.39726027"></rect>
+                                        </g>
+                                        <text id="32" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="148.60274" y="16">32</tspan>
+                                        </text>
+                                        <text id="56%" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="233.764384" y="16">56%</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="Group-14-Copy-3" transform="translate(0.000000, 112.876712)">
+                                        <text id="知识技能" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="23.0136986" y="16">知识技能</tspan>
+                                        </text>
+                                        <g id="Rectangle-9">
+                                            <use fill="#9BCB0A" fill-rule="evenodd" xlink:href="#path-48"></use>
+                                            <rect stroke="#FFFFFF" stroke-width="0.547945205" x="0.273972603" y="4.65753425" width="14.7945205" height="14.7945205" rx="7.39726027"></rect>
+                                        </g>
+                                        <text id="9" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="153.205479" y="16">9</tspan>
+                                        </text>
+                                        <text id="16%" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="235.290959" y="16">16%</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="Group-14-Copy-2" transform="translate(0.000000, 75.616438)">
+                                        <text id="思想方法" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="23.0136986" y="16">思想方法</tspan>
+                                        </text>
+                                        <g id="Rectangle-9">
+                                            <use fill="#EBC44F" fill-rule="evenodd" xlink:href="#path-49"></use>
+                                            <rect stroke="#FFFFFF" stroke-width="0.547945205" x="0.273972603" y="4.65753425" width="14.7945205" height="14.7945205" rx="7.39726027"></rect>
+                                        </g>
+                                        <text id="10" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="150.67726" y="16">10</tspan>
+                                        </text>
+                                        <text id="17%" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="235.149589" y="16">17%</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="Group-14-Copy-4" transform="translate(0.000000, 152.328767)">
+                                        <text id="迁移创新" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="23.0136986" y="16">迁移创新</tspan>
+                                        </text>
+                                        <g id="Rectangle-9">
+                                            <use fill="#06C4EC" fill-rule="evenodd" xlink:href="#path-50"></use>
+                                            <rect stroke="#FFFFFF" stroke-width="0.547945205" x="0.273972603" y="4.65753425" width="14.7945205" height="14.7945205" rx="7.39726027"></rect>
+                                        </g>
+                                        <text id="6" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="153.753425" y="16">6</tspan>
+                                        </text>
+                                        <text id="12%" font-family="PingFangSC-Regular, PingFang SC" font-size="15.3424658" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="234.743014" y="16">12%</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                            <rect id="Rectangle-8-Copy" fill="#F7FCFF" mask="url(#mask-46)" x="0" y="0" width="320" height="264.109589"></rect>
+                            <g id="Variable-segments-circle" mask="url(#mask-46)">
+                                <g transform="translate(157.808219, 135.525114) rotate(-37.000000) translate(-157.808219, -135.525114) translate(70.136986, 47.853881)">
+                                    <g id="Segment-6">
+                                        <use fill="#06C4EC" fill-rule="evenodd" xlink:href="#path-51"></use>
+                                        <path stroke="#FFFFFF" stroke-width="0.547945205" d="M87.9452055,0.274409696 L87.9452055,30.5943131 C100.404547,30.6551715 112.50679,34.8658913 122.381637,42.5725695 L140.768314,18.647876 C125.637624,6.79340836 107.070949,0.335513132 87.9452055,0.27441024 Z"></path>
+                                    </g>
+                                    <g id="Segment-32">
+                                        <use fill="#F768A3" fill-rule="evenodd" xlink:href="#path-52"></use>
+                                        <path stroke="#FFFFFF" stroke-width="0.547945205" d="M141.493789,18.7954579 L122.940916,42.5908061 C128.691618,47.1015218 133.523986,52.6652172 137.176177,58.9831024 C147.425674,76.7077682 147.425674,98.5485485 137.176177,116.273214 C126.926845,133.997595 107.981971,144.917946 87.4831654,144.917946 C67.0756983,144.917946 48.2083454,134.094696 37.9276777,116.509738 L11.7721639,131.586602 C17.4070457,141.259052 24.8473991,149.762008 33.6882617,156.629019 C58.3795363,175.814854 91.4519949,180.395645 120.441584,168.643721 C149.430843,156.89193 169.935556,130.590065 174.236153,99.6427143 C178.523617,68.7898666 166.043512,37.9940705 141.493789,18.7954579 Z"></path>
+                                    </g>
+                                    <g id="Segment-10">
+                                        <use fill="#EBC44F" fill-rule="evenodd" xlink:href="#path-53"></use>
+                                        <path stroke="#FFFFFF" stroke-width="0.547945205" d="M11.9534592,131.133394 L38.2984497,116.01857 C37.815596,115.184823 37.3549896,114.336387 36.9167531,113.473505 C27.632792,95.2513168 28.7952059,73.5056349 39.9490036,56.3621363 L14.4817974,39.8307771 C13.6418792,41.1238449 12.8459454,42.4153536 12.0899751,43.7136292 C-3.61905854,70.7557824 -3.66456269,104.05499 11.9534626,131.133392 Z"></path>
+                                    </g>
+                                    <g id="Segment-9">
+                                        <use fill="#9BCB0A" fill-rule="evenodd" xlink:href="#path-54"></use>
+                                        <path stroke="#FFFFFF" stroke-width="0.547945205" d="M14.4087945,39.3668136 L39.7223608,55.7325154 C50.2994592,39.8722585 68.1934812,30.2877001 87.3972603,30.1973563 L87.3972603,0.274391726 C57.9872672,0.36504138 30.5744783,15.0469472 14.4087972,39.3668153 Z"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-10" transform="translate(78.904110, 0.000000)">
+                        <g id="Rectangle-4">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-56)" xlink:href="#path-55"></use>
+                            <use fill="#3FC3FF" fill-rule="evenodd" xlink:href="#path-55"></use>
+                        </g>
+                        <text id="失分较多能力" font-family="PingFangSC-Medium, PingFang SC" font-size="18" font-weight="400" fill="#FFFFFF">
+                            <tspan x="27" y="24">失分较多能力</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-35-Copy-2" transform="translate(267.000000, 5.000000)">
+                    <g id="Group-34">
+                        <path d="M25.9,53.2 C32.3535196,53.2 38.255759,50.8396887 42.7905496,46.9352345 C48.3070864,42.1854971 51.8,35.1506554 51.8,27.3 C51.8,12.995825 40.204175,1.4 25.9,1.4 C11.595825,1.4 0,12.995825 0,27.3 C0,35.1567901 3.49837469,42.196491 9.02238641,46.9463651 C13.5554628,50.844174 19.4526151,53.2 25.9,53.2 Z" id="Oval-6-Copy-8" fill-opacity="0.446925951" fill="#52892E" opacity="0.684176772" filter="url(#filter-57)"></path>
+                        <g id="Group-33">
+                            <g id="Oval-7" transform="translate(4.000000, 38.000000)">
+                                <mask id="mask-59" fill="white">
+                                    <use xlink:href="#path-58"></use>
+                                </mask>
+                                <use id="Combined-Shape" fill="url(#linearGradient-7)" xlink:href="#path-58"></use>
+                            </g>
+                            <g id="Oval-6-Copy-5">
+                                <use fill="#AFE405" fill-rule="evenodd" xlink:href="#path-60"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-61)" xlink:href="#path-60"></use>
+                                <path stroke="#E1FF80" stroke-width="0.5" d="M25.9,39.5319625 C30.0010838,39.5319625 32.3548245,40.4180959 35.1310134,42.4492324 C35.3285574,42.593761 36.052322,43.1336814 36.2188324,43.2556899 C38.1908978,44.700698 39.5558204,45.2700328 41.7451213,45.2700328 C42.4160153,45.2700328 43.4166844,44.6605324 44.0748389,43.9996615 C48.8314933,39.2233751 51.55,32.7770941 51.55,25.9 C51.55,11.7338962 40.0661038,0.25 25.9,0.25 C11.7338962,0.25 0.25,11.7338962 0.25,25.9 C0.25,33.0279187 3.1717067,39.6886822 8.21805359,44.4836105 C9.24562245,45.2659273 10.8705365,45.6856104 12.2539405,45.1014866 C13.2381288,44.6628262 14.1309493,44.1757704 15.0958201,43.5718631 C15.6328872,43.2357158 17.3350302,42.1038525 17.4014831,42.0607489 C20.1821241,40.2571342 22.3026381,39.5319625 25.9,39.5319625 Z"></path>
+                            </g>
+                            <path d="M5.35402609,40.8121934 C6.11876713,41.7897055 6.65598907,42.4574674 6.96569191,42.8154791 C7.89475314,43.8894595 8.13327704,44.118387 8.53382674,44.3765608 C9.26110619,44.8218018 9.7376935,45.0651617 11.0064691,45.1389215 C12.093972,45.0840561 14.1226269,44.0165584 17.0924338,41.9364285 L5.35402609,40.8121934 Z" id="Path-7" fill="url(#linearGradient-12)" opacity="0.632576918" filter="url(#filter-62)"></path>
+                            <path d="M46.8077343,40.3408859 C44.9087033,42.9832739 43.3551203,44.5051413 42.1469854,44.906488 C40.9388505,45.3078348 39.2310105,44.8434732 37.0234653,43.5134033 L46.8077343,40.3408859 Z" id="Path-8" fill="url(#linearGradient-14)" opacity="0.632576918" filter="url(#filter-63)"></path>
+                        </g>
+                    </g>
+                    <g id="示例" fill="#FFFFFF" fill-opacity="1">
+                        <use filter="url(#filter-65)" xlink:href="#text-64"></use>
+                        <use xlink:href="#text-64"></use>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-8-Copy-5" transform="translate(28.000000, 4690.000000)">
+                <g id="Group-Copy" transform="translate(7.671233, 460.753425)" fill="#FFFFFF" font-family="PingFangSC-Medium, PingFang SC" font-size="15" font-weight="400" line-spacing="22">
+                    <g id="Group-12" transform="translate(0.000000, 0.000000)">
+                        <text id="结合不该失分的知识点和薄弱知识点，对照w">
+                            <tspan x="0" y="16">结合不该失分的知识点和薄弱知识点，对照</tspan>
+                            <tspan x="0" y="38">web端错题本，查看答案和解析，并针对题目</tspan>
+                            <tspan x="0" y="60">强化复习，快速提高成绩。</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="1@3x" transform="translate(-0.000000, 0.000000)">
+                    <g id="Screenshot_2017-11-14-16-47-47" filter="url(#filter-66)" transform="translate(0.000000, 20.091324)">
+                        <g id="Group-17">
+                            <mask id="mask-68" fill="white">
+                                <use xlink:href="#path-67"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" xlink:href="#path-67"></use>
+                            <text id="客观题" mask="url(#mask-68)" font-family="PingFangSC-Medium, PingFang SC" font-size="14.2465753" font-weight="400" fill="#56C0E0">
+                                <tspan x="21.9178082" y="166.232877">客观题</tspan>
+                            </text>
+                            <text id="一、选择题（共12小题，满分36分）" mask="url(#mask-68)" font-family="PingFangSC-Regular, PingFang SC" font-size="14.2465753" font-weight="normal" fill="#55595C">
+                                <tspan x="21.9178082" y="191.438356">一、选择题（共12小题，满分36分）</tspan>
+                            </text>
+                            <text id="1" mask="url(#mask-68)" font-family="PingFangSC-Regular, PingFang SC" font-size="17.5342466" font-weight="normal" fill="#55595C">
+                                <tspan x="56.9863014" y="220.643836">1</tspan>
+                            </text>
+                            <text id="2" mask="url(#mask-68)" font-family="PingFangSC-Regular, PingFang SC" font-size="17.5342466" font-weight="normal" fill="#55595C">
+                                <tspan x="92.0547945" y="220.643836">2</tspan>
+                            </text>
+                            <text id="3" mask="url(#mask-68)" font-family="PingFangSC-Regular, PingFang SC" font-size="17.5342466" font-weight="normal" fill="#55595C">
+                                <tspan x="130.410959" y="220.643836">3</tspan>
+                            </text>
+                            <g id="Group-20" mask="url(#mask-68)">
+                                <g transform="translate(21.917808, 253.150685)">
+                                    <text id="主观题" font-family="PingFangSC-Medium, PingFang SC" font-size="14.2465753" font-weight="400">
+                                        <tspan x="0" y="15" fill="#56C0E0">主观题</tspan>
+                                    </text>
+                                    <text id="二、选择题（共6小题，满分36分）" font-family="PingFangSC-Regular, PingFang SC" font-size="14.2465753" font-weight="normal">
+                                        <tspan x="0" y="40.2054795" fill="#55595C">二、选择题（共6小题，满分36分）</tspan>
+                                    </text>
+                                    <text id="二、选择题（共6小题，满分36分）-copy" font-family="PingFangSC-Regular, PingFang SC" font-size="14.2465753" font-weight="normal">
+                                        <tspan x="0" y="112.534247" fill="#55595C">二、选择题（共6小题，满分36分）</tspan>
+                                    </text>
+                                    <text id="1-copy" font-family="PingFangSC-Regular, PingFang SC" font-size="17.5342466" font-weight="normal">
+                                        <tspan x="35.0684932" y="69.4109589" fill="#55595C">1</tspan>
+                                    </text>
+                                    <text id="3" font-family="PingFangSC-Regular, PingFang SC" font-size="17.5342466" font-weight="normal">
+                                        <tspan x="35.0684932" y="141.739726" fill="#55595C">3</tspan>
+                                    </text>
+                                    <text id="4" font-family="PingFangSC-Regular, PingFang SC" font-size="17.5342466" font-weight="normal">
+                                        <tspan x="70.1369863" y="141.739726" fill="#55595C">4</tspan>
+                                    </text>
+                                    <text id="8" font-family="PingFangSC-Regular, PingFang SC" font-size="17.5342466" font-weight="normal">
+                                        <tspan x="107.39726" y="141.739726" fill="#55595C">8</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <text id="不该失分的题目" mask="url(#mask-68)" font-family="PingFangSC-Medium, PingFang SC" font-size="17.5342466" font-weight="400" fill="#3A3A3A">
+                                <tspan x="17.5342466" y="124.205479">不该失分的题目</tspan>
+                            </text>
+                            <text id="帮助孩子精准定位不该出错的题目和知识点，" mask="url(#mask-68)" font-family="PingFangSC-Regular, PingFang SC" font-size="14.2465753" font-weight="normal" line-spacing="20.8219178">
+                                <tspan x="17.5342466" y="45.6849315" fill="#55595C">帮助孩子精准定位不该出错的题目和知识点，</tspan>
+                                <tspan x="17.5342466" y="66.5068493" fill="#55595C">稳固掌握知识点。得到这部分分数，年级战胜</tspan>
+                                <tspan x="17.5342466" y="87.3287671" fill="#55595C">率提高</tspan>
+                                <tspan x="60.2739726" y="87.3287671" fill="#FA9003">12.3%</tspan>
+                                <tspan x="100.663014" y="87.3287671" fill="#55595C">。</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Group-35-Copy-2" transform="translate(268.000000, 5.000000)">
+                        <g id="Group-34">
+                            <path d="M25.9,53.2 C32.3535196,53.2 38.255759,50.8396887 42.7905496,46.9352345 C48.3070864,42.1854971 51.8,35.1506554 51.8,27.3 C51.8,12.995825 40.204175,1.4 25.9,1.4 C11.595825,1.4 0,12.995825 0,27.3 C0,35.1567901 3.49837469,42.196491 9.02238641,46.9463651 C13.5554628,50.844174 19.4526151,53.2 25.9,53.2 Z" id="Oval-6-Copy-8" fill-opacity="0.446925951" fill="#52892E" opacity="0.684176772" filter="url(#filter-69)"></path>
+                            <g id="Group-33">
+                                <g id="Oval-7" transform="translate(4.000000, 38.000000)">
+                                    <mask id="mask-71" fill="white">
+                                        <use xlink:href="#path-70"></use>
+                                    </mask>
+                                    <use id="Combined-Shape" fill="url(#linearGradient-7)" xlink:href="#path-70"></use>
+                                </g>
+                                <g id="Oval-6-Copy-5">
+                                    <use fill="#AFE405" fill-rule="evenodd" xlink:href="#path-72"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-73)" xlink:href="#path-72"></use>
+                                    <path stroke="#E1FF80" stroke-width="0.5" d="M25.9,39.5319625 C30.0010838,39.5319625 32.3548245,40.4180959 35.1310134,42.4492324 C35.3285574,42.593761 36.052322,43.1336814 36.2188324,43.2556899 C38.1908978,44.700698 39.5558204,45.2700328 41.7451213,45.2700328 C42.4160153,45.2700328 43.4166844,44.6605324 44.0748389,43.9996615 C48.8314933,39.2233751 51.55,32.7770941 51.55,25.9 C51.55,11.7338962 40.0661038,0.25 25.9,0.25 C11.7338962,0.25 0.25,11.7338962 0.25,25.9 C0.25,33.0279187 3.1717067,39.6886822 8.21805359,44.4836105 C9.24562245,45.2659273 10.8705365,45.6856104 12.2539405,45.1014866 C13.2381288,44.6628262 14.1309493,44.1757704 15.0958201,43.5718631 C15.6328872,43.2357158 17.3350302,42.1038525 17.4014831,42.0607489 C20.1821241,40.2571342 22.3026381,39.5319625 25.9,39.5319625 Z"></path>
+                                </g>
+                                <path d="M5.35402609,40.8121934 C6.11876713,41.7897055 6.65598907,42.4574674 6.96569191,42.8154791 C7.89475314,43.8894595 8.13327704,44.118387 8.53382674,44.3765608 C9.26110619,44.8218018 9.7376935,45.0651617 11.0064691,45.1389215 C12.093972,45.0840561 14.1226269,44.0165584 17.0924338,41.9364285 L5.35402609,40.8121934 Z" id="Path-7" fill="url(#linearGradient-12)" opacity="0.632576918" filter="url(#filter-74)"></path>
+                                <path d="M46.8077343,40.3408859 C44.9087033,42.9832739 43.3551203,44.5051413 42.1469854,44.906488 C40.9388505,45.3078348 39.2310105,44.8434732 37.0234653,43.5134033 L46.8077343,40.3408859 Z" id="Path-8" fill="url(#linearGradient-14)" opacity="0.632576918" filter="url(#filter-75)"></path>
+                            </g>
+                        </g>
+                        <g id="示例" fill="#FFFFFF" fill-opacity="1">
+                            <use filter="url(#filter-77)" xlink:href="#text-76"></use>
+                            <use xlink:href="#text-76"></use>
+                        </g>
+                    </g>
+                    <g id="Group-10" transform="translate(79.000000, 0.000000)">
+                        <g id="Rectangle-4">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-79)" xlink:href="#path-78"></use>
+                            <use fill="#3FC3FF" fill-rule="evenodd" xlink:href="#path-78"></use>
+                        </g>
+                        <text id="提分建议" font-family="PingFangSC-Medium, PingFang SC" font-size="18" font-weight="400" fill="#FFFFFF">
+                            <tspan x="45" y="24">提分建议</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-8-Copy-6" transform="translate(28.000000, 3709.000000)">
+                <g id="Group-Copy" transform="translate(7.671233, 258.013699)" fill="#FFFFFF" font-family="PingFangSC-Medium, PingFang SC" font-size="15" font-weight="400" line-spacing="22">
+                    <g id="Group-12" transform="translate(0.000000, -0.000000)">
+                        <text id="明确相同分数段人数，了解要进步首先要超越">
+                            <tspan x="0" y="16">明确相同分数段人数，了解要进步首先要超越</tspan>
+                            <tspan x="0" y="38">哪些人</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="1@3x" transform="translate(-0.000000, 0.000000)">
+                    <g id="Screenshot_2017-11-14-16-47-47" filter="url(#filter-80)" transform="translate(0.000000, 20.091324)">
+                        <g id="Group-17">
+                            <mask id="mask-82" fill="white">
+                                <use xlink:href="#path-81"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" xlink:href="#path-81"></use>
+                            <g id="Group-Copy" mask="url(#mask-82)">
+                                <g transform="translate(4.748858, 31.415525)">
+                                    <g id="Group-19" stroke="none" stroke-width="1" fill-rule="evenodd" transform="translate(112.876712, 0.000000)">
+                                        <rect id="Rectangle-5" fill="#FAC102" x="6.25277607e-13" y="3.28767123" width="9.20426517" height="9.20426517"></rect>
+                                        <text id="我的成绩：654分" font-family="PingFangSC-Regular, PingFang SC" font-size="9.97128727" font-weight="normal" fill="#3A3A3A">
+                                            <tspan x="13.1506849" y="11">我的成绩：654分</tspan>
+                                        </text>
+                                    </g>
+                                    <text id="0" stroke="none" font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="0" y="141.69863" fill="#9DAEBF">0</tspan>
+                                    </text>
+                                    <text id="20" stroke="none" font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="0" y="123.068493" fill="#9DAEBF">20</tspan>
+                                    </text>
+                                    <text id="40" stroke="none" font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="0" y="104.438356" fill="#9DAEBF">40</tspan>
+                                    </text>
+                                    <text id="60" stroke="none" font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="0.326844509" y="87.0500259" fill="#9DAEBF">60</tspan>
+                                    </text>
+                                    <text id="80" stroke="none" font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="0.326844509" y="70.7891575" fill="#9DAEBF">80</tspan>
+                                    </text>
+                                    <text id="120" stroke="none" font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="0.326844509" y="54.528289" fill="#9DAEBF">120</tspan>
+                                    </text>
+                                    <text id="(人数)" stroke="none" font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="1.09386661" y="40.7218912" fill="#9DAEBF">(人数)</tspan>
+                                    </text>
+                                    <g id="Group-5" stroke="none" stroke-width="1" fill-rule="evenodd" transform="translate(14.133242, 54.747973)">
+                                        <rect id="Rectangle-7" fill="#32BEF2" x="58.934551" y="65.7979484" width="17.5342466" height="18.7920414"></rect>
+                                        <rect id="Rectangle-7-Copy-10" fill="#32BEF2" x="29.4672755" y="65.7979484" width="17.5342466" height="18.7920414"></rect>
+                                        <rect id="Rectangle-7-Copy-11" fill="#32BEF2" x="0" y="75.3857246" width="17.5342466" height="9.20426517"></rect>
+                                        <rect id="Rectangle-7-Copy-2" fill="#32BEF2" x="176.803653" y="26.3013699" width="17.5342466" height="58.2936794"></rect>
+                                        <rect id="Rectangle-7-Copy" fill="#32BEF2" x="88.4018265" y="55.4482096" width="17.5342466" height="29.1417802"></rect>
+                                        <rect id="Rectangle-7-Copy-3" fill="#32BEF2" x="206.270928" y="8.76712329" width="17.5342466" height="75.8228665"></rect>
+                                        <rect id="Rectangle-7" fill="#32BEF2" x="117.869102" y="47.005907" width="17.5342466" height="37.5840828"></rect>
+                                        <rect id="Rectangle-7-Copy" fill="#32BEF2" x="147.336377" y="0" width="17.5342466" height="84.9289771"></rect>
+                                        <rect id="Rectangle-7-Copy-5" fill="#FAC102" x="235.738204" y="75.059892" width="17.5342466" height="9.20426517"></rect>
+                                    </g>
+                                    <path d="M11.4486649,139.721474 L307.034012,139.721474" id="Line" stroke="#DDE2E4" stroke-width="0.767022097" stroke-linecap="square"></path>
+                                    <text id="[0,220)" stroke="none" transform="translate(14.246575, 152.349315) rotate(-30.000000) translate(-14.246575, -152.349315) " font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="1.09589041" y="154.849315" fill="#9DAEBF">[0,220)</tspan>
+                                    </text>
+                                    <text id="[220,280)" stroke="none" transform="translate(39.417808, 154.541096) rotate(-30.000000) translate(-39.417808, -154.541096) " font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="21.9178082" y="157.041096" fill="#9DAEBF">[220,280)</tspan>
+                                    </text>
+                                    <text id="[280,340)" stroke="none" transform="translate(69.006849, 154.541096) rotate(-30.000000) translate(-69.006849, -154.541096) " font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="51.5068493" y="157.041096" fill="#9DAEBF">[280,340)</tspan>
+                                    </text>
+                                    <text id="[400,460)" stroke="none" transform="translate(131.472603, 154.541096) rotate(-30.000000) translate(-131.472603, -154.541096) " font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="113.972603" y="157.041096" fill="#9DAEBF">[400,460)</tspan>
+                                    </text>
+                                    <text id="[520,580)" stroke="none" transform="translate(187.363014, 154.541096) rotate(-30.000000) translate(-187.363014, -154.541096) " font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="169.863014" y="157.041096" fill="#9DAEBF">[520,580)</tspan>
+                                    </text>
+                                    <text id="[640,700)" stroke="none" transform="translate(245.445205, 154.541096) rotate(-30.000000) translate(-245.445205, -154.541096) " font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="227.945205" y="157.041096" fill="#9DAEBF">[640,700)</tspan>
+                                    </text>
+                                    <text id="[340,400)" stroke="none" transform="translate(96.404110, 154.541096) rotate(-30.000000) translate(-96.404110, -154.541096) " font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="78.9041096" y="157.041096" fill="#9DAEBF">[340,400)</tspan>
+                                    </text>
+                                    <text id="[460,520)" stroke="none" transform="translate(158.869863, 154.541096) rotate(-30.000000) translate(-158.869863, -154.541096) " font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="141.369863" y="157.041096" fill="#9DAEBF">[460,520)</tspan>
+                                    </text>
+                                    <text id="[580,640)" stroke="none" transform="translate(214.760274, 154.541096) rotate(-30.000000) translate(-214.760274, -154.541096) " font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="197.260274" y="157.041096" fill="#9DAEBF">[580,640)</tspan>
+                                    </text>
+                                    <text id="[700,760)" stroke="none" transform="translate(275.630137, 154.541096) rotate(-30.000000) translate(-275.630137, -154.541096) " font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="258.630137" y="157.041096" fill="#9DAEBF">[700,760)</tspan>
+                                    </text>
+                                    <text id="分数" stroke="none" font-family="PingFangSC-Regular, PingFang SC" font-size="7.67022097" font-weight="normal">
+                                        <tspan x="292.60274" y="149.369863" fill="#9DAEBF">分数</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-10" transform="translate(78.904110, 0.000000)">
+                        <g id="Rectangle-4">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-84)" xlink:href="#path-83"></use>
+                            <use fill="#3FC3FF" fill-rule="evenodd" xlink:href="#path-83"></use>
+                        </g>
+                        <text id="层次排名" font-family="PingFangSC-Medium, PingFang SC" font-size="18" font-weight="400" fill="#FFFFFF">
+                            <tspan x="45" y="24">层次排名</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-35-Copy-2" transform="translate(295.000000, 3714.000000)">
+                <g id="Group-34">
+                    <path d="M25.9,53.2 C32.3535196,53.2 38.255759,50.8396887 42.7905496,46.9352345 C48.3070864,42.1854971 51.8,35.1506554 51.8,27.3 C51.8,12.995825 40.204175,1.4 25.9,1.4 C11.595825,1.4 0,12.995825 0,27.3 C0,35.1567901 3.49837469,42.196491 9.02238641,46.9463651 C13.5554628,50.844174 19.4526151,53.2 25.9,53.2 Z" id="Oval-6-Copy-8" fill-opacity="0.446925951" fill="#52892E" opacity="0.684176772" filter="url(#filter-85)"></path>
+                    <g id="Group-33">
+                        <g id="Oval-7" transform="translate(4.000000, 38.000000)">
+                            <mask id="mask-87" fill="white">
+                                <use xlink:href="#path-86"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="url(#linearGradient-7)" xlink:href="#path-86"></use>
+                        </g>
+                        <g id="Oval-6-Copy-5">
+                            <use fill="#AFE405" fill-rule="evenodd" xlink:href="#path-88"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-89)" xlink:href="#path-88"></use>
+                            <path stroke="#E1FF80" stroke-width="0.5" d="M25.9,39.5319625 C30.0010838,39.5319625 32.3548245,40.4180959 35.1310134,42.4492324 C35.3285574,42.593761 36.052322,43.1336814 36.2188324,43.2556899 C38.1908978,44.700698 39.5558204,45.2700328 41.7451213,45.2700328 C42.4160153,45.2700328 43.4166844,44.6605324 44.0748389,43.9996615 C48.8314933,39.2233751 51.55,32.7770941 51.55,25.9 C51.55,11.7338962 40.0661038,0.25 25.9,0.25 C11.7338962,0.25 0.25,11.7338962 0.25,25.9 C0.25,33.0279187 3.1717067,39.6886822 8.21805359,44.4836105 C9.24562245,45.2659273 10.8705365,45.6856104 12.2539405,45.1014866 C13.2381288,44.6628262 14.1309493,44.1757704 15.0958201,43.5718631 C15.6328872,43.2357158 17.3350302,42.1038525 17.4014831,42.0607489 C20.1821241,40.2571342 22.3026381,39.5319625 25.9,39.5319625 Z"></path>
+                        </g>
+                        <path d="M5.35402609,40.8121934 C6.11876713,41.7897055 6.65598907,42.4574674 6.96569191,42.8154791 C7.89475314,43.8894595 8.13327704,44.118387 8.53382674,44.3765608 C9.26110619,44.8218018 9.7376935,45.0651617 11.0064691,45.1389215 C12.093972,45.0840561 14.1226269,44.0165584 17.0924338,41.9364285 L5.35402609,40.8121934 Z" id="Path-7" fill="url(#linearGradient-12)" opacity="0.632576918" filter="url(#filter-90)"></path>
+                        <path d="M46.8077343,40.3408859 C44.9087033,42.9832739 43.3551203,44.5051413 42.1469854,44.906488 C40.9388505,45.3078348 39.2310105,44.8434732 37.0234653,43.5134033 L46.8077343,40.3408859 Z" id="Path-8" fill="url(#linearGradient-14)" opacity="0.632576918" filter="url(#filter-91)"></path>
+                    </g>
+                </g>
+                <g id="示例" fill="#FFFFFF" fill-opacity="1">
+                    <use filter="url(#filter-93)" xlink:href="#text-92"></use>
+                    <use xlink:href="#text-92"></use>
+                </g>
+            </g>
+            <g id="Group-14-Copy-2" transform="translate(28.000000, 772.000000)">
+                <g id="Group-8" transform="translate(0.728100, 0.000000)">
+                    <g id="Group-Copy" transform="translate(8.645051, 523.052332)" fill="#FFFFFF" font-family="PingFangSC-Medium, PingFang SC" font-size="15" font-weight="400" line-spacing="22">
+                        <g id="Group-12" transform="translate(0.000000, -0.000000)">
+                            <text id="通过比较本次考试与之前历次考试的校战胜率">
+                                <tspan x="0" y="16">通过比较本次考试与之前历次考试的校战胜</tspan>
+                                <tspan x="0" y="38">率，全面掌握孩子的进退步情况。</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="1@3x" transform="translate(-0.000000, 0.000000)">
+                        <g id="Screenshot_2017-11-14-16-47-47" filter="url(#filter-94)" transform="translate(-0.000000, 20.022753)">
+                            <g id="Group-17" transform="translate(-0.000000, 0.000000)">
+                                <mask id="mask-96" fill="white">
+                                    <use xlink:href="#path-95"></use>
+                                </mask>
+                                <use id="Mask" fill="#FFFFFF" xlink:href="#path-95"></use>
+                                <g id="Group-29" mask="url(#mask-96)">
+                                    <g transform="translate(1.400455, 11.067122)">
+                                        <g id="Group-8-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <rect id="Rectangle-2" fill="#FAFAFA" x="0" y="203.950911" width="317.16041" height="30.2641783"></rect>
+                                            <g id="Group-18" transform="translate(10.136083, 209.676567)" font-size="11.4513107">
+                                                <g id="Group-14" transform="translate(0.109215, 0.000000)" fill="#3A3A3A" font-family="PingFangSC-Medium, PingFang SC" font-weight="400">
+                                                    <text id="考试时间">
+                                                        <tspan x="0.52399971" y="12">考试时间</tspan>
+                                                    </text>
+                                                    <text id="考试名称">
+                                                        <tspan x="110.721952" y="12">考试名称</tspan>
+                                                    </text>
+                                                    <text id="战胜率">
+                                                        <tspan x="259.812795" y="12">战胜率</tspan>
+                                                    </text>
+                                                </g>
+                                                <g id="Group-14-Copy" transform="translate(4.094401, 26.992375)" font-family="PingFangSC-Regular, PingFang SC" font-weight="normal">
+                                                    <text id="18.5.16" fill="#9B9B9B">
+                                                        <tspan x="0.208391547" y="12">18.5.16</tspan>
+                                                    </text>
+                                                    <text id="2018年初中学业水平模拟考试（二模）" fill="#3A3A3A">
+                                                        <tspan x="50.5665529" y="12">2018年初中学业水平模拟考试（二模） </tspan>
+                                                    </text>
+                                                    <text id="67.81%" fill="#3A3A3A">
+                                                        <tspan x="254.458359" y="12">67.81%</tspan>
+                                                    </text>
+                                                </g>
+                                                <g id="Group-14-Copy-3" transform="translate(2.910101, 93.290538)" font-family="PingFangSC-Regular, PingFang SC" font-weight="normal">
+                                                    <text id="18.01.29" fill="#9B9B9B">
+                                                        <tspan x="0.360029047" y="12">18.01.29</tspan>
+                                                    </text>
+                                                    <text id="2017—2018学年度第一学期期末质量" fill="#3A3A3A">
+                                                        <tspan x="51.4611866" y="12">2017—2018学年度第一学期期末质量</tspan>
+                                                        <tspan x="51.4611866" y="28">检测</tspan>
+                                                    </text>
+                                                    <text id="58.33%" fill="#3A3A3A">
+                                                        <tspan x="254.216859" y="12">58.33%</tspan>
+                                                    </text>
+                                                </g>
+                                                <g id="Group-14-Copy-2" transform="translate(3.019316, 62.445429)" font-family="PingFangSC-Regular, PingFang SC" font-weight="normal">
+                                                    <text id="18.01.02" fill="#9B9B9B">
+                                                        <tspan x="0.360029047" y="12">18.01.02</tspan>
+                                                    </text>
+                                                    <text id="2018年初中学业水平模拟考试（一模）" line-spacing="16.3590153" fill="#3A3A3A">
+                                                        <tspan x="51.7679181" y="12">2018年初中学业水平模拟考试（一模）</tspan>
+                                                    </text>
+                                                    <text id="51.5%" fill="#3A3A3A">
+                                                        <tspan x="258.791658" y="12">51.5%</tspan>
+                                                    </text>
+                                                </g>
+                                                <g id="Group-14-Copy-4" transform="translate(3.111466, 134.859633)" font-family="PingFangSC-Regular, PingFang SC" font-weight="normal">
+                                                    <text id="18.04.17" fill="#9B9B9B">
+                                                        <tspan x="0.57133861" y="12">18.04.17</tspan>
+                                                    </text>
+                                                    <text id="2017-2018学年第一学期学情检测九" fill="#3A3A3A">
+                                                        <tspan x="51.3519715" y="12">2017-2018学年第一学期学情检测九</tspan>
+                                                        <tspan x="51.3519715" y="28">年级</tspan>
+                                                    </text>
+                                                    <text id="68.75%" fill="#3A3A3A">
+                                                        <tspan x="254.411104" y="12">68.75%</tspan>
+                                                    </text>
+                                                </g>
+                                                <g id="Group-14-Copy-5" transform="translate(3.111466, 171.462929)" font-family="PingFangSC-Regular, PingFang SC" font-weight="normal">
+                                                    <text id="18.5.16" line-spacing="15.5410646" fill="#9B9B9B">
+                                                        <tspan x="0" y="12">18.5.16</tspan>
+                                                    </text>
+                                                    <text id="2017—2018学年度第一学期期中质量" fill="#3A3A3A">
+                                                        <tspan x="51.6587031" y="12">2017—2018学年度第一学期期中质量</tspan>
+                                                        <tspan x="51.6587031" y="28">检测</tspan>
+                                                    </text>
+                                                    <text id="49.37%" fill="#3A3A3A">
+                                                        <tspan x="254.411104" y="12">49.37%</tspan>
+                                                    </text>
+                                                </g>
+                                            </g>
+                                            <rect id="Rectangle-5" fill-opacity="0.356233016" fill="#F7FCFF" x="4.80546075" y="0.281170576" width="306.731537" height="195.490233"></rect>
+                                            <rect id="Rectangle-5-Copy-2" fill="#FFFFFF" x="4.80546075" y="52.6300196" width="306.731537" height="26.9923753"></rect>
+                                            <rect id="Rectangle-5-Copy-4" fill="#FFFFFF" x="4.80546075" y="106.61477" width="306.731537" height="26.9923753"></rect>
+                                            <rect id="Rectangle-5-Copy" fill="#F4FBFF" x="30.1619345" y="24.8196936" width="281.375064" height="26.9923753"></rect>
+                                            <rect id="Rectangle-5-Copy-3" fill="#F4FBFF" x="30.1619345" y="79.6223949" width="281.375064" height="26.9923753"></rect>
+                                            <rect id="Rectangle-5-Copy-5" fill="#F4FBFF" x="30.1619345" y="133.607145" width="281.375064" height="26.9923753"></rect>
+                                            <text id="45%" font-family="PingFangSC-Regular, PingFang SC" font-size="7.36155689" font-weight="normal" fill="#99A2AA">
+                                                <tspan x="9.08743301" y="161.800305">45%</tspan>
+                                            </text>
+                                            <text id="55%" font-family="PingFangSC-Regular, PingFang SC" font-size="7.36155689" font-weight="normal" fill="#99A2AA">
+                                                <tspan x="9.08743301" y="106.997604">55%</tspan>
+                                            </text>
+                                            <text id="50%" font-family="PingFangSC-Regular, PingFang SC" font-size="7.36155689" font-weight="normal" fill="#99A2AA">
+                                                <tspan x="9.08743301" y="133.989979">50%</tspan>
+                                            </text>
+                                            <text id="60%" font-family="PingFangSC-Regular, PingFang SC" font-size="7.36155689" font-weight="normal" fill="#99A2AA">
+                                                <tspan x="9.08743301" y="80.0052284">60%</tspan>
+                                            </text>
+                                            <text id="65%" font-family="PingFangSC-Regular, PingFang SC" font-size="7.36155689" font-weight="normal" fill="#99A2AA">
+                                                <tspan x="8.94103841" y="51.6860068">65%</tspan>
+                                            </text>
+                                            <text id="70%-copy" font-family="PingFangSC-Regular, PingFang SC" font-size="7.36155689" font-weight="normal" fill="#99A2AA">
+                                                <tspan x="9.13611967" y="27.6587031">70%</tspan>
+                                            </text>
+                                            <text id="战胜率" font-family="PingFangSC-Regular, PingFang SC" font-size="7.36155689" font-weight="normal" fill="#99A2AA">
+                                                <tspan x="5.8859923" y="11.2764505">战胜率</tspan>
+                                            </text>
+                                            <path d="M30.8079165,160.889897 L311.989792,160.889897" id="Path-2" stroke="#DDE9F0" stroke-width="0.817950766"></path>
+                                        </g>
+                                        <g id="Group-16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(16.795875, 426.182558)">
+                                            <circle id="Oval-5" fill="#76CA37" cx="8.99745843" cy="8.99745843" r="8.99745843"></circle>
+                                            <text id="" font-family="FontAwesome5FreeRegular, Font Awesome 5 Free" font-size="11.4513107" font-weight="normal" fill="#FFFFFF">
+                                                <tspan x="5.54629293" y="12.1843003"></tspan>
+                                            </text>
+                                        </g>
+                                        <text id="17.11.14" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="7.36155689" font-weight="normal">
+                                            <tspan x="42.631185" y="176.779028" fill="#888888">17.11.14</tspan>
+                                        </text>
+                                        <text id="18.01.02" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="7.36155689" font-weight="normal">
+                                            <tspan x="107.634141" y="176.779028" fill="#888888">18.01.02</tspan>
+                                        </text>
+                                        <text id="18.01.29" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="7.36155689" font-weight="normal">
+                                            <tspan x="166.526596" y="176.779028" fill="#888888">18.01.29</tspan>
+                                        </text>
+                                        <text id="18.04.17" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="7.36155689" font-weight="normal">
+                                            <tspan x="224.796182" y="176.779028" fill="#888888">18.04.17</tspan>
+                                        </text>
+                                        <text id="18.5.16" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="7.36155689" font-weight="normal">
+                                            <tspan x="276.372272" y="176.779028" fill="#888888">18.5.16</tspan>
+                                        </text>
+                                        <polyline id="Path-4" stroke="#3EBEEB" stroke-width="2.72819128" fill="none" stroke-linecap="round" points="50.6772473 137.696899 112.090033 34.1467103 177.576484 98.3794931 234.087299 154.748923 283.063686 64.2755306"></polyline>
+                                        <circle id="Oval-3" stroke="none" fill="#3EBEEB" fill-rule="evenodd" cx="50.7849829" cy="138.156997" r="2.73037543"></circle>
+                                        <circle id="Oval-3-Copy" stroke="none" fill="#3EBEEB" fill-rule="evenodd" cx="111.945392" cy="34.4027304" r="2.73037543"></circle>
+                                        <circle id="Oval-3-Copy-2" stroke="none" fill="#3EBEEB" fill-rule="evenodd" cx="177.730375" cy="98.7303754" r="2.73037543"></circle>
+                                        <circle id="Oval-3-Copy-3" stroke="none" fill="#3EBEEB" fill-rule="evenodd" cx="234.266212" cy="154.539249" r="2.73037543"></circle>
+                                        <circle id="Oval-3-Copy-4" stroke="none" fill="#3EBEEB" fill-rule="evenodd" cx="283.185244" cy="64.3439111" r="2.73037543"></circle>
+                                        <text id="49.37%" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9215017" font-weight="normal">
+                                            <tspan x="34.5064846" y="132.136519" fill="#3A3A3A">49.37%</tspan>
+                                        </text>
+                                        <text id="68.75%" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9215017" font-weight="normal">
+                                            <tspan x="91.2982935" y="33.8430034" fill="#3A3A3A">68.75%</tspan>
+                                        </text>
+                                        <text id="58.33%" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9215017" font-weight="normal">
+                                            <tspan x="160.820507" y="88.8385738" fill="#3A3A3A">58.33%</tspan>
+                                        </text>
+                                        <text id="51.5%" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9215017" font-weight="normal">
+                                            <tspan x="217.146758" y="148.518771" fill="#3A3A3A">51.5%</tspan>
+                                        </text>
+                                        <text id="67.81%" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9215017" font-weight="normal">
+                                            <tspan x="266.894314" y="57.2545204" fill="#3A3A3A">67.81%</tspan>
+                                        </text>
+                                        <text id="本次考试与上次考试相比，战胜率明显下降。" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="11.4513107" font-weight="normal">
+                                            <tspan x="41.5017065" y="436.846416" fill="#3A3A3A">本次考试与上次考试相比，战胜率明显下降。</tspan>
+                                        </text>
+                                        <text id="建议孩子使用错题本提高考试成绩，尽快扭转" stroke="none" fill="none" font-family="PingFangSC-Regular, PingFang SC" font-size="11.4513107" font-weight="normal">
+                                            <tspan x="41.5017065" y="454.320819" fill="#3A3A3A">建议孩子使用</tspan>
+                                            <tspan x="110.209571" y="454.320819" fill="#3EBEEB">错题本</tspan>
+                                            <tspan x="144.563503" y="454.320819" fill="#3A3A3A">提高考试成绩，尽快扭转退步</tspan>
+                                            <tspan x="41.5017065" y="470.320819" fill="#3A3A3A">局面。</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-10" transform="translate(75.542662, 0.000000)">
+                            <g id="Rectangle-4">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-98)" xlink:href="#path-97"></use>
+                                <use fill="#3FC3FF" fill-rule="evenodd" xlink:href="#path-97"></use>
+                            </g>
+                            <text id="战胜率变化" font-family="PingFangSC-Medium, PingFang SC" font-size="18" font-weight="400" fill="#FFFFFF">
+                                <tspan x="38" y="23">战胜率变化</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-8" transform="translate(28.000000, 1380.000000)">
+                <g id="Group-Copy" transform="translate(8.671233, 303.771689)" fill="#FFFFFF" font-family="PingFangSC-Medium, PingFang SC" font-size="15" font-weight="400" line-spacing="22">
+                    <g id="Group-12">
+                        <text id="通过比较孩子和全校学生对不同难度题目的得">
+                            <tspan x="0" y="16">通过比较孩子和全校学生对不同难度题目的得</tspan>
+                            <tspan x="0" y="38">分率表现，掌握哪个难度拉低了孩子的排名。</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="1@3x">
+                    <g id="Screenshot_2017-11-14-16-47-47" filter="url(#filter-99)" transform="translate(0.000000, 19.091324)">
+                        <g id="Group-17" transform="translate(0.000000, 0.000000)">
+                            <mask id="mask-101" fill="white">
+                                <use xlink:href="#path-100"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" xlink:href="#path-100"></use>
+                            <g id="Group-21" mask="url(#mask-101)">
+                                <g transform="translate(1.000000, 29.223744)">
+                                    <g id="Group-30" stroke-width="1" fill-rule="evenodd">
+                                        <g id="Group-7-Copy">
+                                            <g id="Group-8-Copy">
+                                                <rect id="Rectangle-5" fill-opacity="0.356233016" fill="#F7FCFF" x="0" y="0.845234625" width="316.962985" height="222.296706"></rect>
+                                                <rect id="Rectangle-5-Copy-2" fill="#FFFFFF" x="0" y="57.4759545" width="316.962985" height="27.8927426"></rect>
+                                                <rect id="Rectangle-5-Copy-4" fill="#FFFFFF" x="0" y="113.26144" width="316.962985" height="27.8927426"></rect>
+                                                <rect id="Rectangle-5-Copy" fill="#F4FBFF" x="26.2022734" y="28.7379773" width="290.760711" height="27.8927426"></rect>
+                                                <rect id="Rectangle-5-Copy-3" fill="#F4FBFF" x="26.2022734" y="85.3686972" width="290.760711" height="27.8927426"></rect>
+                                                <rect id="Rectangle-5-Copy-5" fill="#F4FBFF" x="26.2022734" y="141.154182" width="290.760711" height="27.8927426"></rect>
+                                                <text id="20%" font-family="PingFangSC-Regular, PingFang SC" font-size="7.60711163" font-weight="normal" fill="#99A2AA">
+                                                    <tspan x="4.89696881" y="143.890411">20%</tspan>
+                                                </text>
+                                                <text id="0%" font-family="PingFangSC-Regular, PingFang SC" font-size="7.60711163" font-weight="normal" fill="#99A2AA">
+                                                    <tspan x="7.1791023" y="172.383562">0%</tspan>
+                                                </text>
+                                                <text id="60%" font-family="PingFangSC-Regular, PingFang SC" font-size="7.60711163" font-weight="normal" fill="#99A2AA">
+                                                    <tspan x="4.42480326" y="86.7292335">60%</tspan>
+                                                </text>
+                                                <text id="40%" font-family="PingFangSC-Regular, PingFang SC" font-size="7.60711163" font-weight="normal" fill="#99A2AA">
+                                                    <tspan x="4.42480326" y="114.621976">40%</tspan>
+                                                </text>
+                                                <text id="80%" font-family="PingFangSC-Regular, PingFang SC" font-size="7.60711163" font-weight="normal" fill="#99A2AA">
+                                                    <tspan x="4.42480326" y="58.8364908">80%</tspan>
+                                                </text>
+                                                <text id="100%" font-family="PingFangSC-Regular, PingFang SC" font-size="7.60711163" font-weight="normal" fill="#99A2AA">
+                                                    <tspan x="2.89957738" y="30.0985136">100%</tspan>
+                                                </text>
+                                                <text id="得分率" font-family="PingFangSC-Regular, PingFang SC" font-size="7.60711163" font-weight="normal" fill="#99A2AA">
+                                                    <tspan x="2.53570388" y="14.4471">得分率</tspan>
+                                                </text>
+                                                <path d="M0,0.845234625 L316.962985,0.845234625" id="Path-3" stroke="#F4F4F4" stroke-width="0.547945205"></path>
+                                                <path d="M26.869803,169.346987 L317.430882,169.346987" id="Path-2" stroke="#DDE9F0" stroke-width="0.845234625"></path>
+                                            </g>
+                                            <text id="易题" font-family="PingFangSC-Regular, PingFang SC" font-size="7.60711163" font-weight="normal" fill="#888888">
+                                                <tspan x="37.0708248" y="185.534247">易题</tspan>
+                                            </text>
+                                            <text id="中等难度" font-family="PingFangSC-Regular, PingFang SC" font-size="7.60711163" font-weight="normal" fill="#888888">
+                                                <tspan x="129.321481" y="185.534247">中等难度</tspan>
+                                            </text>
+                                            <text id="较易题" font-family="PingFangSC-Regular, PingFang SC" font-size="7.60711163" font-weight="normal" fill="#888888">
+                                                <tspan x="79.6345089" y="185.534247">较易题</tspan>
+                                            </text>
+                                            <text id="较难题" font-family="PingFangSC-Regular, PingFang SC" font-size="7.60711163" font-weight="normal" fill="#888888">
+                                                <tspan x="186.615564" y="185.499271">较难题</tspan>
+                                            </text>
+                                            <text id="难题" font-family="PingFangSC-Regular, PingFang SC" font-size="7.60711163" font-weight="normal" fill="#888888">
+                                                <tspan x="236.78636" y="185.534247">难题</tspan>
+                                            </text>
+                                            <text id="极难题" font-family="PingFangSC-Regular, PingFang SC" font-size="7.60711163" font-weight="normal" fill="#888888">
+                                                <tspan x="279.350044" y="185.499271">极难题</tspan>
+                                            </text>
+                                            <polyline id="Path-4" stroke="#3EBEEB" stroke-width="1.69046925" stroke-linecap="round" points="47.333139 29.6539666 90.693086 29.6539666 144.743086 49.8462436 196.068282 29.2276304 243.865654 78.9690351 290.667444 117.592539"></polyline>
+                                            <circle id="Oval-3" fill="#3EBEEB" cx="47.333139" cy="29.9154765" r="2.53570388"></circle>
+                                            <circle id="Oval-3" fill="#9F60F3" cx="47.333139" cy="39.9650248" r="2.53570388"></circle>
+                                            <circle id="Oval-3-Copy" fill="#3EBEEB" cx="91.5010201" cy="29.7347712" r="2.53570388"></circle>
+                                            <circle id="Oval-3-Copy-2" fill="#3EBEEB" cx="196.508307" cy="29.9329642" r="2.53570388"></circle>
+                                            <circle id="Oval-3-Copy-5" fill="#3EBEEB" cx="145.001457" cy="49.6589915" r="2.53570388"></circle>
+                                            <circle id="Oval-3-Copy-3" fill="#3EBEEB" cx="244.336928" cy="79.4812008" r="2.53570388"></circle>
+                                            <circle id="Oval-3-Copy-4" fill="#3EBEEB" cx="290.667444" cy="117.843194" r="2.53570388"></circle>
+                                            <circle id="Oval-3-Copy-4" fill="#9D61F1" cx="290.754882" cy="137.330224" r="2.53570388"></circle>
+                                            <polyline id="Path-5" stroke="#9F60F3" stroke-width="1.69046925" stroke-linecap="round" points="47.3226418 40.131037 91.1188974 45.3071023 144.657534 56.427139 196.164384 67.8897714 244.383562 101.116031 291.063393 137.695999"></polyline>
+                                            <circle id="Oval-3-Copy-3" fill="#9D61F1" cx="244.727485" cy="102.261731" r="2.53570388"></circle>
+                                            <circle id="Oval-3-Copy-2" fill="#9D61F1" cx="196.508307" cy="68.2891285" r="2.53570388"></circle>
+                                            <circle id="Oval-3-Copy" fill="#9D61F1" cx="91.3028272" cy="45.2754299" r="2.53570388"></circle>
+                                            <circle id="Oval-3-Copy-6" fill="#9D61F1" cx="145.001457" cy="56.234334" r="2.53570388"></circle>
+                                        </g>
+                                        <g id="Group-13" transform="translate(70.999709, 201.165841)">
+                                            <text id="我的得分率" font-family="PingFangSC-Regular, PingFang SC" font-size="10.1428155" font-weight="normal" fill="#3A3A3A">
+                                                <tspan x="0" y="11">我的得分率</tspan>
+                                            </text>
+                                            <text id="学校得分率" font-family="PingFangSC-Regular, PingFang SC" font-size="10.1428155" font-weight="normal" fill="#3A3A3A">
+                                                <tspan x="97.2019819" y="11">学校得分率</tspan>
+                                            </text>
+                                            <g id="Group-8" transform="translate(53.249781, 5.071408)">
+                                                <g id="Line-2" stroke-linecap="round">
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-103)" xlink:href="#path-102"></use>
+                                                    <use stroke="#3EBEEB" stroke-width="1.69046925" xlink:href="#path-102"></use>
+                                                </g>
+                                                <circle id="Oval-2-Copy-5" fill="#3EBEEB" cx="11.8332848" cy="2.95832119" r="2.53570388"></circle>
+                                            </g>
+                                            <g id="Group-8-Copy" transform="translate(152.142233, 5.071408)">
+                                                <g id="Line-2" stroke-linecap="round">
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-105)" xlink:href="#path-104"></use>
+                                                    <use stroke="#9F60F3" stroke-width="1.69046925" xlink:href="#path-104"></use>
+                                                </g>
+                                                <circle id="Oval-2-Copy-5" fill="#9D61F1" cx="11.8332848" cy="2.95832119" r="2.53570388"></circle>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <text id="100%" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9589041" font-weight="normal">
+                                        <tspan x="35.2273973" y="24.0547945" fill="#3A3A3A">100%</tspan>
+                                    </text>
+                                    <text id="100%" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9589041" font-weight="normal">
+                                        <tspan x="81.2547945" y="24.0547945" fill="#3A3A3A">100%</tspan>
+                                    </text>
+                                    <text id="85%" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9589041" font-weight="normal">
+                                        <tspan x="132.767123" y="43.7808219" fill="#3A3A3A">85%</tspan>
+                                    </text>
+                                    <text id="90.44%" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9589041" font-weight="normal">
+                                        <tspan x="74.8821918" y="43.7808219" fill="#3A3A3A">90.44%</tspan>
+                                    </text>
+                                    <text id="100%" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9589041" font-weight="normal">
+                                        <tspan x="182.076712" y="24.0547945" fill="#3A3A3A">100%</tspan>
+                                    </text>
+                                    <text id="72.67%" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9589041" font-weight="normal">
+                                        <tspan x="180.120548" y="61.3150685" fill="#3A3A3A">72.67%</tspan>
+                                    </text>
+                                    <text id="62.75%" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9589041" font-weight="normal">
+                                        <tspan x="228.049315" y="73.369863" fill="#3A3A3A">62.75%</tspan>
+                                    </text>
+                                    <text id="29.03%%" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9589041" font-weight="normal">
+                                        <tspan x="264.635616" y="106.246575" fill="#3A3A3A">29.03%%</tspan>
+                                    </text>
+                                    <text id="45.29%" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9589041" font-weight="normal">
+                                        <tspan x="228.306849" y="97.4794521" fill="#3A3A3A">45.29%</tspan>
+                                    </text>
+                                    <text id="20.81%" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9589041" font-weight="normal">
+                                        <tspan x="271.041096" y="130.356164" fill="#3A3A3A">20.81%</tspan>
+                                    </text>
+                                    <text id="80.7%" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9589041" font-weight="normal">
+                                        <tspan x="128.323288" y="52.5479452" fill="#3A3A3A">80.7%</tspan>
+                                    </text>
+                                    <text id="93.83%" font-family="PingFangSC-Regular, PingFang SC" font-size="10.9589041" font-weight="normal">
+                                        <tspan x="35.430137" y="37.2054795" fill="#3A3A3A">93.83%</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-10" transform="translate(76.712329, 0.000000)">
+                        <g id="Rectangle-4">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-107)" xlink:href="#path-106"></use>
+                            <use fill="#3FC3FF" fill-rule="evenodd" xlink:href="#path-106"></use>
+                        </g>
+                        <text id="难易题目得分率" font-family="PingFangSC-Medium, PingFang SC" font-size="18" font-weight="400" fill="#FFFFFF">
+                            <tspan x="20" y="23">难易题目得分率</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-35-Copy-2" transform="translate(295.000000, 1385.000000)">
+                <g id="Group-34">
+                    <path d="M25.9,53.2 C32.3535196,53.2 38.255759,50.8396887 42.7905496,46.9352345 C48.3070864,42.1854971 51.8,35.1506554 51.8,27.3 C51.8,12.995825 40.204175,1.4 25.9,1.4 C11.595825,1.4 0,12.995825 0,27.3 C0,35.1567901 3.49837469,42.196491 9.02238641,46.9463651 C13.5554628,50.844174 19.4526151,53.2 25.9,53.2 Z" id="Oval-6-Copy-8" fill-opacity="0.446925951" fill="#52892E" opacity="0.684176772" filter="url(#filter-108)"></path>
+                    <g id="Group-33">
+                        <g id="Oval-7" transform="translate(4.000000, 38.000000)">
+                            <mask id="mask-110" fill="white">
+                                <use xlink:href="#path-109"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="url(#linearGradient-7)" xlink:href="#path-109"></use>
+                        </g>
+                        <g id="Oval-6-Copy-5">
+                            <use fill="#AFE405" fill-rule="evenodd" xlink:href="#path-111"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-112)" xlink:href="#path-111"></use>
+                            <path stroke="#E1FF80" stroke-width="0.5" d="M25.9,39.5319625 C30.0010838,39.5319625 32.3548245,40.4180959 35.1310134,42.4492324 C35.3285574,42.593761 36.052322,43.1336814 36.2188324,43.2556899 C38.1908978,44.700698 39.5558204,45.2700328 41.7451213,45.2700328 C42.4160153,45.2700328 43.4166844,44.6605324 44.0748389,43.9996615 C48.8314933,39.2233751 51.55,32.7770941 51.55,25.9 C51.55,11.7338962 40.0661038,0.25 25.9,0.25 C11.7338962,0.25 0.25,11.7338962 0.25,25.9 C0.25,33.0279187 3.1717067,39.6886822 8.21805359,44.4836105 C9.24562245,45.2659273 10.8705365,45.6856104 12.2539405,45.1014866 C13.2381288,44.6628262 14.1309493,44.1757704 15.0958201,43.5718631 C15.6328872,43.2357158 17.3350302,42.1038525 17.4014831,42.0607489 C20.1821241,40.2571342 22.3026381,39.5319625 25.9,39.5319625 Z"></path>
+                        </g>
+                        <path d="M5.35402609,40.8121934 C6.11876713,41.7897055 6.65598907,42.4574674 6.96569191,42.8154791 C7.89475314,43.8894595 8.13327704,44.118387 8.53382674,44.3765608 C9.26110619,44.8218018 9.7376935,45.0651617 11.0064691,45.1389215 C12.093972,45.0840561 14.1226269,44.0165584 17.0924338,41.9364285 L5.35402609,40.8121934 Z" id="Path-7" fill="url(#linearGradient-12)" opacity="0.632576918" filter="url(#filter-113)"></path>
+                        <path d="M46.8077343,40.3408859 C44.9087033,42.9832739 43.3551203,44.5051413 42.1469854,44.906488 C40.9388505,45.3078348 39.2310105,44.8434732 37.0234653,43.5134033 L46.8077343,40.3408859 Z" id="Path-8" fill="url(#linearGradient-14)" opacity="0.632576918" filter="url(#filter-114)"></path>
+                    </g>
+                </g>
+                <g id="示例" fill="#FFFFFF" fill-opacity="1">
+                    <use filter="url(#filter-116)" xlink:href="#text-115"></use>
+                    <use xlink:href="#text-115"></use>
+                </g>
+            </g>
+            <g id="Group-6" transform="translate(0.000000, 695.000000)">
+                <g id="Rectangle-10">
+                    <use fill="#FFA021" fill-rule="evenodd" xlink:href="#path-117"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-118)" xlink:href="#path-117"></use>
+                </g>
+                <text id="开通会员，专享全部个性化服务" font-family="PingFangSC-Medium, PingFang SC" font-size="18" font-weight="400" fill="#FFFFFF">
+                    <tspan x="62" y="32">开通会员，专享全部个性化服务</tspan>
+                </text>
+            </g>
+            <g id="Group-23" transform="translate(27.000000, 4052.000000)">
+                <g id="Group-14-Copy-6" transform="translate(1.000000, 0.000000)">
+                    <g id="Group-8-Copy-2">
+                        <g id="Group-Copy" transform="translate(7.645051, 553.724687)" fill="#FFFFFF" font-family="PingFangSC-Medium, PingFang SC" font-size="15" font-weight="400" line-spacing="22">
+                            <g id="Group-12" transform="translate(0.000000, 0.000000)">
+                                <text id="明确孩子每个打分点的得分，并了解班级平均">
+                                    <tspan x="0" y="16">明确孩子每个打分点的得分，并了解班级平均</tspan>
+                                    <tspan x="0" y="38">得分。</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="1@3x" transform="translate(-0.000000, 0.000000)">
+                            <g id="Screenshot_2017-11-14-16-47-47" filter="url(#filter-119)" transform="translate(-0.000000, 19.022753)">
+                                <g id="Group-17" transform="translate(-0.000000, 0.000000)">
+                                    <mask id="mask-121" fill="white">
+                                        <use xlink:href="#path-120"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#FFFFFF" xlink:href="#path-120"></use>
+                                </g>
+                            </g>
+                            <g id="Group-10" transform="translate(74.450512, 0.000000)">
+                                <g id="Rectangle-4">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-123)" xlink:href="#path-122"></use>
+                                    <use fill="#3FC3FF" fill-rule="evenodd" xlink:href="#path-122"></use>
+                                </g>
+                                <text id="小题得分" font-family="PingFangSC-Medium, PingFang SC" font-size="18" font-weight="400" fill="#FFFFFF">
+                                    <tspan x="47" y="24">小题得分</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-35-Copy-2" transform="translate(268.000000, 5.000000)">
+                    <g id="Group-34">
+                        <path d="M25.9,53.2 C32.3535196,53.2 38.255759,50.8396887 42.7905496,46.9352345 C48.3070864,42.1854971 51.8,35.1506554 51.8,27.3 C51.8,12.995825 40.204175,1.4 25.9,1.4 C11.595825,1.4 0,12.995825 0,27.3 C0,35.1567901 3.49837469,42.196491 9.02238641,46.9463651 C13.5554628,50.844174 19.4526151,53.2 25.9,53.2 Z" id="Oval-6-Copy-8" fill-opacity="0.446925951" fill="#52892E" opacity="0.684176772" filter="url(#filter-124)"></path>
+                        <g id="Group-33">
+                            <g id="Oval-7" transform="translate(4.000000, 38.000000)">
+                                <mask id="mask-126" fill="white">
+                                    <use xlink:href="#path-125"></use>
+                                </mask>
+                                <use id="Combined-Shape" fill="url(#linearGradient-7)" xlink:href="#path-125"></use>
+                            </g>
+                            <g id="Oval-6-Copy-5">
+                                <use fill="#AFE405" fill-rule="evenodd" xlink:href="#path-127"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-128)" xlink:href="#path-127"></use>
+                                <path stroke="#E1FF80" stroke-width="0.5" d="M25.9,39.5319625 C30.0010838,39.5319625 32.3548245,40.4180959 35.1310134,42.4492324 C35.3285574,42.593761 36.052322,43.1336814 36.2188324,43.2556899 C38.1908978,44.700698 39.5558204,45.2700328 41.7451213,45.2700328 C42.4160153,45.2700328 43.4166844,44.6605324 44.0748389,43.9996615 C48.8314933,39.2233751 51.55,32.7770941 51.55,25.9 C51.55,11.7338962 40.0661038,0.25 25.9,0.25 C11.7338962,0.25 0.25,11.7338962 0.25,25.9 C0.25,33.0279187 3.1717067,39.6886822 8.21805359,44.4836105 C9.24562245,45.2659273 10.8705365,45.6856104 12.2539405,45.1014866 C13.2381288,44.6628262 14.1309493,44.1757704 15.0958201,43.5718631 C15.6328872,43.2357158 17.3350302,42.1038525 17.4014831,42.0607489 C20.1821241,40.2571342 22.3026381,39.5319625 25.9,39.5319625 Z"></path>
+                            </g>
+                            <path d="M5.35402609,40.8121934 C6.11876713,41.7897055 6.65598907,42.4574674 6.96569191,42.8154791 C7.89475314,43.8894595 8.13327704,44.118387 8.53382674,44.3765608 C9.26110619,44.8218018 9.7376935,45.0651617 11.0064691,45.1389215 C12.093972,45.0840561 14.1226269,44.0165584 17.0924338,41.9364285 L5.35402609,40.8121934 Z" id="Path-7" fill="url(#linearGradient-12)" opacity="0.632576918" filter="url(#filter-129)"></path>
+                            <path d="M46.8077343,40.3408859 C44.9087033,42.9832739 43.3551203,44.5051413 42.1469854,44.906488 C40.9388505,45.3078348 39.2310105,44.8434732 37.0234653,43.5134033 L46.8077343,40.3408859 Z" id="Path-8" fill="url(#linearGradient-14)" opacity="0.632576918" filter="url(#filter-130)"></path>
+                        </g>
+                    </g>
+                    <g id="示例" fill="#FFFFFF" fill-opacity="1">
+                        <use filter="url(#filter-132)" xlink:href="#text-131"></use>
+                        <use xlink:href="#text-131"></use>
+                    </g>
+                </g>
+                <g id="Group-22" transform="translate(0.000000, 56.883959)">
+                    <g id="Group" transform="translate(1.092150, 45.261679)">
+                        <g id="Group-4">
+                            <rect id="Rectangle-8" fill="#F8F8F8" x="0.397018957" y="0" width="317.418681" height="36.4061328"></rect>
+                            <path d="M0.852771384,35.3861164 L317.269847,35.3861164" id="Line" stroke="#EFF2F2" stroke-width="0.983949535" stroke-linecap="square"></path>
+                            <text id="1－1" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="36.6777367" y="59.2777291">1－1</tspan>
+                            </text>
+                            <path d="M26.5968047,58.5684866 C26.5968047,58.7734771 26.5250591,58.9477164 26.3815657,59.0912098 L25.3361194,60.1366561 C25.192626,60.2801495 25.0183867,60.3518951 24.8133962,60.3518951 C24.6084057,60.3518951 24.4341663,60.2801495 24.290673,60.1366561 L22.0306639,57.876647 L19.7706548,60.1366561 C19.6271614,60.2801495 19.4529221,60.3518951 19.2479316,60.3518951 C19.0429411,60.3518951 18.8687018,60.2801495 18.7252084,60.1366561 L17.679762,59.0912098 C17.5362687,58.9477164 17.4645231,58.7734771 17.4645231,58.5684866 C17.4645231,58.3634961 17.5362687,58.1892567 17.679762,58.0457634 L19.9397711,55.7857543 L17.679762,53.5257452 C17.5362687,53.3822518 17.4645231,53.2080125 17.4645231,53.003022 C17.4645231,52.7980315 17.5362687,52.6237922 17.679762,52.4802988 L18.7252084,51.4348524 C18.8687018,51.2913591 19.0429411,51.2196135 19.2479316,51.2196135 C19.4529221,51.2196135 19.6271614,51.2913591 19.7706548,51.4348524 L22.0306639,53.6948615 L24.290673,51.4348524 C24.4341663,51.2913591 24.6084057,51.2196135 24.8133962,51.2196135 C25.0183867,51.2196135 25.192626,51.2913591 25.3361194,51.4348524 L26.3815657,52.4802988 C26.5250591,52.6237922 26.5968047,52.7980315 26.5968047,53.003022 C26.5968047,53.2080125 26.5250591,53.3822518 26.3815657,53.5257452 L24.1215567,55.7857543 L26.3815657,58.0457634 C26.5250591,58.1892567 26.5968047,58.3634961 26.5968047,58.5684866 Z" id="" fill="#DB524B"></path>
+                            <text id="2" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="129.084373" y="60.2616786">2</tspan>
+                            </text>
+                            <text id="／4" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#9B9B9B">
+                                <tspan x="137.644734" y="60.2616786">／4</tspan>
+                            </text>
+                            <text id="3" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="245.190418" y="59.2777291">3</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-4" transform="translate(0.000000, 71.828316)">
+                            <rect id="Rectangle-8" fill="#F8F8F8" x="0.397018957" y="0" width="316.326531" height="36.4061328"></rect>
+                            <text id="1－2" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="36.7830193" y="23.8555458">1－2</tspan>
+                            </text>
+                            <text id="4" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="128.100424" y="23.8555458">4</tspan>
+                            </text>
+                            <text id="／4-copy" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#9B9B9B">
+                                <tspan x="136.660785" y="23.8555458">／4</tspan>
+                            </text>
+                            <text id="3" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="246.174368" y="23.8555458">3</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-4" transform="translate(0.000000, 144.640582)">
+                            <rect id="Rectangle-8" fill="#F8F8F8" x="0.397018957" y="0" width="316.326531" height="36.4061328"></rect>
+                            <text id="1－4" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="36.7830193" y="23.8555458">1－4</tspan>
+                            </text>
+                            <text id="3" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="128.100424" y="23.8555458">3</tspan>
+                            </text>
+                            <text id="3" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="246.174368" y="23.8555458">3</tspan>
+                            </text>
+                            <text id="／3" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#9B9B9B">
+                                <tspan x="136.660785" y="23.8555458">／3</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-4" transform="translate(16.618941, 117.089995)">
+                            <text id="1－3" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="20.1640778" y="15">1－3</tspan>
+                            </text>
+                            <path d="M9.97786325,14.2907575 C9.97786325,14.495748 9.90611765,14.6699873 9.76262429,14.8134807 L8.71717791,15.8589271 C8.57368455,16.0024204 8.39944523,16.074166 8.19445472,16.074166 C7.98946421,16.074166 7.81522489,16.0024204 7.67173153,15.8589271 L5.41172244,13.598918 L3.15171335,15.8589271 C3.00821999,16.0024204 2.83398067,16.074166 2.62899016,16.074166 C2.42399965,16.074166 2.24976033,16.0024204 2.10626697,15.8589271 L1.06082059,14.8134807 C0.917327234,14.6699873 0.845581631,14.495748 0.845581631,14.2907575 C0.845581631,14.085767 0.917327234,13.9115277 1.06082059,13.7680343 L3.32082968,11.5080252 L1.06082059,9.24801615 C0.917327234,9.10452279 0.845581631,8.93028347 0.845581631,8.72529296 C0.845581631,8.52030244 0.917327234,8.34606312 1.06082059,8.20256977 L2.10626697,7.15712338 C2.24976033,7.01363003 2.42399965,6.94188442 2.62899016,6.94188442 C2.83398067,6.94188442 3.00821999,7.01363003 3.15171335,7.15712338 L5.41172244,9.41713247 L7.67173153,7.15712338 C7.81522489,7.01363003 7.98946421,6.94188442 8.19445472,6.94188442 C8.39944523,6.94188442 8.57368455,7.01363003 8.71717791,7.15712338 L9.76262429,8.20256977 C9.90611765,8.34606312 9.97786325,8.52030244 9.97786325,8.72529296 C9.97786325,8.93028347 9.90611765,9.10452279 9.76262429,9.24801615 L7.5026152,11.5080252 L9.76262429,13.7680343 C9.90611765,13.9115277 9.97786325,14.085767 9.97786325,14.2907575 Z" id="" fill="#DB524B"></path>
+                            <text id="5" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="112.465432" y="15.9839495">5</tspan>
+                            </text>
+                            <text id="／7" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#9B9B9B">
+                                <tspan x="120.041843" y="15.9839495">／7</tspan>
+                            </text>
+                            <text id="6" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="229.555426" y="15.9839495">6</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-2" transform="translate(35.205782, 7.871596)" fill="#3A3A3A" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400">
+                            <text id="题号">
+                                <tspan x="0.867443654" y="15">题号</tspan>
+                            </text>
+                            <text id="孩子得分／满分">
+                                <tspan x="60.7103731" y="15">孩子得分／满分</tspan>
+                            </text>
+                            <text id="班级平均分">
+                                <tspan x="183.436797" y="15">班级平均分</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Group-Copy-4" transform="translate(0.000000, 277.473769)">
+                        <g id="Group-4">
+                            <rect id="Rectangle-8" fill="#F8F8F8" x="1.96789907" y="0" width="315.847801" height="39.3579814"></rect>
+                            <path d="M1.63753818,38.0460487 L316.388619,38.0460487" id="Line" stroke="#EFF2F2" stroke-width="0.983949535" stroke-linecap="square"></path>
+                            <text id="2－1" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="37.3900823" y="64.2295777">2－1</tspan>
+                            </text>
+                            <path d="M27.6889549,61.3277296 C27.6889549,61.5327201 27.6172093,61.7069594 27.4737159,61.8504528 L26.4282695,62.8958992 C26.2847762,63.0393925 26.1105369,63.1111381 25.9055463,63.1111381 C25.7005558,63.1111381 25.5263165,63.0393925 25.3828231,62.8958992 L23.1228141,60.6358901 L20.862805,62.8958992 C20.7193116,63.0393925 20.5450723,63.1111381 20.3400818,63.1111381 C20.1350913,63.1111381 19.960852,63.0393925 19.8173586,62.8958992 L18.7719122,61.8504528 C18.6284189,61.7069594 18.5566733,61.5327201 18.5566733,61.3277296 C18.5566733,61.1227391 18.6284189,60.9484998 18.7719122,60.8050064 L21.0319213,58.5449973 L18.7719122,56.2849882 C18.6284189,56.1414949 18.5566733,55.9672555 18.5566733,55.762265 C18.5566733,55.5572745 18.6284189,55.3830352 18.7719122,55.2395418 L19.8173586,54.1940955 C19.960852,54.0506021 20.1350913,53.9788565 20.3400818,53.9788565 C20.5450723,53.9788565 20.7193116,54.0506021 20.862805,54.1940955 L23.1228141,56.4541045 L25.3828231,54.1940955 C25.5263165,54.0506021 25.7005558,53.9788565 25.9055463,53.9788565 C26.1105369,53.9788565 26.2847762,54.0506021 26.4282695,54.1940955 L27.4737159,55.2395418 C27.6172093,55.3830352 27.6889549,55.5572745 27.6889549,55.762265 C27.6889549,55.9672555 27.6172093,56.1414949 27.4737159,56.2849882 L25.2137068,58.5449973 L27.4737159,60.8050064 C27.6172093,60.9484998 27.6889549,61.1227391 27.6889549,61.3277296 Z" id="" fill="#DB524B"></path>
+                            <text id="2" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="135.785036" y="65.2135272">2</tspan>
+                            </text>
+                            <text id="／4" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#9B9B9B">
+                                <tspan x="145.624531" y="65.2135272">／4</tspan>
+                            </text>
+                            <text id="3" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="245.003434" y="64.2295777">3</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-4" transform="translate(1.092150, 76.748064)">
+                            <rect id="Rectangle-8" fill="#F8F8F8" x="0.875748898" y="0" width="315.847801" height="36.4061328"></rect>
+                            <text id="2－2" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="36.2979321" y="22.9036972">2－2</tspan>
+                            </text>
+                            <text id="4" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="133.708936" y="22.9036972">4</tspan>
+                            </text>
+                            <text id="／4-copy" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#9B9B9B">
+                                <tspan x="143.548431" y="22.9036972">／4</tspan>
+                            </text>
+                            <text id="3" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="244.895233" y="22.9036972">3</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-4" transform="translate(1.092150, 150.544279)">
+                            <rect id="Rectangle-8" fill="#F8F8F8" x="0.875748898" y="0" width="315.463114" height="34.6725074"></rect>
+                            <text id="3－3" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="36.2979321" y="22.9036972">3－3</tspan>
+                            </text>
+                            <text id="3" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="133.708936" y="22.9036972">3</tspan>
+                            </text>
+                            <text id="3" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="244.895233" y="22.9036972">3</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-4" transform="translate(17.711092, 120.041843)">
+                            <text id="3－1" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="19.6789907" y="17">3－1</tspan>
+                            </text>
+                            <path d="M9.97786325,14.2907575 C9.97786325,14.495748 9.90611765,14.6699873 9.76262429,14.8134807 L8.71717791,15.8589271 C8.57368455,16.0024204 8.39944523,16.074166 8.19445472,16.074166 C7.98946421,16.074166 7.81522489,16.0024204 7.67173153,15.8589271 L5.41172244,13.598918 L3.15171335,15.8589271 C3.00821999,16.0024204 2.83398067,16.074166 2.62899016,16.074166 C2.42399965,16.074166 2.24976033,16.0024204 2.10626697,15.8589271 L1.06082059,14.8134807 C0.917327234,14.6699873 0.845581631,14.495748 0.845581631,14.2907575 C0.845581631,14.085767 0.917327234,13.9115277 1.06082059,13.7680343 L3.32082968,11.5080252 L1.06082059,9.24801615 C0.917327234,9.10452279 0.845581631,8.93028347 0.845581631,8.72529296 C0.845581631,8.52030244 0.917327234,8.34606312 1.06082059,8.20256977 L2.10626697,7.15712338 C2.24976033,7.01363003 2.42399965,6.94188442 2.62899016,6.94188442 C2.83398067,6.94188442 3.00821999,7.01363003 3.15171335,7.15712338 L5.41172244,9.41713247 L7.67173153,7.15712338 C7.81522489,7.01363003 7.98946421,6.94188442 8.19445472,6.94188442 C8.39944523,6.94188442 8.57368455,7.01363003 8.71717791,7.15712338 L9.76262429,8.20256977 C9.90611765,8.34606312 9.97786325,8.52030244 9.97786325,8.72529296 C9.97786325,8.93028347 9.90611765,9.10452279 9.76262429,9.24801615 L7.5026152,11.5080252 L9.76262429,13.7680343 C9.90611765,13.9115277 9.97786325,14.085767 9.97786325,14.2907575 Z" id="" fill="#DB524B"></path>
+                            <text id="5" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="118.073944" y="17.9839495">5</tspan>
+                            </text>
+                            <text id="／7" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#9B9B9B">
+                                <tspan x="126.92949" y="17.9839495">／7</tspan>
+                            </text>
+                            <text id="／3" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#9B9B9B">
+                                <tspan x="126.92949" y="53.4061328">／3</tspan>
+                            </text>
+                            <text id="6" font-family="PingFangSC-Regular, PingFang SC" font-size="15.7431926" font-weight="normal" fill="#3A3A3A">
+                                <tspan x="228.276292" y="17">6</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-2" transform="translate(36.297932, 7.871596)" fill="#3A3A3A" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400">
+                            <text id="题号">
+                                <tspan x="0.867443654" y="15">题号</tspan>
+                            </text>
+                            <text id="孩子得分／满分">
+                                <tspan x="70.5498684" y="15">孩子得分／满分</tspan>
+                            </text>
+                            <text id="班级平均分">
+                                <tspan x="183.436797" y="15">班级平均分</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <text id="客观题" font-family="PingFangSC-Medium, PingFang SC" font-size="12.7913439" font-weight="400" fill="#56C0E0">
+                        <tspan x="16.7271421" y="14">客观题</tspan>
+                    </text>
+                    <text id="主观题" font-family="PingFangSC-Medium, PingFang SC" font-size="12.7913439" font-weight="400" fill="#56C0E0">
+                        <tspan x="16.7271421" y="262.939232">主观题</tspan>
+                    </text>
+                    <g id="Group-5" transform="translate(16.727142, 20.662940)">
+                        <path d="M25.2233157,3.36325207 L25.2233157,3.86099216 C25.0663698,3.94619135 24.9486622,4.09977178 24.8701893,4.32173807 C24.7917164,4.54370435 24.7524805,4.83629189 24.7524805,5.19950945 L24.7524805,5.35421245 L25.3914711,5.35421245 L25.3914711,6.84743274 L23.8982509,6.84743274 L23.8982509,5.73088064 C23.8982509,5.05377135 24.0081113,4.51792138 24.2278355,4.12331465 C24.4475597,3.72870791 24.7793831,3.47535625 25.2233157,3.36325207 Z M22.7346152,3.36325207 L22.7346152,3.86099216 C22.5776694,3.94619135 22.4599617,4.09977178 22.3814888,4.32173807 C22.3030159,4.54370435 22.26378,4.83629189 22.26378,5.19950945 L22.26378,5.35421245 L22.9027707,5.35421245 L22.9027707,6.84743274 L21.4095504,6.84743274 L21.4095504,5.73088064 C21.4095504,5.05377135 21.5194108,4.51792138 21.739135,4.12331465 C21.9588592,3.72870791 22.2906826,3.47535625 22.7346152,3.36325207 Z M36.1159445,12.3389089 C36.1159445,12.5438994 36.0441989,12.7181387 35.9007056,12.8616321 L34.8552592,13.9070785 C34.7117658,14.0505718 34.5375265,14.1223174 34.332536,14.1223174 C34.1275455,14.1223174 33.9533062,14.0505718 33.8098128,13.9070785 L31.5498037,11.6470694 L29.2897946,13.9070785 C29.1463013,14.0505718 28.972062,14.1223174 28.7670715,14.1223174 C28.5620809,14.1223174 28.3878416,14.0505718 28.2443483,13.9070785 L27.1989019,12.8616321 C27.0554085,12.7181387 26.9836629,12.5438994 26.9836629,12.3389089 C26.9836629,12.1339184 27.0554085,11.9596791 27.1989019,11.8161857 L29.458911,9.55617663 L27.1989019,7.29616754 C27.0554085,7.15267418 26.9836629,6.97843486 26.9836629,6.77344435 C26.9836629,6.56845384 27.0554085,6.39421452 27.1989019,6.25072116 L28.2443483,5.20527478 C28.3878416,5.06178142 28.5620809,4.99003582 28.7670715,4.99003582 C28.972062,4.99003582 29.1463013,5.06178142 29.2897946,5.20527478 L31.5498037,7.46528387 L33.8098128,5.20527478 C33.9533062,5.06178142 34.1275455,4.99003582 34.332536,4.99003582 C34.5375265,4.99003582 34.7117658,5.06178142 34.8552592,5.20527478 L35.9007056,6.25072116 C36.0441989,6.39421452 36.1159445,6.56845384 36.1159445,6.77344435 C36.1159445,6.97843486 36.0441989,7.15267418 35.9007056,7.29616754 L33.6406965,9.55617663 L35.9007056,11.8161857 C36.0441989,11.9596791 36.1159445,12.1339184 36.1159445,12.3389089 Z M37.8762918,6.84743274 L37.8762918,6.34969265 C38.0332376,6.26897763 38.1509452,6.11651823 38.2294182,5.89230986 C38.3078911,5.66810148 38.347127,5.37215087 38.347127,5.00444914 L38.347127,4.85647236 L37.7081363,4.85647236 L37.7081363,3.36325207 L39.2013566,3.36325207 L39.2013566,4.47980418 C39.2013566,5.16139763 39.0903751,5.69948965 38.8684088,6.09409638 C38.6464425,6.48870312 38.3157402,6.73981273 37.8762918,6.84743274 Z M40.3649922,6.84743274 L40.3649922,6.34969265 C40.5219381,6.26897763 40.6396457,6.11651823 40.7181187,5.89230986 C40.7965916,5.66810148 40.8358275,5.37215087 40.8358275,5.00444914 L40.8358275,4.85647236 L40.1968368,4.85647236 L40.1968368,3.36325207 L41.6900571,3.36325207 L41.6900571,4.47980418 C41.6900571,5.16139763 41.5790756,5.69948965 41.3571093,6.09409638 C41.135143,6.48870312 40.8044406,6.73981273 40.3649922,6.84743274 Z" id="“”" fill="#DB524B"></path>
+                        <text id="代表有失分的题目。" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#55595C">
+                            <tspan x="44.2777291" y="15">代表有失分的题目。</tspan>
+                        </text>
+                        <text id="注：" font-family="PingFangSC-Regular, PingFang SC" font-size="13.7752935" font-weight="normal" fill="#55595C">
+                            <tspan x="0" y="15">注：</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-35-Copy-2" transform="translate(295.000000, 777.000000)">
+                <g id="Group-34">
+                    <path d="M25.9,53.2 C32.3535196,53.2 38.255759,50.8396887 42.7905496,46.9352345 C48.3070864,42.1854971 51.8,35.1506554 51.8,27.3 C51.8,12.995825 40.204175,1.4 25.9,1.4 C11.595825,1.4 0,12.995825 0,27.3 C0,35.1567901 3.49837469,42.196491 9.02238641,46.9463651 C13.5554628,50.844174 19.4526151,53.2 25.9,53.2 Z" id="Oval-6-Copy-8" fill-opacity="0.446925951" fill="#52892E" opacity="0.684176772" filter="url(#filter-133)"></path>
+                    <g id="Group-33">
+                        <g id="Oval-7" transform="translate(4.000000, 38.000000)">
+                            <mask id="mask-135" fill="white">
+                                <use xlink:href="#path-134"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="url(#linearGradient-7)" xlink:href="#path-134"></use>
+                        </g>
+                        <g id="Oval-6-Copy-5">
+                            <use fill="#AFE405" fill-rule="evenodd" xlink:href="#path-136"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-137)" xlink:href="#path-136"></use>
+                            <path stroke="#E1FF80" stroke-width="0.5" d="M25.9,39.5319625 C30.0010838,39.5319625 32.3548245,40.4180959 35.1310134,42.4492324 C35.3285574,42.593761 36.052322,43.1336814 36.2188324,43.2556899 C38.1908978,44.700698 39.5558204,45.2700328 41.7451213,45.2700328 C42.4160153,45.2700328 43.4166844,44.6605324 44.0748389,43.9996615 C48.8314933,39.2233751 51.55,32.7770941 51.55,25.9 C51.55,11.7338962 40.0661038,0.25 25.9,0.25 C11.7338962,0.25 0.25,11.7338962 0.25,25.9 C0.25,33.0279187 3.1717067,39.6886822 8.21805359,44.4836105 C9.24562245,45.2659273 10.8705365,45.6856104 12.2539405,45.1014866 C13.2381288,44.6628262 14.1309493,44.1757704 15.0958201,43.5718631 C15.6328872,43.2357158 17.3350302,42.1038525 17.4014831,42.0607489 C20.1821241,40.2571342 22.3026381,39.5319625 25.9,39.5319625 Z"></path>
+                        </g>
+                        <path d="M5.35402609,40.8121934 C6.11876713,41.7897055 6.65598907,42.4574674 6.96569191,42.8154791 C7.89475314,43.8894595 8.13327704,44.118387 8.53382674,44.3765608 C9.26110619,44.8218018 9.7376935,45.0651617 11.0064691,45.1389215 C12.093972,45.0840561 14.1226269,44.0165584 17.0924338,41.9364285 L5.35402609,40.8121934 Z" id="Path-7" fill="url(#linearGradient-12)" opacity="0.632576918" filter="url(#filter-138)"></path>
+                        <path d="M46.8077343,40.3408859 C44.9087033,42.9832739 43.3551203,44.5051413 42.1469854,44.906488 C40.9388505,45.3078348 39.2310105,44.8434732 37.0234653,43.5134033 L46.8077343,40.3408859 Z" id="Path-8" fill="url(#linearGradient-14)" opacity="0.632576918" filter="url(#filter-139)"></path>
+                    </g>
+                </g>
+                <g id="示例" fill="#FFFFFF" fill-opacity="1">
+                    <use filter="url(#filter-141)" xlink:href="#text-140"></use>
+                    <use xlink:href="#text-140"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "意见反馈",
+  "usingComponents": {
+    "wrong": "/pages/my-item/mySuggestion/mySuggestion"
+  }
+}

@@ -1,0 +1,37 @@
+<!--个人中心  -->
+<!--加载出错的时候  -->
+ <import src="./../wrong/wrong.wxml" />
+<template is="wrong" wx:if="{{wrongSwitch}}" /> 
+<view class="my" wx:else>
+  <!--个人中心头部区域  -->
+  <view class="my-head clearfix">
+    <image class="head-portrait float-left" src="{{headPortrait}}"></image>
+    <view class="float-left" class="my-head-info">
+      <view class="my-head-username">{{nickName}}</view>
+      <view class="my-head-phone">
+        <text>{{myPhone}}</text>
+        <navigator url="/pages/enroll/enroll?result=1">修改</navigator>
+      </view>
+    </view>
+    <view class="my-head-degree clearfix">
+      <view class="float-left" wx:for="{{degreeArr}}" wx:key="{{key}}">{{item.text}}
+        <text wx:if="{{item.primary_contact==userId}}">管理员</text>
+      </view>
+    </view>
+
+  </view>
+  <!--个人中心内容区域  -->
+  <view class="my-content">
+    <view class="my-item" wx:for="{{myArr}}" wx:key="{{key}}" data-index="{{index}}" data-src="{{item.src}}" catchtap='toNav' data-result="{{item.result}}">
+      <image src="{{item.img}} "></image>
+      <text class="my-item-text ">{{item.text}}</text>
+      <text wx:if="{{index==0}}" class="my-item-name ">{{childName.length>1?childName.length:childName[0].real_name}}</text>
+      <text wx:if="{{index==1&&redSwitch}}" class="my-item-red"></text>
+      <image src="{{rowImg}} "></image>
+    </view>
+  </view>
+
+
+  <!--绑定孩子的悬浮按钮  -->
+  <view class="invite-suspend" wx:if="{{inviteSwitch}}" bindtap='openInviteFun'>绑定孩子</view>
+</view>

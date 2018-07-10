@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "孩子信息",
+  "usingComponents": {
+    "wrong": "/pages/my-item/myChild/myChild"
+  }
+}

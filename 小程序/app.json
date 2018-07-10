@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/exam/exam",
+    "pages/code/code",
+    "pages/my/my",
+    "pages/my-item/childCode/childCode",
+    "pages/bind/bind",
+    "pages/wrong/wrong",
+    "pages/enroll/enroll",
+    "pages/my-item/server/server",
+    "pages/tool/tool",
+    "pages/exam-item/report/report",
+    "pages/my-item/myChild/myChild",
+    "pages/my-item/myServer/myServer",
+    "pages/my-item/myFamily/myFamily",
+    "pages/my-item/myDirectory/myDirectory",
+    "pages/my-item/mySuggestion/mySuggestion",
+    "pages/my-item/myOrder/myOrder",
+    "pages/my-item/password/password",
+    "pages/exam-item/respondence/respondence",
+    "pages/exam-item/through/through",
+    "pages/exam-item/wrongContent/wrongContent",
+    "pages/my-item/directoryContent/directoryContent"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#28BCFF",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#8A8A8F",
+    "selectedColor": "#50B0F1",
+    "list": [
+      {
+        "pagePath": "pages/exam/exam",
+        "text": "我的考试",
+        "iconPath": "./imgs/exam.png",
+        "selectedIconPath": "./imgs/exam_click.png"
+      },
+      {
+        "pagePath": "pages/tool/tool",
+        "text": "学习助手",
+        "iconPath": "./imgs/tool.png",
+        "selectedIconPath": "./imgs/tool_click.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "./imgs/my.png",
+        "selectedIconPath": "./imgs/my_click.png"
+      }
+    ]
+  }
+}

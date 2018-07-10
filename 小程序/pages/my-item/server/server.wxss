@@ -1,0 +1,282 @@
+/* pages/my-item/server/server.wxss */
+
+.server {
+  height: 100vh;
+  padding-top: 86rpx;
+  box-sizing: border-box;
+}
+
+.pay {
+  position: relative;
+}
+
+.pay-info {
+  background: #fffcf3;
+  box-shadow: 0 2px 6px 0 rgba(89, 89, 89, 0.10);
+  border-radius: 5px;
+  width: 690rpx;
+  box-sizing: border-box;
+  padding: 32rpx 40rpx 44rpx;
+  position: absolute;
+  top: 160rpx;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.pay-info-item {
+  font-size: 17px;
+  color: #674f41;
+  margin-bottom: 28rpx;
+}
+
+.pay-info-item>view:first-child {
+  font-weight: 600;
+}
+
+.pay-info-item:last-child {
+  margin-bottom: 0;
+}
+
+.pay-table {
+  position: absolute;
+  top: 652rpx;
+  left: 50%;
+  transform: translate(-50%);
+  width: 680rpx;
+  border-radius: 8rpx;
+  display: table;
+}
+
+.pay-table-two {
+  top: 560rpx;
+}
+
+.pay-table>view {
+  display: table-row;
+}
+
+.pay-table>view>view {
+  display: table-cell;
+}
+
+.pay-table>view>view:first-child {
+  width: 40%;
+  vertical-align: middle;
+}
+
+.pay-table>view>view:nth-child(2) {
+  width: 30%;
+}
+
+.pay-table>view>view:nth-child(3), .pay-table>view>view:nth-child(4) {
+  width: 15%;
+}
+
+.pay-table-thead>view {
+  background: #ffc40c;
+  font-size: 15px;
+  color: #fff;
+  border-left: 1px solid #fdf3da;
+  height: 108rpx;
+  box-sizing: border-box;
+  display: table-cell;
+}
+
+.pay-table-thead>view {
+  padding-top: 34rpx;
+}
+
+.pay-table-thead>view:first-child {
+  border-top-left-radius: 8rpx;
+  padding-top: 0;
+}
+
+.pay-table-thead>view:last-child {
+  border-top-right-radius: 8rpx;
+}
+
+.pay-table-thead>view:first-child>text {
+  padding-left: 32rpx;
+  border: none;
+}
+
+.pay-table-thead>view:nth-child(2)>text {
+  padding-left: 14rpx;
+}
+
+.pay-table-thead>view:nth-child(3), .pay-table-thead>view:nth-child(4) {
+  text-align: center;
+}
+
+pay-table-tbody>view {
+  display: table-cell;
+}
+
+.pay-item-table {
+  display: table;
+}
+
+.pay-table>.pay-table-tbody:last-child>.pay-collspan-warp {
+  border-bottom: 0;
+}
+
+.pay-collspan-warp {
+  border-bottom: 1px solid #ffc40c;
+}
+
+.pay-collspan-warp>view {
+  border-right: 1px solid #fdf3da;
+  font-size: 30rpx;
+  color: #674f41;
+  display: table-cell;
+  width: 80%;
+}
+
+.pay-table-collspan {
+  background: #fffbdf;
+  border-right: 1px solid #fdf3da;
+  width: 20% !important;
+  vertical-align: middle;
+  font-size: 30rpx;
+  color: #a08474;
+  height: 100%;
+  text-align: center;
+}
+
+.pay-item-tr {
+  background: #fffffe;
+  border-bottom: 1px solid #fdf3da;
+  height: 108rpx;
+  width: 100%;
+  box-sizing: border-box
+}
+
+.pay-item-tr:nth-child(2n) {
+  background: #fffce6;
+}
+
+/* .pay-item-tr:nth-child(3) {
+  height: 152rpx;
+} */
+
+.pay-item-tr>text {
+  padding: 0 20rpx;
+  display: block;
+  width: 100%;
+  position: relative;
+  top: 34rpx;
+  box-sizing: border-box;
+}
+
+.pay-td-warp>view {
+  color: #a18d57;
+  border-bottom: 1px solid #fdf3da;
+  border-right: 1px solid #fdf3da;
+  background: #fffffe;
+  text-align: center;
+  width: 100%;
+  height: 108rpx;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.pay-td-warp>view>text {
+  font-size: 30rpx;
+  position: relative;
+  top: 34rpx;
+  left: 8rpx;
+}
+
+.pay-td-warp>view:nth-child(2n) {
+  background: #fffce6;
+}
+
+/* .pay-td-warp>view:nth-child(3) {
+  height: 152rpx;
+} */
+
+/* .pay-td-warp>view:nth-child(3)>text {
+  top: 56rpx;
+} */
+
+.pay-table-tbody>.pay-td-warp>view>image {
+  width: 30rpx;
+  height: 26rpx;
+  position: relative;
+  top: 34rpx;
+}
+
+.pay-table>.pay-table-tbody:nth-child(2)>.pay-td-warp {
+  border-bottom: 1px solid #ffc40c;
+}
+
+.pay-table-tbody-other .pay-collspan-warp .pay-item-tr:nth-child(4),
+.pay-table-tbody-other .pay-collspan-warp .pay-item-tr:nth-child(5),
+.pay-table-tbody-other .pay-collspan-warp .pay-item-tr:nth-child(6),
+.pay-table-tbody-other .pay-collspan-warp .pay-item-tr:nth-child(7),
+.pay-table-tbody-other .pay-td-warp>view:nth-child(4),
+.pay-table-tbody-other .pay-td-warp>view:nth-child(5),
+.pay-table-tbody-other .pay-td-warp>view:nth-child(6),
+.pay-table-tbody-other .pay-td-warp>view:nth-child(7) {
+  height: 152rpx;
+}
+.pay-table>.pay-table-tbody:last-child .pay-collspan-warp .pay-item-tr:last-child,.pay-table>.pay-table-tbody:last-child>.pay-td-warp>view:last-child{
+  height: 152rpx;
+}
+.pay-table-tbody-other view .pay-item-tr:nth-child(3)>text,  {
+  top: 100rpx;
+}
+.pay-table-tbody-other>view{
+  border-bottom:1px solid #ffc40c;
+
+}
+.bg-white {
+  background-color: white;
+  width: 100%;
+
+  position: absolute;
+  top: 2910rpx;
+  left: 0;
+}
+
+.pay button {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  border-radius: 0;
+  background: #ffc530;
+  font-size: 34rpx;
+  color: #fff;
+}
+
+button::after {
+  border: none;
+}
+
+.pay button:active {
+  background-image: linear-gradient(-131deg, #fdb600 3%, #eea500 100%);
+  box-shadow: inset 0 0 5px 0 #e5a517;
+}
+
+.no-pay {
+  position: relative;
+}
+
+.no-pay-title {
+  margin: 54rpx 0 36rpx;
+  font-size: 44rpx;
+  color: #3a3a3a;
+}
+
+.no-pay>.pay-table {
+  top: 100rpx;
+}
+
+.no-pay .bg-white {
+  top: 2350rpx;
+}
+
+.pay-collspan-warp>.pay-td-warp>view:last-child {
+  border: 0 !important;
+}

@@ -1,0 +1,11 @@
+<!--学习工具  -->
+<view class="tool">
+  <view class="tool-item clearfix" wx:for="{{toolArr}}" wx:key="{{key}}" data-index="{{index}}" bindtap='toTool'>
+    <image src="{{item.image}}" class="float-left"></image>
+    <view class="float-left">
+      <view>{{item.title}}</view>
+      <view>{{item.text}}</view>
+    </view>
+    <image class="float-right" src="{{rowImg}}"></image>
+  </view>
+</view>

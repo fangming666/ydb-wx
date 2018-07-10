@@ -1,0 +1,6 @@
+<!--通往绑定孩子的页面  -->
+<view class="go-bind text-center">
+  <image src="{{goBindImg}}"></image>
+  <view class="text-center">请先绑定孩子</view>
+  <button class="btn-primary" bindtap='goBind' hover-class='btn-active'>添加孩子</button>
+</view>

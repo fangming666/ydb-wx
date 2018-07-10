@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="27px" viewBox="0 0 26 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#67E9FA" offset="0%"></stop>
+            <stop stop-color="#44D5EB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13-copy" transform="translate(-23.000000, -475.000000)">
+            <g id="Group-5-Copy" transform="translate(15.000000, 476.000000)">
+                <g id="Group-19" transform="translate(11.000000, 0.000000)">
+                    <path d="M2.74599542,0 L17.8489703,0 C19.3655416,-2.78589646e-16 20.5949657,1.22942403 20.5949657,2.74599542 L20.5949657,13.1503237 L9.79238873,24.7139588 L2.74599542,24.7139588 C1.22942403,24.7139588 1.85726431e-16,23.4845348 0,21.9679634 L0,2.74599542 C-1.85726431e-16,1.22942403 1.22942403,-1.65499564e-16 2.74599542,-4.4408921e-16 Z" id="Rectangle-6" fill="url(#linearGradient-1)"></path>
+                    <text id="?" opacity="0.876201038" font-family="JZunYuan, 迷你简准圆" font-size="19.221968" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="5.49199085" y="18.3729977">?</tspan>
+                    </text>
+                    <path d="M16.8752907,14.4111197 L17.5027507,14.4111197 C18.1579095,14.4111197 18.6890207,14.9422309 18.6890207,15.5973898 L18.6890207,24.1254055 L17.2211358,26.4111197 L15.6890207,24.1254055 L15.6890207,15.5973898 C15.6890207,14.9422309 16.2201319,14.4111197 16.8752907,14.4111197 Z" id="Rectangle-15" fill="url(#linearGradient-1)" transform="translate(17.189021, 20.411120) rotate(-317.000000) translate(-17.189021, -20.411120) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

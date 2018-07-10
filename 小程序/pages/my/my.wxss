@@ -1,0 +1,150 @@
+.my {
+  background: #eef2f4;
+  min-height: 100vh;
+}
+
+.my-head {
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20rpx;
+  padding: 30rpx 0 0 34rpx;
+}
+
+.head-portrait {
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 30rpx;
+  border-radius: 50%;
+}
+
+.my-head-info {
+  margin-left: 30rpx;
+}
+
+.my-head-info button {
+  font-size: 36rpx;
+  color: #28bcff;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  padding: 0;
+  height: 50rpx;
+  line-height: 1;
+  margin-top: 15rpx;
+}
+
+.my-head-info button:after {
+  border: none;
+}
+
+.my-head-username {
+  font-size: 36rpx;
+  color: #222;
+  margin-bottom: 10rpx;
+}
+
+.my-head-phone text {
+  font-size: 28rpx;
+  color: #999;
+}
+
+.my-head-phone navigator {
+  font-size: 28rpx;
+  color: #28bcff;
+  display: inline-block;
+  margin-left: 10rpx;
+}
+
+.my-head-degree {
+  margin-top: 34rpx;
+}
+
+.my-head-degree>view {
+  background: #fffdef;
+  border-radius: 4rpx;
+  padding: 6rpx 14rpx 6rpx 16rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+  color: #927542;
+  margin-right: 20rpx;
+  margin-bottom: 32rpx;
+}
+
+.my-head-degree text {
+  background: #ffc530;
+  border-radius: 116rpx;
+  font-size: 24rpx;
+  color: #fff;
+  height: 32rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12rpx;
+  margin-left: 6rpx;
+}
+
+.my-content {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding-left: 30rpx;
+  background-color: white;
+}
+
+.my-item {
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+}
+.my-item:active{
+  background: #FBFBFB;
+}
+.my-item image:first-child {
+  width: 41.2rpx;
+  height: 49.4rpx;
+}
+
+.my-item image:last-child {
+  width: 16rpx;
+  height: 26rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 35rpx;
+}
+
+.my-item:last-child {
+  border: none;
+}
+
+.my-item-text {
+  margin-left: 14rpx;
+  font-size: 34rpx;
+  color: #3a3a3a;
+}
+
+.my-item-name {
+  position: absolute;
+  right: 66rpx;
+  top: 23rpx;
+  font-size: 34rpx;
+  color: #9b9b9b;
+}
+.invite-suspend {
+  padding: 26rpx 26rpx;
+  width: 132rpx;
+  height: 132rpx;
+}
+.my-item-red{
+  display: block;
+  background: #F43530;
+  width: 20rpx;
+  height: 20rpx;
+  position: absolute;
+  right: 66rpx;
+  border-radius: 50%;
+  top: 38rpx;
+}

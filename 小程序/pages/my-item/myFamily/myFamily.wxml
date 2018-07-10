@@ -1,0 +1,88 @@
+<!--家庭成员的页面  -->
+<view class="family {{childArr.length >1?'':'child-list-none'}}" wx:if="{{!wrongSwitch}}">
+
+  <!--孩子列表  -->
+  <view class="child-list" wx:if="{{childArr.length >1}}">
+    <view catchtap='childChange' class="child-list-item {{childIndex==index?'childActive':''}} {{childArr.length>2?'child-item-two':''}}" wx:for="{{childArr}}" data-index="{{index}}" data-id="{{item.student_id}}" wx:key="key">{{item.real_name}}</view>
+  </view>
+
+  <!--审核列表  -->
+  <view class="auditing-warp " wx:if="{{audytingArr.length&&primaryContact==userId}}">
+    <view class="auditing-woring">待审核</view>
+    <view class="family-item" wx:for="{{audytingArr}}" wx:key="{{key}}">
+      <image src="{{item.imgUrl}}" class="float-left"></image>
+      <view class="family-item-info">
+        <view class="family-item-name">
+          <text class="family-role">{{item.roleLabel}}</text>
+        </view>
+        <view class="family-username">昵称:{{item.nick_name}}</view>
+        <view class="family-phone">手机号:{{item.phone}}</view>
+        <view class="auditing-btn-group clearfix">
+          <button class="btn-primary float-left" data-index="{{index}}" data-parent="{{item.parent_id}}" bindtap='agreeAudyting' hover-class='btn-active'>同意</button>
+          <button class="btn-danger float-left" data-index="{{index}}" data-parent="{{item.parent_id}}" bindtap='refuseAudyting'>拒绝</button>
+        </view>
+      </view>
+
+    </view>
+  </view>
+
+
+
+  <!--家庭成员（非管理员/管理员）  -->
+  <view class="family-content {{childArr.length >1?'':'family-content-two'}}">
+    <view class="family-item {{primaryContact==item.parent_id?'family-item-manager':''}}" wx:for="{{familyArr}}" wx:key="{{key}}" data-index="{{index}}" catchtap='targetBranch' wx:if="{{item.status}}">
+      <image src="{{item.imgUrl}}" class="float-left"></image>
+      <view class="family-item-info">
+        <view class="family-item-name">
+          <text class="family-role">{{item.roleLabel}}</text>
+          <text class="manage-text" wx:if="{{primaryContact==item.parent_id}}">家庭管理员</text>
+          <text class="is-me" wx:if="{{item.parent_id==userId}}">我</text>
+        </view>
+        <view class="family-username">昵称:{{item.nick_name}}</view>
+        <view class="family-phone">手机号:{{item.phone}}
+          <image hidden="{{primaryContact==item.parent_id&&primaryContact==userId||item.parent_id==userId}}" src="{{item.branchSwitch?arrowUpIcon:arrowDownIcon}}"></image>
+        </view>
+      </view>
+      <!--需要展开的地方  -->
+      <view hidden="{{(primaryContact==item.parent_id&&primaryContact==userId)||!item.branchSwitch||item.parent_id==userId}}" class="family-branch {{primaryContact==userId?'family-branch-two':''}}">
+        <button wx:if="{{primaryContact==userId}}" data-username="{{item.nick_name}}" data-parent="{{item.parent_id}}" hover-class='btn-active' class="btn-primary" catchtap='attorn'>转让管理员</button>
+        <button wx:if="{{primaryContact==userId}}" data-username="{{item.nick_name}}" data-parent="{{item.parent_id}}" class="btn-danger" catchtap='deleteLeaguer' data-index="{{index}}">删除</button>
+        <button class="btn-warning float-right" data-parent="{{item.parent_id}}" catchtap='openReport'>举报冒领</button>
+
+      </view>
+
+      <view class="family-voluntarily" wx:if="{{primaryContact==item.parent_id&&primaryContact==userId}}">
+        新家庭成员需要我的审核
+        <switch checked="{{bindVerify}}" bindchange="voluntarilyChange" />
+      </view>
+      <view class="family-br" wx:if="{{primaryContact==item.parent_id&&primaryContact==userId}}"></view>
+    </view>
+  </view>
+
+  <!--邀请家庭成员的悬浮按钮  -->
+  <view class="invite-suspend" bindtap='openInvite' wx:if="{{primaryContact==userId}}">
+    邀请家庭成员
+  </view>
+
+
+  <!--邀请家庭成员的模态框  -->
+  <view class="invite-modal" wx:if="{{inviteSwitch}}">
+    <view class="invite-modal-dialog text-center">
+      <view class="invite-modal-title clearfix">
+        <image src="{{inviteIcon}}"></image>
+        <text>{{inviteName}}</text>
+      </view>
+      <image class="invite-code" src="{{inviteCodeImage}}"></image>
+      <view class="invite-text">分享二维码，与家人一起关注孩子成绩。</view>
+      <view class="invite-text">此二维码有效时间仅为5分钟，请在有效期内扫描。</view>
+      <view class="invite-text">注意:二维码内含孩子隐私信息，请勿随意传播。</view>
+      <view class="invite-modal-foot">技术支持:园丁邦</view>
+    </view>
+    <view class="invite-modal-close text-center">
+      <image catchtap='closeInvite' src="{{closeImg}}"></image>
+    </view>
+  </view>
+</view>
+<!--加载出错的时候  -->
+<import src="./../../wrong/wrong.wxml" />
+<template is="wrong" wx:if="{{wrongSwitch}}" />

@@ -1,0 +1,7 @@
+<!--pages/err/err.wxml-->
+<!--错误页面  -->
+<template name="err">
+  <view class="err">
+    <text>{{errInfo}}</text>
+  </view>
+</template>

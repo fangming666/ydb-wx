@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="94px" height="94px" viewBox="0 0 94 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>大图标/警告 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="15.9525951%" y1="15.685214%" x2="80.7988778%" y2="90.7973438%" id="linearGradient-1">
+            <stop stop-color="#FE6D6D" offset="0%"></stop>
+            <stop stop-color="#F13939" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="反馈5" transform="translate(-140.000000, -114.000000)">
+            <g id="大图标/警告-copy" transform="translate(140.000000, 114.000000)">
+                <path d="M93.5,47.5740741 C93.5,21.3182222 72.6817778,0.5 46.4259259,0.5 C21.3182222,0.5 0.5,21.3182222 0.5,47.5740741 C0.5,72.6817778 21.3182222,93.5 46.4259259,93.5 C72.6817778,93.5 93.5,72.6817778 93.5,47.5740741 Z" id="Fill-" fill="url(#linearGradient-1)"></path>
+                <path d="M44.5029293,25.5 L49.4970707,25.5 C50.0621186,25.5 50.4835049,25.9465755 50.4631571,26.4974543 L49.3516589,56.5892352 C49.3414063,56.8668038 49.1097376,57.0853659 48.8339183,57.0853659 L45.1660817,57.0853659 C44.8917497,57.0853659 44.658462,56.8632406 44.6483411,56.5892352 L43.5368429,26.4974543 C43.5164924,25.9465007 43.9490268,25.5 44.5029293,25.5 Z M47,68.5 C45.0670034,68.5 43.5,66.9329966 43.5,65 C43.5,63.0670034 45.0670034,61.5 47,61.5 C48.9329966,61.5 50.5,63.0670034 50.5,65 C50.5,66.9329966 48.9329966,68.5 47,68.5 Z" id="Path-" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

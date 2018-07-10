@@ -1,0 +1,45 @@
+.tool {
+  background: #eef2f4;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.tool-item:active {
+  background: #fbfbfb;
+}
+
+.tool-item:first-child {
+  margin-top: 20rpx;
+  border-top: 1px solie #e5e5e5;
+}
+
+.tool-item {
+  border-bottom: 1px solid #e5e5e5;
+  background-color: white;
+  padding: 38rpx 30rpx 32rpx 60rpx;
+}
+
+.tool-item>image:first-child {
+  width: 92rpx;
+  height: 92rpx;
+  margin-right: 26rpx;
+}
+
+.tool-item>image:last-child {
+  width: 16rpx;
+  height: 32rpx;
+  position: relative;
+  top:30rpx;
+}
+
+.tool-item>view>view:first-child {
+  font-size: 32rpx;
+  color: #3a3a3a;
+  margin-bottom: 12rpx;
+}
+
+.tool-item>view>view:last-child {
+  font-size: 26rpx;
+  color: #9b9b9b;
+}

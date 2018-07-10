@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "添加孩子",
+  "usingComponents": {
+    "wrong": "/pages/my-item/childCode/childCode"
+  }
+}

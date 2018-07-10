@@ -1,0 +1,62 @@
+/* pages/my-item/myOrder/myOrder.wxss */
+
+.order {
+  background: #eef2f4;
+  min-height: 100vh;
+}
+
+.order-item {
+  margin-top: 10rpx;
+  background-color: white;
+  margin-bottom: 25rpx;
+}
+
+.order-head {
+  background: #fafafa;
+  padding-left: 34rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  /* display: flex;
+  align-items: center; */
+  font-size: 30rpx;
+  color: #3a3a3a;
+  position: relative;
+}
+
+.order-head>text:first-child {
+  color: #3ebeeb;
+}
+
+.order-content {
+  padding: 18rpx 0 34rpx 32rpx;
+}
+
+.order-money {
+  position: absolute;
+  right: 38rpx;
+  top: 0;
+}
+
+.order-money text {
+  font-weight: 600;
+  font-size: 36rpx;
+  color: #fa9003;
+}
+
+.order-type {
+  font-size: 36rpx;
+  color: #3a3a3a;
+  font-weight: 600;
+  margin-bottom: 8rpx;
+}
+
+.order-name {
+  font-size: 30rpx;
+  color: #55595c;
+  margin-bottom: 6rpx;
+}
+
+.order-name text {
+  color: #9b9b9b;
+  margin-right: 10rpx;
+}

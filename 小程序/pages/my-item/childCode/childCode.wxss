@@ -1,0 +1,22 @@
+.childCode {
+  min-height: 100vh;
+  background: #eef2f4;
+  overflow: hidden;
+}
+
+.my-child-item {
+  margin-top: 10rpx;
+}
+
+.text-number-alert {
+  margin-bottom: 60rpx;
+}
+.text-number-alert>view:first-child{
+  margin-bottom: 40rpx;
+}
+.text-number-alert>view:last-child{
+  margin-top: 14rpx;
+}
+.btn-primary {
+  margin-top: 60rpx;
+}

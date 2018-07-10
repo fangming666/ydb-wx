@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "component": true,
+  "usingComponents": {
+    "wrong": "/pages/my/my"
+  }
+}

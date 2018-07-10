@@ -1,0 +1,64 @@
+<!--我的考试  -->
+<view class="exam">
+  <!--如果没有孩子的话返回我的考试显示的是没有绑定的页面  -->
+  <view class="go-bind text-center" wx:if="{{(!user_id||!childArr.length)&&shelterSwitch&&!wrongSwitch}}">
+    <image src="./../../imgs/go-bind.svg"></image>
+    <button class="btn-primary" bindtap='goBind' hover-class='btn-active'>绑定孩子</button>
+  </view>
+  <!--孩子列表  -->
+  <view class="child-list" wx:if="{{(user_id&&childArr.length&&childArr.length >1)&&!wrongSwitch}}">
+    <view catchtap='childChange' class="child-list-item {{childIndex==index?'childActive':''}} {{childArr.length>2?'child-item-two':''}}" wx:for="{{childArr}}" data-index="{{index}}" wx:key="key" data-student="{{item}}">{{item.real_name}}</view>
+  </view>
+  <!--列表的box  -->
+  <scroll-view wx:if="{{user_id&&childArr.length&&shelterSwitch&&!wrongSwitch}}" scroll-y="true" class="exam-scroll {{examArr.length?'':'exam-scroll-padding'}} {{childArr.length >1?'':'exam-no-child'}}">
+    <!--没有考试时候的列表  -->
+    <view class="exam-no text-center {{childArr.length>1?'':'exam-no-all'}}" wx:if="{{!examArr.length&&shelterSwitch}}">
+      <image src="{{examNoImage}}"></image>
+      <view class="text-center">当前暂无考试</view>
+    </view>
+    <!--有考试时候的考试列表  -->
+    <view class="exam-item" wx:if="{{examArr.length}}" wx:for="{{examArr}}" wx:key="key">
+      <!--列表的头部区域 -->
+      <view class="exam-item-head clearfix">
+        <view class="float-left {{item.pay_status?'text-warning':'text-muted'}}">
+          <image wx:if="{{item.pay_status}}" src="{{vipIcon}}"></image>
+          <image wx:else src="{{noVipIcon}}"></image>
+          {{item.pay_status?'已开通个性化服务':'未开通个性化服务'}}
+        </view>
+        <view class="float-right">
+          <text class="exam-item-time">{{item.exam_date}}</text>
+          <text class="exam-one-peg " wx:if="{{index==0}}">最近一次考试</text>
+        </view>
+      </view>
+
+      <!--列表的内容区域（当是第一个才显示分数或者等级，没有分析完成的时候不显示）  -->
+      <view class="exam-item-content">
+        <view class="exam-item-title {{index==0&&item.report_status?'text-center':''}}">{{item.exam_name}}</view>
+        <!--当是第一个的时候才显示  -->
+        <view wx:if="{{index==0&&item.report_status&&item.permission_parent_score}}" class="goal">{{item.my_score}}<image src="{{goalIcon}}"></image>
+        </view>
+        <view wx:if="{{index==0&&item.report_status&&item.permission_parent_score}}" class="allGoal">满分:{{item.full_score}}</view>
+        <view wx:if="{{index==0&&item.report_status&&item.permission_parent_score&&item.permission_parent_level}}" class="grade">{{grade}}</view>
+        <view class="grade-only" wx:if="{{index==0&&item.report_status&&!item.permission_parent_score&&item.permission_parent_level}}">{{grade}}</view>
+        <!--按钮组  -->
+        <view class="exam-btn-group clearfix">
+          <button catchtap='toPage' class="{{btnIndex==1&&!item.magic_status?'exam-btn-disabled':''}}" hover-class="exam-btn-active" wx:for="{{examBtnArr}}" wx:key="key" wx:for-item="btnItem" data-url="{{btnItem.url}}" wx:for-index="btnIndex" data-index="{{btnIndex}}"
+            data-paystatus="{{item.pay_status}}" data-schooltype="{{schoolType}}" data-examid="{{item.exam_id}}" data-leveldesc="{{item.level_desc}}" data-viewdelay="{{item.view_delay}}" data-reportstatus="{{item.report_status}}" data-permissionparentscore="{{item.permission_parent_score}}" data-winningrate="{{item.permission_winning_rate}}"
+            data-permissionparentlevel="{{item.permission_parent_level}}" data-permissionoriginrank="{{item.permission_origin_rank}}" data-schoolid="{{item.school_id}}" data-examname="{{item.exam_name}}" data-permissionjointdata="{{item.permission_joint_data}}"
+            data-magicstatus="{{item.magic_status}}" data-permissionstudentrank="{{item.permission_student_rank}}" data-reportfree="{{item.report_free}}" data-joint = "{{item.permission_joint_data}}">{{btnItem.text}}</button>
+        </view>
+
+
+      </view>
+
+
+    </view>
+
+  </scroll-view>
+  <!--加载出错的时候  -->
+  <import src="./../wrong/wrong.wxml" />
+  <template is="wrong" wx:if="{{wrongSwitch}}" />
+  <!--加载的时候空白的，防止点击绑定孩子  -->
+  <view class="bg-white" hidden="{{shelterSwitch}}"></view>
+
+</view>
